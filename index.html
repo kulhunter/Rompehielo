@@ -4,112 +4,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>ROMPEHIELO</title>
+  <meta name="description" content="Rompehielo — preguntas que generan conversación real. Sin estrés, sin filtro, con inteligencia.">
   <meta name="theme-color" content="#0a0a0c">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- JUEGO 100% PURO: LA CARTA Y LA INTELIGENCIA -->
-  <main class="table-stage">
-    
-    <!-- TOP BAR: DISCRETA Y MINIMALISTA -->
-    <header class="table-bar">
-      <div class="deck-indicator" id="deckStatus">
-        <span class="pulse-dot"></span>
-        <span class="vibe-name" id="vibeName">DETECTANDO VIBE</span>
+  <!-- ===== PANTALLA 1: BIENVENIDA + ONBOARDING CONVERSACIONAL ===== -->
+  <section id="screenOnboarding" class="screen screen-onboarding active">
+    <div class="onboarding-container">
+
+      <!-- Logo y tagline -->
+      <div class="brand-header" id="brandHeader">
+        <div class="brand-icon">🧊</div>
+        <h1 class="brand-title">ROMPEHIELO</h1>
+        <p class="brand-tagline">Preguntas que generan conversación real</p>
       </div>
 
-      <div class="bar-right">
-        <!-- BOTÓN INTELIGENTE: EN VEZ DE SELECTOR, UN CHATBOT / ORÁCULO DE 1 LÍNEA -->
-        <button class="oracle-pill-btn" id="btnOpenAI" title="Dile a la IA qué está pasando">
-          <span class="sparkle">✦</span>
-          <span id="oracleBtnText">Dile a la IA dónde estás</span>
-        </button>
-        <button class="icon-action-btn" id="btnFav" aria-label="Favorita">
-          <svg id="favSvg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-        </button>
+      <!-- Chat conversacional -->
+      <div class="chat-area" id="chatArea">
+        <!-- Los mensajes se agregan dinámicamente -->
       </div>
-    </header>
 
-    <!-- PROMPT INTERACTIVO DE IA INLINE (RÁPIDO, SIN FORMULARIOS) -->
-    <div class="ai-inline-box" id="aiInlineBox" style="display:none;">
-      <div class="ai-input-wrap">
-        <span class="ai-symbol">✦</span>
-        <input type="text" id="aiInput" placeholder="Ej: En su cama escuchando vinilos con tensión..." autocomplete="off" />
-        <button id="aiSubmitBtn" class="ai-send-btn">Lanzar</button>
+      <!-- Input del usuario -->
+      <div class="chat-input-area" id="chatInputArea">
+        <div class="chat-input-wrap">
+          <input type="text" id="chatInput" placeholder="Escribe aquí..." autocomplete="off" enterkeyhint="send">
+          <button id="chatSendBtn" class="chat-send-btn" aria-label="Enviar">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+          </button>
+        </div>
+        <!-- Opciones rápidas (se renderizan dinámicamente) -->
+        <div class="quick-options" id="quickOptions"></div>
       </div>
-      <div class="ai-chips">
-        <button class="a-chip" data-txt="En el sillón de su depto con vino y tensión">🍷 En su sillón con vino</button>
-        <button class="a-chip" data-txt="Caminando de noche en un parque sin saber si darle un beso">🌙 Caminando de noche</button>
-        <button class="a-chip" data-txt="En un café y la conversación se murió por completo">☕ Se murió la conversación</button>
-        <button class="a-chip" data-txt="Hay mucha tensión sexual pero nadie se atreve">🌶️ Tensión sexual sin filtro</button>
-        <button class="a-chip" data-txt="Con amigos de años tomando cerveza recordando el pasado">🍻 Amigos de toda la vida</button>
-      </div>
+
     </div>
+  </section>
 
-    <!-- EL CARD CONTAINER CON VERDADERO FLIP 3D TÁCTIL -->
-    <div class="card-arena">
-      <div class="card-3d-wrapper" id="card3D">
-        
-        <!-- CARA 1: FRENTE DE LA CARTA (DISEÑO EDITORIAL PRO) -->
-        <article class="card-face card-front">
-          <div class="card-corner-tag">
-            <span class="tag-accent" id="cardMood">QUÍMICA</span>
-            <span class="tag-level" id="cardLevel">NIVEL 1</span>
-          </div>
+  <!-- ===== PANTALLA 2: EL JUEGO DE CARTAS ===== -->
+  <section id="screenGame" class="screen screen-game">
+    <div class="game-container">
 
-          <div class="card-question-box">
-            <h1 class="card-quote" id="cardQuestion">
-              Toca la carta para tirar la primera
-            </h1>
-          </div>
-
-          <div class="card-footer-info">
-            <span class="hint-action">TOCA PARA VOLTEAR O CAMBIAR</span>
-            <span class="card-index" id="cardIndex">01 / 1000+</span>
-          </div>
-        </article>
-
-        <!-- CARA 2: REVERSO DE LA CARTA (TIRA DEL HILO / DESAFÍO SECUNDARIO) -->
-        <article class="card-face card-back">
-          <div class="card-corner-tag">
-            <span class="tag-accent text-gold">✦ TIRA DEL HILO</span>
-            <span class="tag-level">REPREGUNTA</span>
-          </div>
-
-          <div class="card-question-box">
-            <h2 class="card-quote quote-follow" id="cardFollowUp">
-              ¿Por qué crees que pensaste eso en ese momento?
-            </h2>
-          </div>
-
-          <div class="card-footer-info">
-            <span class="hint-action">TOCA PARA VOLVER AL FRENTE</span>
-            <span class="card-index">REPUNTA</span>
-          </div>
-        </article>
-
+      <!-- Turn indicator -->
+      <div class="turn-indicator" id="turnIndicator">
+        <div class="turn-label">TURNO DE</div>
+        <div class="turn-name" id="turnName">—</div>
+        <div class="turn-progress">
+          <div class="progress-dots" id="progressDots"></div>
+        </div>
       </div>
+
+      <!-- 3D Flip Card -->
+      <div class="card-arena">
+        <div class="card-3d-wrapper" id="card3D">
+
+          <!-- FRONT -->
+          <article class="card-face card-front" id="cardFront">
+            <div class="card-corner-tag">
+              <span class="tag-category" id="cardCategory">💬</span>
+              <span class="tag-depth" id="cardDepth">SUAVE</span>
+            </div>
+            <div class="card-question-box">
+              <h1 class="card-quote" id="cardQuestion">Toca para comenzar</h1>
+            </div>
+            <div class="card-footer">
+              <span class="card-hint">TOCA PARA VOLTEAR</span>
+              <span class="card-number" id="cardNumber">#01</span>
+            </div>
+          </article>
+
+          <!-- BACK -->
+          <article class="card-face card-back">
+            <div class="card-corner-tag">
+              <span class="tag-category text-gold">✦ TIRA DEL HILO</span>
+              <span class="tag-depth">PROFUNDIZA</span>
+            </div>
+            <div class="card-question-box">
+              <h2 class="card-quote card-followup" id="cardFollowUp">¿Por qué crees eso?</h2>
+            </div>
+            <div class="card-footer">
+              <span class="card-hint">TOCA PARA VOLVER</span>
+              <span class="card-number">🔥</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="game-actions">
+        <button class="action-btn btn-restart" id="btnRestart" aria-label="Reiniciar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+        </button>
+        <button class="action-btn btn-next" id="btnNext">
+          <span>Siguiente</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
     </div>
-
-    <!-- BARRA DE ACCIÓN INFERIOR -->
-    <footer class="table-actions">
-      <button class="action-card-btn flip-btn" id="btnFlipCard">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-        <span>Voltear carta</span>
-      </button>
-      <button class="action-card-btn next-btn" id="btnNextCard">
-        <span>Siguiente carta</span>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
-      </button>
-    </footer>
-
-  </main>
+  </section>
 
   <script src="app.js"></script>
 </body>
