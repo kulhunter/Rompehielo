@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>ROMPEHIELO v2</title>
+  <meta name="description" content="Rompehielo v2 — Experiencia interactiva conversacional con preguntas personalizadas por contexto, nombres y dinámica.">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="v2.css">
+</head>
+<body>
+
+  <!-- PANTALLA 1: BIENVENIDA E INSTRUCCIONES -->
+  <section id="screenWelcome" class="v2-screen active">
+    <div class="v2-welcome-card">
+      <div class="v2-badge">VERSION 2.0</div>
+      <div class="v2-hero-icon">🧊</div>
+      <h1 class="v2-title">ROMPEHIELO</h1>
+      <p class="v2-subtitle">Genera conversación real sin estrés ni momentos incómodos.</p>
+      
+      <div class="v2-guide-box">
+        <h3>¿Cómo funciona?</h3>
+        <ul class="v2-guide-list">
+          <li>
+            <span class="step-num">1</span>
+            <div><strong>Contexto detallado:</strong> Escribe dónde estás y qué está pasando con la mayor cantidad de detalles.</div>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <div><strong>Tus datos:</strong> Dime cuántos juegan, sus nombres y edades para personalizar las cartas.</div>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <div><strong>Cartas 3D interactiva:</strong> Toca para voltear la carta y descubrir la repregunta al reverso ("Tira del hilo").</div>
+          </li>
+        </ul>
+      </div>
+
+      <button id="btnStartV2" class="v2-btn-primary">
+        <span>Comenzar experiencia</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- PANTALLA 2: CHAT LÚDICO CONVERSACIONAL (RECOLECCIÓN DE DATOS) -->
+  <section id="screenChat" class="v2-screen">
+    <div class="v2-chat-container">
+      <header class="v2-chat-header">
+        <div class="v2-chat-title">
+          <span class="status-dot"></span>
+          <span>ROMPEHIELO IA HOST</span>
+        </div>
+        <div class="v2-progress-pill" id="chatStepProgress">PASO 1 DE 4</div>
+      </header>
+
+      <div class="v2-chat-messages" id="v2ChatMessages">
+        <!-- Chat bubbles inject here -->
+      </div>
+
+      <div class="v2-chat-controls">
+        <div class="v2-quick-pills" id="v2QuickPills"></div>
+        <div class="v2-input-row">
+          <input type="text" id="v2ChatInput" placeholder="Escribe aquí..." autocomplete="off" enterkeyhint="send">
+          <button id="v2SendBtn" class="v2-send-btn" aria-label="Enviar">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PANTALLA 3: EXPLICACIÓN DE LAS CARTAS -->
+  <section id="screenTutorial" class="v2-screen">
+    <div class="v2-tutorial-card">
+      <div class="v2-badge">¡MAZO CALIBRADO!</div>
+      <h2>Así funcionan tus cartas</h2>
+      
+      <div class="v2-demo-card-container">
+        <div class="v2-demo-card" id="demoCard">
+          <div class="demo-face demo-front">
+            <div class="demo-tag">FRENTE</div>
+            <p class="demo-text">"La pregunta principal va personalizada con tus nombres."</p>
+            <div class="demo-hint">TOCA PARA PROBAR VOLTEAR</div>
+          </div>
+          <div class="demo-face demo-back">
+            <div class="demo-tag text-gold">REVERSO</div>
+            <p class="demo-text gold-text">"Al girar, encuentras la repregunta 'Tira del Hilo' para profundizar."</p>
+            <div class="demo-hint">¡EXCELENTE! TOCA PARA VOLVER</div>
+          </div>
+        </div>
+      </div>
+
+      <button id="btnStartGameV2" class="v2-btn-primary">
+        <span>¡Empezar a jugar!</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- PANTALLA 4: EL JUEGO DE CARTAS EN V2 -->
+  <section id="screenGameV2" class="v2-screen">
+    <div class="v2-game-container">
+      
+      <!-- Indicador de Turno con Nombre -->
+      <header class="v2-turn-bar">
+        <div class="v2-turn-box">
+          <span class="v2-turn-sub">TURNO DE</span>
+          <h2 class="v2-turn-player" id="v2PlayerTurn">NOMBRE</h2>
+        </div>
+        <button id="v2RestartBtn" class="v2-icon-btn" title="Reiniciar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+        </button>
+      </header>
+
+      <!-- Area de la carta 3D -->
+      <div class="v2-card-arena">
+        <div class="v2-card-3d" id="v2Card3D">
+          
+          <!-- Frente -->
+          <div class="v2-card-face v2-card-front" id="v2CardFront">
+            <div class="v2-card-header">
+              <span class="v2-card-mood" id="v2CardMood">CONEXIÓN</span>
+              <span class="v2-card-level" id="v2CardLevel">NIVEL 1</span>
+            </div>
+            <div class="v2-card-body">
+              <h1 class="v2-card-text" id="v2QuestionText">Cargando pregunta...</h1>
+            </div>
+            <div class="v2-card-footer">
+              <span class="v2-hint-text">TOCA LA CARTA PARA GIRAR 🔄</span>
+              <span class="v2-card-count" id="v2CardIndex">01/20</span>
+            </div>
+          </div>
+
+          <!-- Reverso -->
+          <div class="v2-card-face v2-card-back">
+            <div class="v2-card-header">
+              <span class="v2-card-mood text-gold">✦ TIRA DEL HILO</span>
+              <span class="v2-card-level">REPREGUNTA</span>
+            </div>
+            <div class="v2-card-body">
+              <h2 class="v2-card-text text-italic-gold" id="v2FollowUpText">¿Por qué crees que pasó eso?</h2>
+            </div>
+            <div class="v2-card-footer">
+              <span class="v2-hint-text">TOCA PARA VOLVER AL FRENTE</span>
+              <span class="v2-card-count">🔥</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Footer de acciones -->
+      <footer class="v2-game-footer">
+        <button id="v2FlipBtn" class="v2-action-btn secondary">Voltear</button>
+        <button id="v2NextBtn" class="v2-action-btn primary">
+          <span>Siguiente carta</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </footer>
+
+    </div>
+  </section>
+
+  <script src="v2.js"></script>
+</body>
+</html>
