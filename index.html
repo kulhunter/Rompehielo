@@ -3,130 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>ROMPEHIELO · El Juego de Conversación Contextual</title>
-  <meta name="description" content="+1.000 preguntas diseñadas para romper el hielo y conectar de verdad según con quién estás: citas, parejas, amigos, desconocidos, familia o fiesta.">
-  <meta name="theme-color" content="#121214">
+  <title>ROMPEHIELO</title>
+  <meta name="description" content="El juego de cartas de conversación para cuando no sabes de qué hablar.">
+  <meta name="theme-color" content="#18181b">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icons/icon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header / Barra superior -->
-  <header class="top-nav" id="topNav">
-    <div class="nav-left">
-      <button class="nav-btn" id="btnHome" aria-label="Inicio" title="Inicio">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-        <span class="brand-text">ROMPEHIELO</span>
-      </button>
-    </div>
-    <div class="nav-center" id="navCenterTitle">
-      <span class="badge-ctx" id="navCtxBadge" style="display:none;"></span>
-    </div>
-    <div class="nav-right">
-      <button class="nav-btn" id="btnFavs" title="Mis Favoritas" aria-label="Favoritas">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-        <span class="fav-count" id="favCount">0</span>
-      </button>
-      <button class="nav-btn" id="btnPrintModalBtn" title="Imprimir Cartas / PDF" aria-label="Imprimir">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-      </button>
-      <button class="nav-btn" id="btnSettings" title="Configuración y Tienda" aria-label="Ajustes">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-      </button>
-    </div>
-  </header>
 
-  <!-- Contenedor Principal Dinámico -->
-  <main class="app-container" id="screen">
-    <!-- Se inyecta dinámicamente vía app.js -->
+  <!-- PANTALLA 1: JUEGO DIRECTO (CARDS GAMEPLAY FIRST) -->
+  <main class="game-container" id="gameScreen">
+    
+    <!-- Barra superior limpia -->
+    <header class="game-header">
+      <button class="icon-btn" id="btnOpenSelector" title="Cambiar grupo o situación">
+        <span class="active-badge" id="headerContextBadge">🔥 Cita Tinder</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </button>
+
+      <div class="header-right">
+        <button class="icon-btn" id="btnFavToggle" title="Guardar carta">
+          <svg id="favHeartIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        </button>
+        <button class="icon-btn" id="btnMenuToggle" title="Menú">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Barra de Nivel sutil -->
+    <div class="level-indicator">
+      <div class="level-dots">
+        <span class="dot active" id="dot1"></span>
+        <span class="dot" id="dot2"></span>
+        <span class="dot" id="dot3"></span>
+      </div>
+      <span class="level-text" id="levelLabel">Nivel 1: Rompehielo</span>
+    </div>
+
+    <!-- LA CARTA CENTRAL (FLIP TÁCTIL) -->
+    <div class="card-wrapper" id="cardWrapper">
+      <div class="card" id="cardElement">
+        <!-- Reversos / Frente en CSS Flip -->
+        <div class="card-face card-front">
+          <div class="card-category-label" id="cardCategory">ROMPEHIELO</div>
+          <p class="card-question-text" id="cardQuestion">Toca la carta para empezar</p>
+          <div class="card-tap-hint">Toca para voltear / siguiente</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hilo de seguimiento ("Tira del hilo") -->
+    <div class="thread-drawer" id="threadDrawer" style="display:none;">
+      <div class="thread-content">
+        <span class="thread-label">👀 TIRA DEL HILO:</span>
+        <p class="thread-text" id="threadText">¿Y qué pasó después de eso?</p>
+      </div>
+    </div>
+
+    <!-- Botones de Acción directos -->
+    <footer class="game-footer">
+      <button class="action-btn secondary" id="btnThreadAction">
+        🔥 Tira del hilo
+      </button>
+      <button class="action-btn primary" id="btnNextAction">
+        Siguiente Carta →
+      </button>
+    </footer>
+
   </main>
 
-  <!-- Modales -->
-  <!-- Modal Favoritas -->
-  <div class="modal-backdrop" id="modalFavs" style="display:none;">
-    <div class="modal-card">
-      <div class="modal-head">
-        <h3>Cartas Favoritas</h3>
-        <button class="modal-close" id="btnCloseFavs">✕</button>
+  <!-- MODAL / DRAWER: SELECCIONAR CONTEXTO -->
+  <div class="modal-overlay" id="modalContext" style="display:none;">
+    <div class="drawer-sheet">
+      <div class="drawer-header">
+        <h3>¿Con quién estás?</h3>
+        <button class="close-btn" id="btnCloseContext">✕</button>
       </div>
-      <div class="modal-body" id="favsList">
-        <!-- Lista de favoritas -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Imprimir / Print & Play -->
-  <div class="modal-backdrop" id="modalPrint" style="display:none;">
-    <div class="modal-card modal-lg">
-      <div class="modal-head">
-        <div>
-          <h3>Tarjetas Físicas (Print & Play)</h3>
-          <p class="text-sm muted">Genera e imprime tu baraja para jugar en tu casa o llevarla de viaje.</p>
-        </div>
-        <button class="modal-close" id="btnClosePrint">✕</button>
-      </div>
-      <div class="modal-body">
-        <div class="print-controls">
-          <label><b>Selecciona el Mazo a Imprimir:</b></label>
-          <select id="printDeckSelect" class="styled-select">
-            <!-- Rellenado dinámicamente -->
-          </select>
-          <div class="print-actions">
-            <button class="btn-primary" id="btnPreviewPrint">Generar Planchas de Cartas</button>
-            <button class="btn-outline" id="btnPrintNow">🖨️ Mandar a Imprimir / Guardar PDF</button>
-          </div>
-        </div>
-        <div id="printSheetContainer" class="print-sheet-preview">
-          <!-- Plancha interactiva con cartas cortables -->
-        </div>
+      <div class="context-grid" id="contextGridContainer">
+        <!-- Generado dinámicamente con las 14 opciones limpias -->
       </div>
     </div>
   </div>
 
-  <!-- Modal Ajustes & Tienda / Monetización -->
-  <div class="modal-backdrop" id="modalSettings" style="display:none;">
-    <div class="modal-card">
-      <div class="modal-head">
-        <h3>Ajustes & Mazo Físico</h3>
-        <button class="modal-close" id="btnCloseSettings">✕</button>
+  <!-- MODAL / DRAWER: MENÚ (FAVORITAS, IMPRIMIR Y COMPRA) -->
+  <div class="modal-overlay" id="modalMenu" style="display:none;">
+    <div class="drawer-sheet">
+      <div class="drawer-header">
+        <h3>Rompehielo</h3>
+        <button class="close-btn" id="btnCloseMenu">✕</button>
       </div>
-      <div class="modal-body">
-        <div class="setting-item">
-          <div>
-            <b>Modo Sonido / Háptico</b>
-            <div class="text-sm muted">Vibración y micro-clicks al cambiar de carta</div>
-          </div>
-          <label class="switch">
-            <input type="checkbox" id="chkHaptic" checked>
-            <span class="slider"></span>
-          </label>
+      <div class="menu-list">
+        <button class="menu-item" id="btnOpenFavorites">
+          <span>❤️ Cartas Favoritas</span>
+          <span class="badge" id="menuFavCount">0</span>
+        </button>
+        <button class="menu-item" id="btnOpenPrint">
+          <span>🖨️ Imprimir Cartas Físicas (PDF)</span>
+          <span class="arrow">→</span>
+        </button>
+        
+        <!-- Módulo de Monetización Físico -->
+        <div class="physical-deck-box">
+          <div class="deck-tag">EDICIÓN FÍSICA DE NAIPES</div>
+          <h4>Mazo Rompehielo para tu velador o mesa</h4>
+          <p>150 cartas de alta calidad (350g mate sedoso) con códigos QR a la app para jugar sin pantallas.</p>
+          <div class="deck-price">$19.990 CLP</div>
+          <button class="btn-buy" id="btnReservePhysical">Reservar Mazo Físico</button>
         </div>
 
-        <div class="monetize-banner">
-          <div class="banner-tag">EDICIÓN FÍSICA COLECCIONISTA</div>
-          <h4>¿Quieres el mazo impreso en tu velador o mochila?</h4>
-          <p class="text-sm">Naipe premium 350g con barniz mate sedoso, esquinas redondeadas, caja rígida y 150 cartas maestras con códigos QR que disparan preguntas ilimitadas de la app.</p>
-          <div class="price-box">
-            <span class="price">$19.990 CLP</span>
-            <span class="old-price">$24.990 CLP</span>
-          </div>
-          <button class="btn-gold" id="btnBuyPhysical">
-            🛍️ Reservar Mazo Físico
-          </button>
-          <div class="text-xs text-center muted" style="margin-top:6px;">O usa la opción "Imprimir" arriba para armar tus propias cartas gratis.</div>
-        </div>
+        <button class="menu-item text-danger" id="btnResetCards" style="margin-top:12px;">
+          <span>Reiniciar cartas vistas</span>
+        </button>
+      </div>
+    </div>
+  </div>
 
-        <div class="setting-item" style="margin-top:16px;">
-          <div>
-            <b>Banco de Preguntas</b>
-            <div class="text-sm muted">1.050 preguntas únicas verificadas</div>
-          </div>
-          <button class="btn-sm btn-outline" id="btnResetHistory">Reiniciar Historial</button>
+  <!-- MODAL: CARTAS FAVORITAS -->
+  <div class="modal-overlay" id="modalFavs" style="display:none;">
+    <div class="drawer-sheet">
+      <div class="drawer-header">
+        <h3>Mis Cartas Favoritas</h3>
+        <button class="close-btn" id="btnCloseFavs">✕</button>
+      </div>
+      <div class="favs-list-container" id="favsListContainer">
+        <p class="empty-text">No has guardado cartas todavía. Toca el corazón en cualquier carta mientras juegas.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: IMPRIMIR CARTAS (PRINT & PLAY) -->
+  <div class="modal-overlay" id="modalPrint" style="display:none;">
+    <div class="drawer-sheet print-sheet-modal">
+      <div class="drawer-header">
+        <h3>Imprimir Cartas (Print & Play)</h3>
+        <button class="close-btn" id="btnClosePrint">✕</button>
+      </div>
+      <div class="print-tools">
+        <label>Mazo a imprimir:</label>
+        <select id="printSelectMazo" class="select-field"></select>
+        <div class="print-btn-row">
+          <button class="action-btn primary" id="btnDoPrint">🖨️ Imprimir / Guardar en PDF</button>
         </div>
+      </div>
+      <div class="print-cards-grid" id="printCardsGrid">
+        <!-- Tarjetas en formato de impresión A4/Carta -->
       </div>
     </div>
   </div>
