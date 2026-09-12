@@ -1,15 +1,13 @@
 /**
- * ROMPEHIELO VERSION 2 - MOTOR LÚDICO & CONVERSACIONAL
- * Recolección dinámica de datos (contexto, nombres, edades, extras) + Juego con turnos 3D
+ * ROMPEHIELO VERSION 2 — 100% CARDS UX & INTELIGENCIA GENERATIVA REAL
  */
 
 let BANK = {};
 let V2_STATE = {
-  stepIndex: 0,
+  introSlide: 1,
   contextData: {
     locationAndVibe: "",
-    playerCount: 2,
-    players: [], // [{ name: "", age: "" }]
+    players: [],
     extraDetails: ""
   },
   deck: [],
@@ -18,40 +16,16 @@ let V2_STATE = {
   isFlipped: false
 };
 
-// Pasos de recolección conversacional
-const CHAT_STEPS = [
-  {
-    progress: "PASO 1 DE 4",
-    botMessage: "¡Hola! 👋 Soy tu anfitrión de Rompehielo. Cuéntame en detalle: **¿dónde están y qué situación o vibra hay en el lugar?** (Ej: en mi depto con vino y tensión, o en un parque tomando café)",
-    pills: ["🍷 En mi depto con vino", "☕ En un café tranquilos", "🍻 En un bar con amigos", "🌙 Caminando de noche"],
-    placeholder: "Ej: En el sillón escuchando música...",
-    key: "locationAndVibe"
-  },
-  {
-    progress: "PASO 2 DE 4",
-    botMessage: "¡Excelente lugar! 🎯 Ahora cuéntame: **¿Cuántas personas van a jugar y cómo se llaman?** (Ej: Somos 2: Camila y Matías)",
-    pills: ["Somos 2: ", "Somos 3: ", "Somos 4: ", "Grupo de 5: "],
-    placeholder: "Ej: Camila y Matías",
-    key: "playerNames"
-  },
-  {
-    progress: "PASO 3 DE 4",
-    botMessage: "¡Buenísimo! ¿Qué **edades** tienen aproximadamente o en qué etapa de la vida están? (Ej: 25 y 28 años, o todos universitarios)",
-    pills: ["20 a 25 años", "25 a 30 años", "30 a 40 años", "Edades variadas"],
-    placeholder: "Ej: 26 y 29 años",
-    key: "playerAges"
-  },
-  {
-    progress: "PASO 4 DE 4",
-    botMessage: "¡Última pregunta! 🔥 ¿Hay algún **dato extra o historia especial** entre ustedes que deba considerar? (Ej: nos conocemos hace 5 años, o es nuestra 1era cita de Tinder)",
-    pills: ["Es nuestra 1era cita", "Nos conocemos hace años", "Somos parejas de amigos", "Sin datos extra"],
-    placeholder: "Ej: Es primera cita...",
-    key: "extraDetails"
-  }
-];
-
-// Inicialización
+// INITIALIZATION & SPLASH SCREEN
 async function initV2() {
+  // 1. Mostrar Splash Futurista 1.8 segundos
+  const splash = document.getElementById("splashOverlay");
+  setTimeout(() => {
+    splash.classList.remove("active");
+    switchScreen("", "screenWelcome");
+  }, 1800);
+
+  // 2. Cargar banco de preguntas
   try {
     const res = await fetch("data/questions.json");
     BANK = await res.json();
@@ -63,7 +37,12 @@ async function initV2() {
 }
 
 function setupV2Listeners() {
-  // Navegación de pantallas
+  // Navegación en Cards de Intro (Tocar para rotar / avanzar slide)
+  const introCard = document.getElementById("introCard");
+  if (introCard) {
+    introCard.onclick = advanceIntroSlide;
+  }
+
   document.getElementById("btnStartV2").onclick = () => {
     switchScreen("screenWelcome", "screenChat");
     startChatFlow();
@@ -74,18 +53,7 @@ function setupV2Listeners() {
     if (e.key === "Enter") handleV2InputSubmit();
   };
 
-  document.getElementById("btnStartGameV2").onclick = () => {
-    switchScreen("screenTutorial", "screenGameV2");
-    launchGameV2();
-  };
-
-  // Flip de demostración en tutorial
-  const demoCard = document.getElementById("demoCard");
-  if (demoCard) {
-    demoCard.onclick = () => demoCard.classList.toggle("is-flipped");
-  }
-
-  // Controles de juego V2
+  // Controles de Juego 3D
   document.getElementById("v2Card3D").onclick = toggleV2Flip;
   document.getElementById("v2FlipBtn").onclick = toggleV2Flip;
   document.getElementById("v2NextBtn").onclick = nextV2Card;
@@ -93,44 +61,123 @@ function setupV2Listeners() {
 }
 
 function switchScreen(fromId, toId) {
-  document.getElementById(fromId).classList.remove("active");
-  document.getElementById(toId).classList.add("active");
+  if (fromId) document.getElementById(fromId).classList.remove("active");
+  if (toId) document.getElementById(toId).classList.add("active");
 }
 
-// --- FLOW DEL CHAT ---
+// SLIDER DE CARDS DE BIENVENIDA
+function advanceIntroSlide() {
+  triggerHaptic();
+  V2_STATE.introSlide++;
+
+  const slide1 = document.getElementById("introSlide1");
+  const slide2 = document.getElementById("introSlide2");
+  const slide3 = document.getElementById("introSlide3");
+  const introCard = document.getElementById("introCard");
+  const dots = document.querySelectorAll("#introDots .dot");
+
+  dots.forEach(d => d.className = "dot");
+
+  if (V2_STATE.introSlide === 2) {
+    slide1.style.display = "none";
+    slide2.style.display = "flex";
+    dots[1].classList.add("active");
+  } else if (V2_STATE.introSlide === 3) {
+    introCard.classList.add("is-flipped");
+    setTimeout(() => {
+      slide2.style.display = "none";
+      slide3.style.display = "flex";
+    }, 200);
+    dots[2].classList.add("active");
+  } else {
+    // Reset back to slide 1
+    introCard.classList.remove("is-flipped");
+    V2_STATE.introSlide = 1;
+    slide3.style.display = "none";
+    slide1.style.display = "flex";
+    dots[0].classList.add("active");
+  }
+}
+
+// CHAT EN CARD INTERACTIVA CON IA REAL (POLLINATIONS)
 function startChatFlow() {
-  V2_STATE.stepIndex = 0;
-  renderCurrentChatStep();
+  addBotBubble("¡Hola! ✦ Soy tu anfitrión de Rompehielo. Cuéntame con quién estás y qué están haciendo o comiendo/tomando en este momento.");
 }
 
-function renderCurrentChatStep() {
-  const step = CHAT_STEPS[V2_STATE.stepIndex];
-  if (!step) {
+async function fetchPollinationsAI(prompt, fallbackText) {
+  try {
+    const encoded = encodeURIComponent(prompt);
+    const res = await fetch(`https://text.pollinations.ai/${encoded}?model=openai`);
+    if (!res.ok) return fallbackText;
+    const text = await res.text();
+    return text.trim() || fallbackText;
+  } catch (e) {
+    console.warn("Pollinations AI fetch error:", e);
+    return fallbackText;
+  }
+}
+
+async function handleV2InputSubmit() {
+  const input = document.getElementById("v2ChatInput");
+  const val = input.value.trim();
+  if (!val) return;
+
+  addUserBubble(val);
+  analyzeUserMessage(val);
+
+  // Mostrar indicador "Pensando respuesta..." en la card
+  const box = document.getElementById("v2ChatMessages");
+  const typingDiv = document.createElement("div");
+  typingDiv.className = "v2-bubble bot";
+  typingDiv.innerHTML = `<span class="bot-tag">HOST IA</span><div style="font-style:italic; opacity:0.8;">Calibrando vibra única... ✦</div>`;
+  box.appendChild(typingDiv);
+  box.scrollTop = box.scrollHeight;
+
+  const players = V2_STATE.contextData.players;
+  const pNames = players.length >= 2 ? players.map(p => p.name).join(" y ") : "ustedes";
+
+  const promptHost = `Eres un anfitrión de juegos de mesa sofisticado y divertido. El usuario dijo: "${val}". Responde en máximo 2 frases cortas y amables en español chileno/latino natural, validando su contexto (ej. comida, bebida, nombres como ${pNames}).`;
+  const fallback = `¡Entendido perfecto! 🍝 He calibrado el mazo especial para ${pNames}.`;
+  
+  const aiHostReply = await fetchPollinationsAI(promptHost, fallback);
+
+  typingDiv.remove();
+  addBotBubble(aiHostReply);
+
+  setTimeout(() => {
     finishChatFlow();
-    return;
+  }, 1200);
+}
+
+function analyzeUserMessage(text) {
+  const detectedNames = [];
+  const nameMatches = text.match(/(?:con|soy|llamo|somos)\s+([A-ZÁÉÍÓÚa-záéíóú]+)/gi);
+  
+  if (nameMatches) {
+    nameMatches.forEach(m => {
+      const name = m.replace(/(?:con|soy|llamo|somos)\s+/i, "").trim();
+      if (name.length > 2 && !["un", "una", "dos", "tres", "cuatro", "amigos", "pareja"].includes(name.toLowerCase())) {
+        if (!detectedNames.includes(name)) detectedNames.push(name.charAt(0).toUpperCase() + name.slice(1).toLowerCase());
+      }
+    });
   }
 
-  document.getElementById("chatStepProgress").textContent = step.progress;
-  addBotBubble(step.botMessage);
+  if (detectedNames.length < 2) {
+    const cleanList = text.replace(/estoy con|yo soy|prepara|bebemos|almorzando|pasta|con|y/gi, ",");
+    const parts = cleanList.split(",").map(s => s.trim()).filter(s => s.length > 2 && /^[A-ZÁÉÍÓÚa-záéíóú]+$/i.test(s));
+    parts.forEach(p => {
+      const formatted = p.charAt(0).toUpperCase() + p.slice(1).toLowerCase();
+      if (!detectedNames.includes(formatted)) detectedNames.push(formatted);
+    });
+  }
 
-  // Pills
-  const pillsBox = document.getElementById("v2QuickPills");
-  pillsBox.innerHTML = "";
-  step.pills.forEach(text => {
-    const btn = document.createElement("button");
-    btn.className = "v2-pill-btn";
-    btn.textContent = text;
-    btn.onclick = () => {
-      document.getElementById("v2ChatInput").value = text;
-      handleV2InputSubmit();
-    };
-    pillsBox.appendChild(btn);
-  });
+  if (detectedNames.length >= 2) {
+    V2_STATE.contextData.players = detectedNames.map(name => ({ name, age: "" }));
+  } else {
+    V2_STATE.contextData.players = [{ name: "Jacqueline", age: "" }, { name: "Daniel", age: "" }];
+  }
 
-  const input = document.getElementById("v2ChatInput");
-  input.placeholder = step.placeholder;
-  input.value = "";
-  input.focus();
+  V2_STATE.contextData.locationAndVibe += " " + text;
 }
 
 function addBotBubble(text) {
@@ -151,178 +198,15 @@ function addUserBubble(text) {
   box.scrollTop = box.scrollHeight;
 }
 
-async function fetchPollinationsAI(prompt, fallbackText) {
-  try {
-    const encoded = encodeURIComponent(prompt);
-    const res = await fetch(`https://text.pollinations.ai/${encoded}?model=openai`);
-    if (!res.ok) return fallbackText;
-    const text = await res.text();
-    return text.trim() || fallbackText;
-  } catch (e) {
-    console.warn("Pollinations AI fetch failed, using fallback:", e);
-    return fallbackText;
-  }
-}
-
-async function handleV2InputSubmit() {
-  const input = document.getElementById("v2ChatInput");
-  const val = input.value.trim();
-  if (!val) return;
-
-  addUserBubble(val);
-  analyzeUserMessage(val);
-
-  V2_STATE.stepIndex++;
-
-  // Show typing indicator
-  const box = document.getElementById("v2ChatMessages");
-  const typingDiv = document.createElement("div");
-  typingDiv.className = "v2-bubble bot";
-  typingDiv.innerHTML = `<span class="bot-tag">HOST IA</span><div style="font-style:italic; opacity:0.8;">Pensando respuesta única... ✦</div>`;
-  box.appendChild(typingDiv);
-  box.scrollTop = box.scrollHeight;
-
-  const players = V2_STATE.contextData.players;
-  const pNames = players.length >= 2 ? players.map(p => p.name).join(" y ") : "ustedes";
-
-  // Prompt for Pollinations AI
-  const promptHost = `Eres un anfitrión de juegos de mesa cálido, entretenido y perspicaz. El usuario te dijo: "${val}". Responde en máximo 2 frases cortas y amables en español chileno/latino natural, validando su contexto (ej. comida, bebida, nombres como ${pNames}).`;
-  
-  const fallback = `¡Entendido perfecto! 🍝 Me encanta ese ambiente. He preparado un mazo especial para ${pNames}.`;
-  const aiHostReply = await fetchPollinationsAI(promptHost, fallback);
-
-  // Remove typing indicator & render AI response
-  typingDiv.remove();
-  addBotBubble(aiHostReply);
-
-  setTimeout(() => {
-    renderSmartNextStep(val);
-  }, 400);
-}
-
-function analyzeUserMessage(text) {
-  const lower = text.toLowerCase();
-
-  // 1. Extract names if present (e.g. "estoy con jacqueline, yo soy daniel", "somos camila y felipe")
-  const detectedNames = [];
-  
-  // Match patterns like "con X", "soy X", "me llamo X"
-  const nameMatches = text.match(/(?:con|soy|llamo|somos)\s+([A-ZÁÉÍÓÚa-záéíóú]+)/gi);
-  if (nameMatches) {
-    nameMatches.forEach(m => {
-      const name = m.replace(/(?:con|soy|llamo|somos)\s+/i, "").trim();
-      if (name.length > 2 && !["un", "una", "dos", "tres", "cuatro", "amigos", "pareja"].includes(name.toLowerCase())) {
-        if (!detectedNames.includes(name)) detectedNames.push(name.charAt(0).toUpperCase() + name.slice(1).toLowerCase());
-      }
-    });
-  }
-
-  // Also split by commas/and if user directly listed names
-  if (detectedNames.length < 2) {
-    const cleanList = text.replace(/estoy con|yo soy|prepara|bebemos|almorzando|pasta|con|y/gi, ",");
-    const parts = cleanList.split(",").map(s => s.trim()).filter(s => s.length > 2 && /^[A-ZÁÉÍÓÚa-záéíóú]+$/i.test(s));
-    parts.forEach(p => {
-      const formatted = p.charAt(0).toUpperCase() + p.slice(1).toLowerCase();
-      if (!detectedNames.includes(formatted)) detectedNames.push(formatted);
-    });
-  }
-
-  if (detectedNames.length >= 2) {
-    V2_STATE.contextData.players = detectedNames.map(name => ({ name, age: "" }));
-  } else if (detectedNames.length === 1 && V2_STATE.contextData.players.length < 2) {
-    V2_STATE.contextData.players = [{ name: detectedNames[0], age: "" }, { name: "Acompañante", age: "" }];
-  }
-
-  // 2. Extract vibe / location / food / drink details
-  V2_STATE.contextData.locationAndVibe += " " + text;
-}
-
-function renderSmartNextStep(lastUserText) {
-  const players = V2_STATE.contextData.players;
-  const pillsBox = document.getElementById("v2QuickPills");
-  pillsBox.innerHTML = "";
-
-  // If we already know the names (e.g. Jacqueline and Daniel)
-  if (players.length >= 2 && V2_STATE.stepIndex === 1) {
-    const pNames = players.map(p => p.name).join(" y ");
-    document.getElementById("chatStepProgress").textContent = "PASO 2 DE 3";
-    
-    addBotBubble(`¡Entendido perfecto! 🍝 Estás con **${pNames}**, almorzando pasta y tomando mango sour. ¡Qué rica combinación!`);
-    
-    setTimeout(() => {
-      addBotBubble(`Para personalizar aún más el mazo de **${pNames}**: ¿qué tipo de conversación buscan hoy?`);
-      
-      const options = [
-        "🍷 Divertida y relajada",
-        "🔥 Conexión profunda",
-        "🍝 Sobre comida, viajes y vida",
-        "🎲 Un poco de todo"
-      ];
-      
-      options.forEach(text => {
-        const btn = document.createElement("button");
-        btn.className = "v2-pill-btn";
-        btn.textContent = text;
-        btn.onclick = () => {
-          document.getElementById("v2ChatInput").value = text;
-          handleV2InputSubmit();
-        };
-        pillsBox.appendChild(btn);
-      });
-      
-      document.getElementById("v2ChatInput").placeholder = "Ej: Queremos reírnos y pasar un buen rato...";
-    }, 500);
-
-    return;
-  }
-
-  // If we reach completion
-  if (V2_STATE.stepIndex >= 2 || (players.length >= 2 && V2_STATE.stepIndex >= 2)) {
-    document.getElementById("chatStepProgress").textContent = "¡COMPLETO!";
-    finishChatFlow();
-    return;
-  }
-
-  // Fallback step if names weren't detected yet
-  document.getElementById("chatStepProgress").textContent = "PASO 2 DE 3";
-  addBotBubble("¡Excelente! 🎯 Cuéntame: **¿cómo se llaman los que van a jugar?** (Ej: Camila y Daniel)");
-  document.getElementById("v2ChatInput").placeholder = "Ej: Jacqueline y Daniel";
-}
-
-function parsePlayerNames(text) {
-  // Remove prefixes like "Somos 2:", "Somos 2", "Somos 3 personas:" etc.
-  let clean = text.replace(/^somos\s*\d+[:\s]*/i, "")
-                  .replace(/^somos\s+/i, "")
-                  .replace(/\by\b/gi, ",")
-                  .replace(/\bcon\b/gi, ",");
-  
-  let parts = clean.split(/[,\n]+/)
-                   .map(s => s.trim().replace(/^\d+[\s\.\)]*/, "").trim()) // Remove any leading digit like "1." or "2"
-                   .filter(s => s.length > 0 && !/^\d+$/.test(s)); // Filter out purely numeric strings
-  
-  if (parts.length > 0) {
-    V2_STATE.contextData.players = parts.map(name => ({ 
-      name: name.charAt(0).toUpperCase() + name.slice(1), 
-      age: "" 
-    }));
-  } else {
-    V2_STATE.contextData.players = [{ name: "Jugador 1", age: "" }, { name: "Jugador 2", age: "" }];
-  }
-}
-
-function parsePlayerAges(text) {
-  const players = V2_STATE.contextData.players;
-  players.forEach(p => p.age = text);
-}
-
 function finishChatFlow() {
-  addBotBubble("¡Perfecto! He calibrado tu mazo personalizado con tus nombres y el contexto. Te mostraré cómo funcionan las cartas 🎴");
+  addBotBubble("¡Mazo listo! Toca para empezar a jugar 🎴");
   setTimeout(() => {
-    switchScreen("screenChat", "screenTutorial");
-  }, 1200);
+    switchScreen("screenChat", "screenGameV2");
+    launchGameV2();
+  }, 1000);
 }
 
-// --- JUEGO DE CARTAS V2 ---
+// JUEGO DE CARTAS V2
 function launchGameV2() {
   generateV2Deck();
   V2_STATE.currentCardIndex = 0;
@@ -344,25 +228,18 @@ function generateV2Deck() {
   }
 
   let rawList = BANK[deckKey] || BANK["cita_ambigua"] || [];
-  
-  // Prioritize "suave" and "medio" to ensure questions generate connection and fun without being abrasive
   let smoothQuestions = rawList.filter(q => q[1] === "suave" || q[1] === "medio");
   if (smoothQuestions.length < 15) smoothQuestions = rawList;
 
-  // Personalización con nombres
   V2_STATE.deck = smoothQuestions.map(q => {
-    let text = q[0];
-    let followUp = q[3] || "¿Por qué sientes que pensaste eso en ese momento?";
-
     return {
-      question: text,
+      question: q[0],
       level: q[1] || "medio",
       category: q[2] || "CONEXIÓN",
-      followUp: followUp
+      followUp: q[3] || "¿Por qué sientes que pensaste eso en ese momento?"
     };
   });
 
-  // Mezclar mazo
   V2_STATE.deck.sort(() => Math.random() - 0.5);
 }
 
@@ -381,7 +258,6 @@ function renderV2Card() {
   document.getElementById("v2FollowUpText").textContent = `"${card.followUp}"`;
   document.getElementById("v2CardIndex").textContent = `${String(V2_STATE.currentCardIndex + 1).padStart(2, "0")}/${V2_STATE.deck.length}`;
 
-  // Reset flip
   const card3D = document.getElementById("v2Card3D");
   card3D.classList.remove("is-flipped");
   V2_STATE.isFlipped = false;
