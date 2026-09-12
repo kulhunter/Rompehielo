@@ -1,0 +1,6330 @@
+{
+  "tinder_primera_cita": [
+    [
+      "¿Cuál es la peor mentira piadosa que pusiste en tu perfil de citas?",
+      "suave",
+      "humor",
+      "¿Te descubrieron alguna vez?"
+    ],
+    [
+      "¿Qué cosa absurdamente insignificante es un 'dealbreaker' inmediato para ti?",
+      "suave",
+      "humor",
+      "¿Has terminado algo por una tontería así?"
+    ],
+    [
+      "Si tuviéramos que inventar que nos conocemos hace años, ¿cuál sería nuestra historia de origen?",
+      "suave",
+      "quimica",
+      "¿Qué papel me tocaría a mí?"
+    ],
+    [
+      "¿Qué canción es tu placer culpable cuando estás solo en el auto o en la ducha?",
+      "suave",
+      "cotidiano",
+      "¿Te sabes la coreografía?"
+    ],
+    [
+      "¿Cuál es una opinión impopular sobre comida que defenderías con la vida?",
+      "suave",
+      "humor",
+      "¿Has tenido discusiones reales por comida?"
+    ],
+    [
+      "Si pudieras teletransportarte a cenar a cualquier rincón del mundo esta noche, ¿a dónde iríamos?",
+      "suave",
+      "curiosidad",
+      "¿Qué pedirías de tomar?"
+    ],
+    [
+      "¿Qué serie o película viste completa a pesar de ser objetivamente malísima?",
+      "suave",
+      "cultura",
+      "¿La volverías a ver?"
+    ],
+    [
+      "¿Qué talento inútil tienes que sorprendería a un estadio lleno?",
+      "suave",
+      "humor",
+      "¿Puedes hacer una demostración?"
+    ],
+    [
+      "¿Prefieres llegar media hora antes o 10 minutos tarde a todos lados?",
+      "suave",
+      "cotidiano",
+      "¿Qué te estresa más?"
+    ],
+    [
+      "¿Cuál es el meme o video que te hace reír sin importar cuántas veces lo veas?",
+      "suave",
+      "humor",
+      "¿De qué año es?"
+    ],
+    [
+      "¿Qué fue lo más espontáneo que hiciste en el último mes?",
+      "suave",
+      "historias",
+      "¿Lo volverías a repetir?"
+    ],
+    [
+      "Si mañana te despertaras con 1 millón de dólares para gastar en 24 horas, ¿en qué se va?",
+      "suave",
+      "curiosidad",
+      "¿A quién llamarías primero?"
+    ],
+    [
+      "¿Qué cosa que todo el mundo ama tú encuentras completamente sobrevalorada?",
+      "suave",
+      "curiosidad",
+      "¿Desde cuándo le tienes hate?"
+    ],
+    [
+      "¿Cuál es tu lugar seguro en la ciudad cuando necesitas despejarte?",
+      "suave",
+      "conocerse",
+      "¿Vas solo o acompañado?"
+    ],
+    [
+      "¿Qué apodo vergonzoso te pusieron en la infancia o adolescencia?",
+      "suave",
+      "historias",
+      "¿Quién lo inventó?"
+    ],
+    [
+      "¿Cuál es tu tipo de domingo ideal: cama todo el día o panorama activo desde temprano?",
+      "suave",
+      "cotidiano",
+      "¿Qué pasa si te cancelan el plan?"
+    ],
+    [
+      "¿Cuál ha sido la anécdota más surrealista o rara que te ha pasado en una cita?",
+      "suave",
+      "historias",
+      "¿Cómo escapaste de esa situación?"
+    ],
+    [
+      "¿Qué trago o comida define exactamente tu personalidad hoy?",
+      "suave",
+      "humor",
+      "¿Con qué frecuencia lo consumes?"
+    ],
+    [
+      "Si tuvieras un canal de YouTube o podcast, ¿de qué sería el contenido?",
+      "suave",
+      "curiosidad",
+      "¿Quién sería tu primer invitado?"
+    ],
+    [
+      "¿Qué prenda de ropa tienes en el closet que sabes que no usarás jamás pero no puedes botar?",
+      "suave",
+      "humor",
+      "¿Qué historia tiene detrás?"
+    ],
+    [
+      "¿Cuál es tu peor historia pidiendo comida a domicilio?",
+      "suave",
+      "humor",
+      "¿Llegó o te quedaste con hambre?"
+    ],
+    [
+      "¿Qué harías si en mitad de una cita aburrida te dan ganas de salir corriendo?",
+      "suave",
+      "humor",
+      "¿Cuál es tu mejor excusa de escape?"
+    ],
+    [
+      "¿Cuál es tu sticker de WhatsApp más usado?",
+      "suave",
+      "humor",
+      "¿En qué contexto lo mandas?"
+    ],
+    [
+      "¿Prefieres planes improvisados de 'vamos viendo' o todo reservado y agendado?",
+      "suave",
+      "cotidiano",
+      "¿Qué pasa si algo falla?"
+    ],
+    [
+      "Si fueras un personaje de serie de comedia, ¿quién serías?",
+      "suave",
+      "humor",
+      "¿Por qué te identificas tanto?"
+    ],
+    [
+      "¿Cuál fue tu primera impresión real de mí cuando nos vimos llegar hoy?",
+      "medio",
+      "quimica",
+      "¿Coincidió con mis fotos o chat?"
+    ],
+    [
+      "¿Qué es algo de ti que suele confundir a la gente cuando te conocen poco?",
+      "medio",
+      "conocerse",
+      "¿Te molesta que lo asuman?"
+    ],
+    [
+      "¿Qué es lo más cursi o romántico que has hecho por alguien (o que han hecho por ti)?",
+      "medio",
+      "historias",
+      "¿Funcionó o salió raro?"
+    ],
+    [
+      "¿Qué conversación o tema te hace perder la noción del tiempo por completo?",
+      "medio",
+      "conocerse",
+      "¿Con quién sueles hablar de eso?"
+    ],
+    [
+      "¿Qué rasgo buscas sí o sí en una persona para sentir que hay química real?",
+      "medio",
+      "quimica",
+      "¿Cuándo te das cuenta de que no está?"
+    ],
+    [
+      "¿Qué es algo que aprendiste por las malas de tus relaciones o citas anteriores?",
+      "medio",
+      "reflexion",
+      "¿Cuánto tiempo te tomó asimilarlo?"
+    ],
+    [
+      "Si te quedaran 3 meses de vida sabática sin trabajar, ¿cómo se verían tus semanas?",
+      "medio",
+      "curiosidad",
+      "¿Con quién viajarías?"
+    ],
+    [
+      "¿Qué es algo que te apasione intensamente y que a la mayoría de la gente le dé flojera?",
+      "medio",
+      "conocerse",
+      "¿Cómo empezó esa pasión?"
+    ],
+    [
+      "¿Cuál ha sido el halago más lindo y genuino que te han dicho alguna vez?",
+      "medio",
+      "conexion",
+      "¿Quién te lo dijo?"
+    ],
+    [
+      "¿Eres más de seguir la cabeza o la guata cuando tomas decisiones importantes?",
+      "medio",
+      "reflexion",
+      "¿Cuándo te falló tu intuición?"
+    ],
+    [
+      "¿Cuál es tu peor defecto según tus mejores amigos?",
+      "medio",
+      "humor",
+      "¿Estás de acuerdo con ellos?"
+    ],
+    [
+      "¿Qué momento de tu adolescencia te formó más como persona?",
+      "medio",
+      "historias",
+      "¿Qué le dirías a tu yo de esa época?"
+    ],
+    [
+      "¿Cómo manejas cuando alguien te atrae mucho: eres directo/a o esperas que el otro avance?",
+      "medio",
+      "quimica",
+      "¿Te ha salido el tiro por la culata?"
+    ],
+    [
+      "¿Qué es lo que más valoras de tu independencia hoy en día?",
+      "medio",
+      "conocerse",
+      "¿Te costó conseguirla?"
+    ],
+    [
+      "¿Qué historia tuya siempre cuentas en las juntas porque es insuperable?",
+      "medio",
+      "historias",
+      "¿Qué parte exageras un poco?"
+    ],
+    [
+      "¿Qué hábito cotidiano tuyo podría sacarle de quicio a alguien que viva contigo?",
+      "medio",
+      "humor",
+      "¿Tiene solución o eres caso perdido?"
+    ],
+    [
+      "Si pudieras tener una conversación honesta de 5 minutos con cualquier persona de la historia, ¿quién sería?",
+      "medio",
+      "curiosidad",
+      "¿Qué sería lo primero que le preguntarías?"
+    ],
+    [
+      "¿Qué cosa te da mucha vergüenza ajena ver en redes sociales?",
+      "medio",
+      "humor",
+      "¿Has hecho algo parecido alguna vez?"
+    ],
+    [
+      "¿Qué es algo que la gente siempre asume de ti a primera vista y está completamente equivocado?",
+      "medio",
+      "conocerse",
+      "¿Cómo suele reaccionar la gente cuando te conoce bien?"
+    ],
+    [
+      "¿Cuál es tu mayor 'green flag' que sientes que tienes para ofrecer?",
+      "medio",
+      "quimica",
+      "¿La gente la nota rápido?"
+    ],
+    [
+      "¿Qué opinas del silencio: te incomoda o puedes sostenerlo tranquilo?",
+      "medio",
+      "quimica",
+      "¿Hacemos la prueba 10 segundos?"
+    ],
+    [
+      "¿Qué libro, disco o película te cambió la perspectiva del amor?",
+      "medio",
+      "cultura",
+      "¿Lo recomendarías a ojos cerrados?"
+    ],
+    [
+      "¿Qué es lo primero en lo que te fijas físicamente y qué es lo primero en actitud?",
+      "medio",
+      "quimica",
+      "¿Y qué pesa más después de 1 hora?"
+    ],
+    [
+      "¿Qué es lo que más te atrae intelectualmente de una persona?",
+      "medio",
+      "quimica",
+      "¿Es negociable para ti?"
+    ],
+    [
+      "¿Qué pregunta te gustaría que te hiciera que nadie te hace nunca?",
+      "medio",
+      "curiosidad",
+      "¿Cuál es la respuesta a esa pregunta?"
+    ],
+    [
+      "¿Qué detalle sutil en una cita te dice 'aquí hay onda de verdad'?",
+      "medio",
+      "quimica",
+      "¿Te ha pasado en los primeros 15 minutos?"
+    ],
+    [
+      "¿Qué tan rápido te das cuenta de si una cita va a funcionar o no?",
+      "medio",
+      "quimica",
+      "¿Qué señal te lo dice?"
+    ],
+    [
+      "¿Qué es algo que te da mucha curiosidad sobre mi forma de ser?",
+      "medio",
+      "curiosidad",
+      "¿Te atreves a preguntar?"
+    ],
+    [
+      "¿Cuál ha sido la sorpresa más linda que te han dado?",
+      "medio",
+      "historias",
+      "¿Cómo reaccionaste?"
+    ],
+    [
+      "¿Qué tan importante es para ti el sentido del humor en una pareja?",
+      "medio",
+      "valores",
+      "¿Podrías salir con alguien que no se ría de tus chistes?"
+    ],
+    [
+      "¿Qué miedo o inseguridad tuya te ha frenado más en la vida?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Has logrado enfrentarlo?"
+    ],
+    [
+      "¿Qué significa para ti que alguien realmente te haga sentir en casa?",
+      "profundo",
+      "conexion",
+      "¿Cuántas personas en tu vida logran eso?"
+    ],
+    [
+      "¿Cuándo fue la última vez que lloraste de felicidad o alivio?",
+      "profundo",
+      "emociones",
+      "¿Qué estaba pasando en ese momento?"
+    ],
+    [
+      "¿Qué parte de tu vida sientes que todavía estás tratando de resolver?",
+      "profundo",
+      "reflexion",
+      "¿Te genera ansiedad o paciencia?"
+    ],
+    [
+      "Si pudieras cambiar una sola decisión de los últimos cinco años, ¿cuál cambiarías?",
+      "profundo",
+      "historias",
+      "¿Qué crees que sería distinto hoy?"
+    ],
+    [
+      "¿Qué es algo que necesitas escuchar más a menudo de la gente que quieres?",
+      "profundo",
+      "emociones",
+      "¿Te cuesta pedirlo?"
+    ],
+    [
+      "¿Qué herida o desilusión amorosa te enseñó más sobre quién eres tú?",
+      "profundo",
+      "reflexion",
+      "¿Perdonaste a esa persona?"
+    ],
+    [
+      "¿Qué te hace sentir genuinamente orgulloso/a de la persona que eres hoy?",
+      "profundo",
+      "conocerse",
+      "¿Quién fue clave para que llegaras ahí?"
+    ],
+    [
+      "¿Qué es algo que casi nadie sabe sobre ti porque rara vez sale en una conversación casual?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Por qué te lo guardas?"
+    ],
+    [
+      "Si pudieras ver un adelanto de los próximos 5 años de tu vida, ¿qué querrías ver?",
+      "profundo",
+      "futuro",
+      "¿No te daría miedo spoilearte?"
+    ],
+    [
+      "¿Qué es lo que más te cuesta comunicar cuando estás saliendo con alguien?",
+      "profundo",
+      "quimica",
+      "¿Prefieres callar o explotar?"
+    ],
+    [
+      "¿Qué sueño de infancia tuviste que dejar ir y cómo te sientes al respecto?",
+      "profundo",
+      "reflexion",
+      "¿Apareció otro en su lugar?"
+    ],
+    [
+      "¿Qué te hace sentir completamente vulnerable frente a otra persona?",
+      "profundo",
+      "emociones",
+      "¿Huyes cuando sientes eso?"
+    ],
+    [
+      "¿Qué tipo de energía o vibra en una persona te hace bajar la guardia de inmediato?",
+      "profundo",
+      "conexion",
+      "¿Has sentido eso hoy?"
+    ],
+    [
+      "Si esta noche fuera una película, ¿en qué escena estamos ahora mismo?",
+      "profundo",
+      "quimica",
+      "¿Cómo termina la película?"
+    ],
+    [
+      "¿Cuál es el mejor consejo sobre el amor que has recibido de alguien mayor?",
+      "profundo",
+      "sabiduria",
+      "¿Lo has aplicado?"
+    ],
+    [
+      "¿Qué es lo que más te asusta de envejecer?",
+      "profundo",
+      "reflexion",
+      "¿Qué te consuela?"
+    ],
+    [
+      "¿Qué te hace sentir que una persona vale 100% la pena el riesgo?",
+      "profundo",
+      "quimica",
+      "¿Cuándo fue la última vez que sentiste eso?"
+    ],
+    [
+      "¿Cuál ha sido el momento en que más valiente te has sentido?",
+      "profundo",
+      "historias",
+      "¿Quién estuvo ahí para verlo?"
+    ],
+    [
+      "Si pudieras dejarme con una sola idea clara de quién eres tú, ¿cuál sería?",
+      "profundo",
+      "conocerse",
+      "¿Por qué esa precisamente?"
+    ]
+  ],
+  "cita_ambigua": [
+    [
+      "Si un amigo nos viera sentados aquí desde lejos, ¿qué pensaría que somos?",
+      "suave",
+      "humor",
+      "¿Qué le responderías tú si te pregunta?"
+    ],
+    [
+      "¿Cuál es la diferencia exacta entre 'salir a tomar algo como amigos' y 'una cita'?",
+      "suave",
+      "curiosidad",
+      "¿En qué categoría cae esta salida?"
+    ],
+    [
+      "¿Qué es lo más confuso que te ha dicho alguien con quien no sabías si había onda?",
+      "suave",
+      "historias",
+      "¿Cómo reaccionaste?"
+    ],
+    [
+      "Si tuvieras que apostar qué piensa el mesero de nosotros dos, ¿qué crees que piensa?",
+      "suave",
+      "humor",
+      "¿Le dejamos propina por la intriga?"
+    ],
+    [
+      "¿Qué canción pondrías de fondo para romper la tensión que hay ahora?",
+      "suave",
+      "humor",
+      "¿Lenta o para bailar?"
+    ],
+    [
+      "¿Cuál es el piropo más sutil pero letal que te han tirado?",
+      "suave",
+      "historias",
+      "¿Te funcionaría conmigo?"
+    ],
+    [
+      "¿Qué nivel de tensión sientes en esta mesa del 1 al 10?",
+      "suave",
+      "humor",
+      "¿Cómo la bajamos o cómo la subimos?"
+    ],
+    [
+      "Si tuviéramos que fingir que somos pareja durante 1 hora para ganar un premio, ¿lo lograríamos?",
+      "suave",
+      "humor",
+      "¿Cuál sería nuestro apodo cursi?"
+    ],
+    [
+      "¿Qué detalle de mi ropa o aspecto te llamó la atención cuando nos vimos hoy?",
+      "suave",
+      "quimica",
+      "¿Fue para bien o para mal?"
+    ],
+    [
+      "Si te pidiera que me mires a los ojos fijamente por 20 segundos sin reírte, ¿aguantas?",
+      "suave",
+      "juego",
+      "¿Quieres apostar algo?"
+    ],
+    [
+      "¿Cuándo fue la última vez que sentiste mariposas en la guata con una tontería?",
+      "suave",
+      "emociones",
+      "¿Qué provocó eso?"
+    ],
+    [
+      "¿Qué apodo me pondrías si fuéramos novios solo por hoy?",
+      "suave",
+      "humor",
+      "¿Muy cursi o muy ridículo?"
+    ],
+    [
+      "Si tuviéramos que escaparnos de este lugar ahora mismo a otro bar, ¿te sumas?",
+      "suave",
+      "juego",
+      "¿Dónde me llevarías tú?"
+    ],
+    [
+      "¿Cuál es la indirecta más obvia que te han tirado y no captaste en el momento?",
+      "suave",
+      "humor",
+      "¿Cuánto tiempo después te cayó la teja?"
+    ],
+    [
+      "Si esto fuera una cita romántica oficial, ¿qué puntaje le pondrías hasta ahora?",
+      "suave",
+      "humor",
+      "¿Qué le falta para el 10?"
+    ],
+    [
+      "¿Cuál es tu excusa favorita cuando alguien que no te gusta te tira onda?",
+      "suave",
+      "humor",
+      "¿La usarías conmigo si fuera el caso?"
+    ],
+    [
+      "¿Qué tan bueno/a eres leyendo las señales de la otra persona?",
+      "suave",
+      "curiosidad",
+      "¿Qué señales mías has leído hoy?"
+    ],
+    [
+      "¿Cuál es tu cóctel o cerveza de la verdad cuando quieres soltarte?",
+      "suave",
+      "humor",
+      "¿Pedimos una ronda?"
+    ],
+    [
+      "¿Qué harías si de pronto empieza a llover torrencialmente y tenemos un solo paraguas?",
+      "suave",
+      "humor",
+      "¿Plan de película o nos empapamos?"
+    ],
+    [
+      "¿Cuál fue el mensaje de texto más ambiguo que nos hemos mandado?",
+      "suave",
+      "historias",
+      "¿Qué querías decir en realidad?"
+    ],
+    [
+      "¿Qué opinas del contacto visual sostenido: te intimida o te gusta?",
+      "suave",
+      "quimica",
+      "¿Por qué apartaste la mirada?"
+    ],
+    [
+      "¿Cuál es la señal más clara de que una salida entre amigos se transformó en cita?",
+      "suave",
+      "curiosidad",
+      "¿Ya pasó hoy?"
+    ],
+    [
+      "¿Prefieres que te inviten o pagar a medias para mantener la ambigüedad?",
+      "suave",
+      "cotidiano",
+      "¿Qué mensaje manda cada opción?"
+    ],
+    [
+      "Si alguien te preguntara mañana '¿y qué onda con esa persona?', ¿qué dirás?",
+      "suave",
+      "humor",
+      "¿Vas a sonreír con misterio?"
+    ],
+    [
+      "¿Qué trago pedirías para mí si tuvieras que adivinar qué necesito tomar ahora?",
+      "suave",
+      "curiosidad",
+      "¿Acertaste?"
+    ],
+    [
+      "¿Alguna vez te gustó mucho un amigo/a y nunca se lo dijiste por miedo?",
+      "medio",
+      "historias",
+      "¿Qué crees que habría pasado si hablabas?"
+    ],
+    [
+      "¿Cuál es tu señal corporal inconsciente cuando alguien realmente te gusta?",
+      "medio",
+      "quimica",
+      "¿La estás haciendo ahora mismo?"
+    ],
+    [
+      "Si hoy tuviéramos que elegir entre plan amigos o plan romance, ¿cuál te da más curiosidad?",
+      "medio",
+      "quimica",
+      "¿Por qué esa opción?"
+    ],
+    [
+      "¿Qué cosa hice hoy que te haya parecido tierna o llamativa?",
+      "medio",
+      "quimica",
+      "¿Lo notaste de inmediato?"
+    ],
+    [
+      "¿Crees en la amistad 100% platónica entre personas que se atraen?",
+      "medio",
+      "debate",
+      "¿Has estado en esa cuerda floja?"
+    ],
+    [
+      "¿Qué es lo que más te gusta de la dinámica que tenemos cuando estamos juntos?",
+      "medio",
+      "conexion",
+      "¿Sientes que fluye natural o hay nervio?"
+    ],
+    [
+      "¿Alguna vez te pasó que una salida de amigos terminó en algo más?",
+      "medio",
+      "historias",
+      "¿Arruinó la amistad o mejoró todo?"
+    ],
+    [
+      "¿Qué es lo que más te intriga de mí que todavía no me animo a contarte?",
+      "medio",
+      "curiosidad",
+      "¿Aceptas una pista?"
+    ],
+    [
+      "Si tuvieras que describir nuestra química con una palabra, ¿cuál eliges?",
+      "medio",
+      "quimica",
+      "¿Por qué esa palabra?"
+    ],
+    [
+      "¿Prefieres que las cosas se hablen de frente o dejar que la tensión hable sola?",
+      "medio",
+      "debate",
+      "¿Qué estamos haciendo ahora?"
+    ],
+    [
+      "¿Qué tan fácil es para ti admitir cuando alguien te pone nervioso?",
+      "medio",
+      "vulnerabilidad",
+      "¿Se te nota en la cara?"
+    ],
+    [
+      "¿Qué es algo que solo harías conmigo y no con cualquier otro amigo?",
+      "medio",
+      "conexion",
+      "¿Cuándo lo descubriste?"
+    ],
+    [
+      "¿Crees que las mejores parejas parten siendo amigos o con fuego desde el día uno?",
+      "medio",
+      "reflexion",
+      "¿Qué te ha funcionado mejor a ti?"
+    ],
+    [
+      "¿Cuál ha sido la 'friendzone' más dolorosa o divertida de la que has salido?",
+      "medio",
+      "historias",
+      "¿Cómo lograste cruzar al otro lado?"
+    ],
+    [
+      "¿Qué te hace dudar cuando tienes ganas de dar el siguiente paso con alguien?",
+      "medio",
+      "reflexion",
+      "¿El miedo al rechazo o a perder la confianza?"
+    ],
+    [
+      "¿Qué es lo peor que podría pasar si nos gustamos?",
+      "medio",
+      "debate",
+      "¿Y qué es lo mejor?"
+    ],
+    [
+      "¿Qué es algo que te encanta que hagan en una cita pero que nunca pedirías?",
+      "medio",
+      "curiosidad",
+      "¿Tiene que ver con la iniciativa?"
+    ],
+    [
+      "¿Cuál es la línea exacta donde una conversación simpática se vuelve coqueteo?",
+      "medio",
+      "debate",
+      "¿La cruzamos hace rato o todavía no?"
+    ],
+    [
+      "¿Qué pensarías si mañana te invito a un plan de fin de semana solos los dos?",
+      "medio",
+      "quimica",
+      "¿Empacas maleta o buscas excusa?"
+    ],
+    [
+      "¿Qué es lo más lindo que tiene la incertidumbre de no saber qué somos?",
+      "medio",
+      "reflexion",
+      "¿No te dan ganas de resolverla ya?"
+    ],
+    [
+      "¿Quién crees que de los dos daría el primer paso si la situación se presta?",
+      "medio",
+      "debate",
+      "¿Por qué estás tan seguro/a?"
+    ],
+    [
+      "¿Qué es lo más arriesgado que has hecho por seguir una corazonada con alguien?",
+      "medio",
+      "historias",
+      "¿Valió la pena?"
+    ],
+    [
+      "¿Qué tan transparente crees que eres cuando alguien te atrae físicamente?",
+      "medio",
+      "quimica",
+      "¿Crees que yo me di cuenta?"
+    ],
+    [
+      "¿Qué historia de nosotros dos le contarías a un amigo mañana en el almuerzo?",
+      "medio",
+      "quimica",
+      "¿Omitirías alguna parte?"
+    ],
+    [
+      "¿Qué es lo que más te desconcierta de mi personalidad?",
+      "medio",
+      "conocerse",
+      "¿Te gusta o te intimida?"
+    ],
+    [
+      "¿Alguna vez te arrepentiste de NO haberte lanzado con alguien?",
+      "medio",
+      "historias",
+      "¿Qué aprendiste de eso?"
+    ],
+    [
+      "Si tuviéramos un secreto juntos que nadie más supiera, ¿de qué te gustaría que fuera?",
+      "medio",
+      "conexion",
+      "¿Sabes guardar secretos?"
+    ],
+    [
+      "¿Cuál es el mejor recuerdo que tenemos juntos hasta el día de hoy?",
+      "medio",
+      "recuerdos",
+      "¿Y el más vergonzoso?"
+    ],
+    [
+      "Si pudieras leer mi mente por los próximos 60 segundos, ¿te atreverías?",
+      "medio",
+      "quimica",
+      "¿Qué crees que encontrarías?"
+    ],
+    [
+      "¿Por qué aceptaste salir conmigo hoy?",
+      "medio",
+      "conocerse",
+      "¿Esperabas que fuera así?"
+    ],
+    [
+      "¿Qué pasaría si uno de los dos intentara darle un beso al otro al despedirnos?",
+      "profundo",
+      "quimica",
+      "¿Esquivas o te dejas llevar?"
+    ],
+    [
+      "¿Qué harías si te digo que esta salida para mí no es solo de amigos?",
+      "profundo",
+      "quimica",
+      "¿Te alivia o te pone nervioso?"
+    ],
+    [
+      "¿Qué conversación pendiente sientes que tenemos flotando en el aire?",
+      "profundo",
+      "conexion",
+      "¿La tenemos ahora?"
+    ],
+    [
+      "¿Cuál es tu peor miedo si admites que sientes cosas por alguien cercano?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Vale la pena el silencio?"
+    ],
+    [
+      "¿Qué te gustaría que pasara hoy antes de que cada uno se vaya a su casa?",
+      "profundo",
+      "quimica",
+      "¿Te animas a decirlo en voz alta?"
+    ],
+    [
+      "¿Qué pregunta te da pánico que te haga esta noche?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Y si te la hago igual con cariño?"
+    ],
+    [
+      "¿Qué es algo que te da curiosidad sobre mi forma de besar o abrazar?",
+      "profundo",
+      "quimica",
+      "¿Te lo imaginas?"
+    ],
+    [
+      "¿Qué límites pondrías hoy si decidimos que esto es algo más que amistad?",
+      "profundo",
+      "reflexion",
+      "¿O prefieres ir sin mapa?"
+    ],
+    [
+      "Si te doy la mano ahora por debajo de la mesa, ¿qué haces?",
+      "profundo",
+      "quimica",
+      "¿Me la aprietas o la sueltas?"
+    ],
+    [
+      "¿Qué tipo de caricias o gestos sutiles te desarman por completo?",
+      "profundo",
+      "quimica",
+      "¿Te consideras una persona táctil?"
+    ],
+    [
+      "¿Qué sientes que nos impide ser 100% directos el uno con el otro?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Rompemos esa barrera ahora?"
+    ],
+    [
+      "¿Qué te hace sentir que vale la pena arriesgar una buena amistad por algo más?",
+      "profundo",
+      "reflexion",
+      "¿Crees que lo nuestro es de ese calibre?"
+    ],
+    [
+      "Si esta noche terminara con un beso inesperado, ¿arruinaría las cosas o las arreglaría?",
+      "profundo",
+      "quimica",
+      "¿Quieres que lo averigüemos?"
+    ],
+    [
+      "¿Qué pregunta te gustaría responderme solo al oído?",
+      "profundo",
+      "quimica",
+      "¿Te atreves a acercarte?"
+    ],
+    [
+      "¿Y ahora qué hacemos con toda esta tensión?",
+      "profundo",
+      "quimica",
+      "¿Propones tú o propongo yo?"
+    ],
+    [
+      "¿Qué es lo más auténtico que has visto en mí hoy?",
+      "profundo",
+      "conexion",
+      "¿Esperabas encontrarte con eso?"
+    ],
+    [
+      "¿Qué parte de ti siente que deberíamos ser prudentes y qué parte quiere mandar todo al diablo?",
+      "profundo",
+      "reflexion",
+      "¿A cuál le hacemos caso?"
+    ],
+    [
+      "¿Qué pasaría si dejamos de pensar tanto y dejamos que pase lo que tenga que pasar?",
+      "profundo",
+      "quimica",
+      "¿Estás listo/a?"
+    ],
+    [
+      "¿Cuál es la mirada que me diste hoy que más te costó disimular?",
+      "profundo",
+      "quimica",
+      "¿Te diste cuenta de que la vi?"
+    ],
+    [
+      "Si te dijera que me encantas, ¿qué me respondes?",
+      "profundo",
+      "quimica",
+      "¿Te animas a escuchar la respuesta?"
+    ]
+  ],
+  "cita_no_romantica": [
+    [
+      "¿Cuál es el proyecto o idea loca que tienes en mente y que casi nadie conoce?",
+      "suave",
+      "curiosidad",
+      "¿Qué te falta para lanzarlo?"
+    ],
+    [
+      "¿Qué es lo más absurdo o estresante que te ha tocado vivir en la pega o la u?",
+      "suave",
+      "historias",
+      "¿Cómo sobreviviste sin mandar todo lejos?"
+    ],
+    [
+      "Si pudieras cambiar radicalmente de profesión mañana sin consecuencias económicas, ¿qué harías?",
+      "suave",
+      "curiosidad",
+      "¿Por qué no lo haces como hobby?"
+    ],
+    [
+      "¿Qué manía laboral o de estudio tienes que a otros les parece psicópata?",
+      "suave",
+      "humor",
+      "¿Tus carpetas de Drive están con código de color?"
+    ],
+    [
+      "¿Cuál ha sido el peor jefe o compañero de equipo que te ha tocado sufrir?",
+      "suave",
+      "historias",
+      "¿Cuál fue la gota que rebalsó el vaso?"
+    ],
+    [
+      "Si pudieras cenar con cualquier referente de tu rubro o área creativa, ¿a quién elegirías?",
+      "suave",
+      "curiosidad",
+      "¿Qué le preguntarías?"
+    ],
+    [
+      "¿Cuál es tu truco de productividad infalible o tu mayor vicio de procrastinación?",
+      "suave",
+      "cotidiano",
+      "¿Cuántas pestañas del navegador tienes abiertas ahora?"
+    ],
+    [
+      "Si tuviéramos que armar un emprendimiento juntos mañana con 500 dólares, ¿de qué sería?",
+      "suave",
+      "humor",
+      "¿Quién sería el CEO y quién el de operaciones?"
+    ],
+    [
+      "¿Qué libro, podcast o charla TED te voló la cabeza y te hizo cambiar de opinión?",
+      "suave",
+      "cultura",
+      "¿Lo aplicas en tu vida diaria?"
+    ],
+    [
+      "¿Cuál es tu relación con el dinero: gastador compulsivo, ahorrador extremo o equilibrado?",
+      "suave",
+      "cotidiano",
+      "¿En qué tontera no te duele gastar?"
+    ],
+    [
+      "¿Cuál es la anécdota más graciosa que tienes en un evento formal o viaje de trabajo?",
+      "suave",
+      "historias",
+      "¿Quién más estuvo involucrado?"
+    ],
+    [
+      "¿Qué herramientas o apps no podrías soltar en tu día a día ni por un millón de pesos?",
+      "suave",
+      "cotidiano",
+      "¿Por qué te facilitan tanto la vida?"
+    ],
+    [
+      "Si tuvieras que enseñar un curso universitario de 1 semestre, ¿de qué sería?",
+      "suave",
+      "curiosidad",
+      "¿Cuál sería la prueba final?"
+    ],
+    [
+      "¿Qué hábito matutino o nocturno cambió radicalmente tu energía?",
+      "suave",
+      "cotidiano",
+      "¿Te costó adoptarlo?"
+    ],
+    [
+      "Si pudieras retirarte a los 40 años, ¿a qué dedicarías el resto de tus días?",
+      "suave",
+      "curiosidad",
+      "¿Vivirías en la ciudad o en el campo?"
+    ],
+    [
+      "¿Cuál es tu postura frente a la inteligencia artificial: te emociona o te da miedo?",
+      "suave",
+      "debate",
+      "¿La usas a diario?"
+    ],
+    [
+      "¿Qué es algo que sabes hacer increíblemente bien pero que odias hacer?",
+      "suave",
+      "humor",
+      "¿Te lo piden seguido?"
+    ],
+    [
+      "¿Qué cosa material que compraste te arrepientes de haber adquirido?",
+      "suave",
+      "humor",
+      "¿Cuánto dinero perdiste ahí?"
+    ],
+    [
+      "Si tuviéramos que escribir un artículo o hilo de Twitter juntos, ¿sobre qué escribiríamos?",
+      "suave",
+      "curiosidad",
+      "¿Qué título polémico le pondríamos?"
+    ],
+    [
+      "¿Cuál es tu serie favorita sobre intrigas de oficina o mundos corporativos?",
+      "suave",
+      "cultura",
+      "¿A qué personaje te pareces en un mal día?"
+    ],
+    [
+      "¿Qué mito sobre tu profesión o área de estudio te pudre tener que desmentir?",
+      "suave",
+      "humor",
+      "¿Qué piensa tu familia que haces?"
+    ],
+    [
+      "¿Cuál es la reunión más inútil en la que has perdido 2 horas de tu vida?",
+      "suave",
+      "humor",
+      "¿Podría haber sido un correo de 2 líneas?"
+    ],
+    [
+      "¿Cuál es tu comida rápida de emergencia cuando estás trabajando contra el tiempo?",
+      "suave",
+      "cotidiano",
+      "¿Qué tan culposa es?"
+    ],
+    [
+      "¿Prefieres trabajar 100% remoto, híbrido o ir a la oficina a compartir un café?",
+      "suave",
+      "cotidiano",
+      "¿Por qué ese formato?"
+    ],
+    [
+      "¿Qué es algo de tu rol actual que nadie te avisó que ibas a tener que hacer?",
+      "suave",
+      "humor",
+      "¿Te tocó resolverlo a la fuerza?"
+    ],
+    [
+      "¿Qué logro profesional o personal reciente no celebraste lo suficiente?",
+      "medio",
+      "reflexion",
+      "¿Por qué solemos minimizar nuestros éxitos?"
+    ],
+    [
+      "¿Cuál es la habilidad que más admiras en la gente con la que trabajas o estudias?",
+      "medio",
+      "valores",
+      "¿Sientes que tú la tienes?"
+    ],
+    [
+      "¿Qué consejo laboral o de carrera que todo el mundo repite consideras pésimo?",
+      "medio",
+      "debate",
+      "¿Qué harías tú en cambio?"
+    ],
+    [
+      "¿Cómo manejas el síndrome del impostor cuando te toca asumir un desafío grande?",
+      "medio",
+      "reflexion",
+      "¿En qué momentos te ataca más fuerte?"
+    ],
+    [
+      "¿Qué es lo más gratificante que has hecho en el último año?",
+      "medio",
+      "conocerse",
+      "¿Te cambió la perspectiva de futuro?"
+    ],
+    [
+      "¿Cuál ha sido el error o fracaso que más te dolió pero que mejor te enseñó?",
+      "medio",
+      "historias",
+      "¿Agradeces que haya pasado?"
+    ],
+    [
+      "¿Cómo balanceas tu vida personal con tus ambiciones sin volverte loco?",
+      "medio",
+      "reflexion",
+      "¿Has estado al borde del burnout?"
+    ],
+    [
+      "¿Qué opinas de la cultura del 'hustle' y de trabajar 24/7: inspiración o trampa?",
+      "medio",
+      "debate",
+      "¿Cómo cuidas tu descanso?"
+    ],
+    [
+      "¿Cuál es el mejor cumplido profesional que te han hecho?",
+      "medio",
+      "conocerse",
+      "¿De parte de quién vino?"
+    ],
+    [
+      "¿Qué es lo que más te drena la energía en un día normal de trabajo?",
+      "medio",
+      "conocerse",
+      "¿Cómo te recargas después?"
+    ],
+    [
+      "¿Cómo le dices que no a compromisos que no quieres asumir sin sentir culpa?",
+      "medio",
+      "reflexion",
+      "¿Eres de los que dice que sí a todo por complacer?"
+    ],
+    [
+      "¿Cuál es la diferencia entre alguien talentoso y alguien con disciplina según tu experiencia?",
+      "medio",
+      "debate",
+      "¿Tú de cuál te consideras más?"
+    ],
+    [
+      "¿Qué viaje o experiencia te cambió para siempre el mapa mental del mundo?",
+      "medio",
+      "historias",
+      "¿Volviste siendo otra persona?"
+    ],
+    [
+      "¿Qué tipo de personas no toleras en un equipo de trabajo o proyecto?",
+      "medio",
+      "valores",
+      "¿Cómo lidias con ellas con diplomacia?"
+    ],
+    [
+      "¿Cuál ha sido la mayor suerte o coincidencia afortunada de tu carrera?",
+      "medio",
+      "historias",
+      "¿Estuviste en el momento y lugar exacto?"
+    ],
+    [
+      "¿Qué consejo le darías a alguien que está empezando exactamente en tu misma posición?",
+      "medio",
+      "sabiduria",
+      "¿Te lo diste a ti mismo?"
+    ],
+    [
+      "¿Qué opinas del networking: genuina oportunidad de conocer gente o hipocresía necesaria?",
+      "medio",
+      "debate",
+      "¿Cómo haces contactos tú?"
+    ],
+    [
+      "¿Qué te motiva a levantarte los lunes cuando el despertador suena y está lloviendo?",
+      "medio",
+      "cotidiano",
+      "¿O es pura inercia?"
+    ],
+    [
+      "¿Cuál ha sido la negociación más dura que has tenido que dar?",
+      "medio",
+      "historias",
+      "¿Conseguiste lo que querías?"
+    ],
+    [
+      "¿Qué habilidad blanda sientes que te falta pulir con urgencia?",
+      "medio",
+      "conocerse",
+      "¿Paciencia, asertividad o escucha activa?"
+    ],
+    [
+      "¿Cómo manejas la frustración cuando un cliente o jefe cambia las reglas a última hora?",
+      "medio",
+      "reflexion",
+      "¿Respiras hondo o puteas en mute?"
+    ],
+    [
+      "¿Qué es lo más valioso que has aprendido de observar a personas más jóvenes que tú?",
+      "medio",
+      "sabiduria",
+      "¿Y de personas mayores?"
+    ],
+    [
+      "¿Qué haces cuando un proyecto en el que creías mucho simplemente no prende?",
+      "medio",
+      "historias",
+      "¿Pivoteas o lo entierras con dignidad?"
+    ],
+    [
+      "¿Qué porcentaje de tu trabajo diario sientes que es pura creatividad y qué porcentaje es burocracia?",
+      "medio",
+      "reflexion",
+      "¿Cómo aumentarías el primero?"
+    ],
+    [
+      "¿Qué es algo que aprendiste en la calle o en la vida que la universidad nunca te enseñó?",
+      "medio",
+      "sabiduria",
+      "¿Fue a porrazos?"
+    ],
+    [
+      "¿Cuál es el mejor elogio que te puede dar un colega?",
+      "medio",
+      "conocerse",
+      "¿Que eres confiable, rápido o empático?"
+    ],
+    [
+      "¿Qué te ha parecido la conversación que hemos tenido hoy?",
+      "medio",
+      "conexion",
+      "¿Deberíamos repetirla más seguido?"
+    ],
+    [
+      "¿Cuál es tu próximo gran hito que estás persiguiendo en los próximos meses?",
+      "medio",
+      "futuro",
+      "¿Cómo lo vamos a celebrar cuando lo logres?"
+    ],
+    [
+      "¿Qué hábito malo de trabajo estás intentando erradicar activamente?",
+      "medio",
+      "conocerse",
+      "¿Cómo te va con eso?"
+    ],
+    [
+      "¿Qué te llevas de bueno de esta junta de hoy?",
+      "medio",
+      "conexion",
+      "¿Superó las expectativas?"
+    ],
+    [
+      "¿Qué es algo que te quita el sueño respecto a tu futuro en los próximos 2 años?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Tienes un plan B?"
+    ],
+    [
+      "¿Qué aprendiste de tus viejos sobre el esfuerzo y el trabajo que tú NO quieres repetir?",
+      "profundo",
+      "reflexion",
+      "¿Y qué sí quieres mantener?"
+    ],
+    [
+      "¿Qué causa social o problema del mundo te toca una fibra sensible?",
+      "profundo",
+      "valores",
+      "¿Aportas de alguna manera en eso?"
+    ],
+    [
+      "¿Qué conversación difícil tienes postergando en tu pega o vida personal?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Qué te frena a tenerla?"
+    ],
+    [
+      "¿Cómo defines el verdadero éxito hoy en comparación con lo que pensabas a los 18 años?",
+      "profundo",
+      "reflexion",
+      "¿Se achicaron o se agrandaron las metas?"
+    ],
+    [
+      "¿Cuál es tu cable a tierra cuando sientes que todo se descontrola?",
+      "profundo",
+      "emociones",
+      "¿Quién te ayuda a volver al centro?"
+    ],
+    [
+      "¿Qué tan fácil se te da pedir ayuda cuando estás colapsado?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Prefieres quemarte a mostrarte débil?"
+    ],
+    [
+      "¿Qué impacto real te gustaría dejar en tu entorno antes de jubilar?",
+      "profundo",
+      "valores",
+      "¿Es un legado de obras o de relaciones?"
+    ],
+    [
+      "¿Qué tan importante es para ti que tu trabajo esté alineado con tus valores éticos?",
+      "profundo",
+      "valores",
+      "¿Renunciarías por principios?"
+    ],
+    [
+      "Si tuvieras que resumir tu filosofía de vida laboral en una sola frase, ¿cuál sería?",
+      "profundo",
+      "sabiduria",
+      "¿La tienes pegada en un post-it?"
+    ],
+    [
+      "¿Cuál es el mayor riesgo financiero o laboral que has tomado en tu vida?",
+      "profundo",
+      "historias",
+      "¿Te temblaban las piernas al firmar?"
+    ],
+    [
+      "¿Qué parte de tu vocación sientes que todavía no has podido explotar?",
+      "profundo",
+      "conocerse",
+      "¿Qué necesitas para abrir esa puerta?"
+    ],
+    [
+      "¿Cómo manejas la soledad de tomar decisiones difíciles en tu trabajo?",
+      "profundo",
+      "reflexion",
+      "¿Tienes a quién pedirle consejo?"
+    ],
+    [
+      "¿Qué precio personal has pagado por querer avanzar en tu carrera?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Ha valido la pena?"
+    ],
+    [
+      "¿Qué es algo que te enorgullece haber superado por tu propia cuenta?",
+      "profundo",
+      "conocerse",
+      "¿Dudaste de si podías?"
+    ],
+    [
+      "¿Qué le dirías a alguien que está atrapado en un trabajo que odia pero no se atreve a salir?",
+      "profundo",
+      "sabiduria",
+      "¿Cómo dar el salto con red?"
+    ],
+    [
+      "¿Cuál es el legado más importante que quieres dejar a quienes vengan después de ti?",
+      "profundo",
+      "valores",
+      "¿Cómo lo construyes hoy?"
+    ],
+    [
+      "¿En qué momento de tu vida te diste cuenta de que tus límites eran necesarios?",
+      "profundo",
+      "reflexion",
+      "¿Te costó aprender a decir 'basta'?"
+    ],
+    [
+      "¿Qué persona de tu trayectoria laboral fue tu mayor mentor y qué te enseñó?",
+      "profundo",
+      "gratitud",
+      "¿Se lo hiciste saber?"
+    ],
+    [
+      "¿Qué sueño profesional guardas en secreto porque suena demasiado ambicioso para decirlo en voz alta?",
+      "profundo",
+      "futuro",
+      "¿Y por qué no creer en grande?"
+    ]
+  ],
+  "pareja_reciente": [
+    [
+      "¿Cuál fue el momento exacto en que te diste cuenta de que te gustaba de verdad?",
+      "suave",
+      "quimica",
+      "¿Se lo dijiste a alguien ese día?"
+    ],
+    [
+      "¿Qué es lo más vergonzoso que hiciste al principio para impresionarme o coincidir conmigo?",
+      "suave",
+      "humor",
+      "¿Te diste cuenta si lo noté?"
+    ],
+    [
+      "¿Qué manía o hábito raro mío has descubierto recientemente que te da ternura (o risa)?",
+      "suave",
+      "cotidiano",
+      "¿Ya te acostumbraste?"
+    ],
+    [
+      "¿Cuál es nuestro chiste interno o palabra inventada favorita hasta ahora?",
+      "suave",
+      "humor",
+      "¿De dónde salió?"
+    ],
+    [
+      "¿Qué fue lo primero que le contaste a tus amigos sobre mí después de vernos?",
+      "suave",
+      "historias",
+      "¿Qué te aconsejaron ellos?"
+    ],
+    [
+      "¿Cuál ha sido nuestra mejor cita o panorama improvisado hasta la fecha?",
+      "suave",
+      "recuerdos",
+      "¿Qué lo hizo tan especial?"
+    ],
+    [
+      "¿Qué comida o panorama tenemos pendiente que todavía no hemos podido hacer?",
+      "suave",
+      "futuro",
+      "¿Lo agendamos para esta semana?"
+    ],
+    [
+      "¿Qué canción suena en tu cabeza cuando piensas en nosotros dos?",
+      "suave",
+      "cultura",
+      "¿La agregamos a nuestra playlist?"
+    ],
+    [
+      "¿Cuál fue el primer mensaje o audio que nos mandamos que te dio mariposas?",
+      "suave",
+      "recuerdos",
+      "¿Todavía lo tienes guardado?"
+    ],
+    [
+      "¿Qué apodo cursi te gustaría que te dijera en privado pero jamás en público?",
+      "suave",
+      "humor",
+      "¿Por qué te daría vergüenza?"
+    ],
+    [
+      "¿Qué opinión o gusto tuyo no comparto pero toleras con amor?",
+      "suave",
+      "humor",
+      "¿Te cuesta mucho morderte la lengua?"
+    ],
+    [
+      "¿Cuál es tu foto favorita de los dos que tenemos guardada en el celular?",
+      "suave",
+      "recuerdos",
+      "¿Qué estábamos haciendo ese día?"
+    ],
+    [
+      "¿Qué es algo que todavía te da un poco de pudor hacer frente a mí?",
+      "suave",
+      "humor",
+      "¿Cuánto tiempo crees que falta para que se pase?"
+    ],
+    [
+      "¿Qué serie o programa es sagrado que solo podemos ver juntos y jamás avanzar solos?",
+      "suave",
+      "cotidiano",
+      "¿Has pecado de infidelidad de Netflix?"
+    ],
+    [
+      "¿Qué olor o perfume mío reconoces a kilómetros de distancia?",
+      "suave",
+      "quimica",
+      "¿Te calma cuando lo hueles?"
+    ],
+    [
+      "¿Qué viaje o escapada de fin de semana sueñas que hagamos pronto?",
+      "suave",
+      "futuro",
+      "¿Auto, avión o carpa?"
+    ],
+    [
+      "¿Cuál es la comida que mejor te cocino (o que mejor pedimos por delivery)?",
+      "suave",
+      "humor",
+      "¿Debería mejorar mis dotes culinarias?"
+    ],
+    [
+      "¿Qué ropa mía te gusta más cuando me la pongo?",
+      "suave",
+      "quimica",
+      "¿Y cuál quemarías en una hoguera?"
+    ],
+    [
+      "¿Cuál es el meme o video que siempre nos mandamos por DM?",
+      "suave",
+      "humor",
+      "¿Por qué nos identifica tanto?"
+    ],
+    [
+      "¿Qué actividad cotidiana aburrida (como ir al súper) se vuelve entretenida conmigo?",
+      "suave",
+      "cotidiano",
+      "¿Por qué la pasamos bien haciendo nada?"
+    ],
+    [
+      "¿Qué costumbre familiar mía te ha llamado más la atención?",
+      "suave",
+      "historias",
+      "¿Es muy diferente a la tuya?"
+    ],
+    [
+      "¿Qué harías si mañana tenemos un día libre entero sin teléfonos ni planes?",
+      "suave",
+      "cotidiano",
+      "¿Por dónde partimos?"
+    ],
+    [
+      "¿Cuál es la tontera más grande por la que nos hemos reído hasta que nos doliera la panza?",
+      "suave",
+      "humor",
+      "¿Nos acordamos de qué era?"
+    ],
+    [
+      "¿Cuál es el mejor piropo que me has dicho con total sinceridad?",
+      "suave",
+      "quimica",
+      "¿Me puse rojo/a?"
+    ],
+    [
+      "¿Qué cosa hacemos que a otras parejas les parecería ridícula o empalagosa?",
+      "suave",
+      "humor",
+      "¿Nos da lo mismo lo que piensen?"
+    ],
+    [
+      "¿Qué miedo tenías antes de empezar a salir conmigo que resultó ser una tontería?",
+      "medio",
+      "vulnerabilidad",
+      "¿Cuándo se te pasó?"
+    ],
+    [
+      "¿Cómo te gusta que te regaloneen cuando estás triste o enfermo/a?",
+      "medio",
+      "afecto",
+      "¿Comida rica, abrazos en silencio o espacio solo?"
+    ],
+    [
+      "¿Cuál es la conversación más profunda que hemos tenido hasta ahora y qué te dejó pensando?",
+      "medio",
+      "conexion",
+      "¿Sentiste que nos unió más?"
+    ],
+    [
+      "¿Qué es algo de tu rutina a lo que te ha costado adaptarte desde que estamos juntos?",
+      "medio",
+      "cotidiano",
+      "¿Cómo lo hemos ido negociando?"
+    ],
+    [
+      "¿Qué detalle sutil mío te hace sentir querido/a y seguro/a?",
+      "medio",
+      "afecto",
+      "¿Te das cuenta de cuándo lo hago a propósito?"
+    ],
+    [
+      "¿Qué es lo que más te emociona de pensar en nuestro próximo verano o vacaciones?",
+      "medio",
+      "futuro",
+      "¿Playa, bosque o ciudad?"
+    ],
+    [
+      "¿Cómo sientes que nos complementamos en los momentos de estrés?",
+      "medio",
+      "reflexion",
+      "¿Quién es el cable a tierra de quién?"
+    ],
+    [
+      "¿Cuál ha sido el regalo o detalle que más te ha conmovido hasta el momento?",
+      "medio",
+      "afecto",
+      "¿Por qué ese en particular?"
+    ],
+    [
+      "¿Qué fue lo que más te intimidó de conocer a mis amigos o familia?",
+      "medio",
+      "historias",
+      "¿Salió mejor de lo que pensabas?"
+    ],
+    [
+      "¿En qué momento sentiste que dejamos de ser 'dos personas saliendo' y pasamos a ser novios?",
+      "medio",
+      "quimica",
+      "¿Hubo una conversación formal o se dio solo?"
+    ],
+    [
+      "¿Qué valor o principio sientes que compartimos y que es la base de todo esto?",
+      "medio",
+      "valores",
+      "¿Lo tuviste claro desde el inicio?"
+    ],
+    [
+      "¿Cuál es el mejor abrazo que nos hemos dado y dónde fue?",
+      "medio",
+      "afecto",
+      "¿Qué sentías en ese momento?"
+    ],
+    [
+      "¿Cuál ha sido nuestro primer desacuerdo o roce y qué aprendimos de cómo discutimos?",
+      "medio",
+      "reflexion",
+      "¿Nos fuimos a dormir enojados o lo hablamos?"
+    ],
+    [
+      "¿Cómo le explicarías a un desconocido en 3 palabras cómo es estar conmigo?",
+      "medio",
+      "conexion",
+      "¿Por qué esas tres palabras?"
+    ],
+    [
+      "¿Cómo describirías la complicidad que tenemos en público cuando cruzamos miradas?",
+      "medio",
+      "quimica",
+      "¿Sabemos lo que el otro está pensando?"
+    ],
+    [
+      "¿Qué tan fácil es para ti pedirme perdón o decirme que algo te molestó?",
+      "medio",
+      "vulnerabilidad",
+      "¿Sientes que te escucho con empatía?"
+    ],
+    [
+      "¿Qué recuerdo tienes de nuestro primer beso: fue torpe, perfecto o inesperado?",
+      "medio",
+      "recuerdos",
+      "¿Quién dio la iniciativa real?"
+    ],
+    [
+      "¿Qué te hace sentir orgulloso/a de presentarme a gente importante en tu vida?",
+      "medio",
+      "conexion",
+      "¿Qué destacan de nosotros cuando nos ven?"
+    ],
+    [
+      "¿Qué es lo que más disfrutas de despertar juntos un fin de semana?",
+      "medio",
+      "afecto",
+      "¿El café en la cama o quedarse regaloneando horas?"
+    ],
+    [
+      "¿Qué es lo que más valoras del tiempo que pasamos sin hablar, solo estando en la misma pieza?",
+      "medio",
+      "conexion",
+      "¿Te da paz esa presencia?"
+    ],
+    [
+      "¿Cuál es tu forma favorita en que te digo 'te quiero'?",
+      "medio",
+      "afecto",
+      "¿Con palabras, con comida o con abrazos?"
+    ],
+    [
+      "¿Qué es lo primero que haces cuando te enteras de una buena noticia: me llamas a mí?",
+      "medio",
+      "conexion",
+      "¿Te emociona compartirlo de una?"
+    ],
+    [
+      "¿Qué es lo que más te tranquiliza de mí cuando estás teniendo un día horrible?",
+      "medio",
+      "emociones",
+      "¿Es mi voz o un abrazo fuerte?"
+    ],
+    [
+      "¿Qué pregunta te gustaría que te hiciera más seguido?",
+      "medio",
+      "conocerse",
+      "¿Y qué me responderías?"
+    ],
+    [
+      "¿Qué es lo más lindo que te ha pasado hoy y por qué?",
+      "medio",
+      "cotidiano",
+      "¿Tiene que ver con que estemos aquí?"
+    ],
+    [
+      "¿Qué gesto mío te derrite por completo sin importar el día que hayas tenido?",
+      "medio",
+      "afecto",
+      "¿Lo sabes usar a tu favor?"
+    ],
+    [
+      "¿Cómo manejamos los momentos en que uno de los dos necesita espacio a solas?",
+      "medio",
+      "reflexion",
+      "¿Lo comunicamos con calma?"
+    ],
+    [
+      "¿Qué es algo que pensabas que no te gustaba y que empezaste a disfrutar por mí?",
+      "medio",
+      "conocerse",
+      "¿Una comida, una serie, un lugar?"
+    ],
+    [
+      "¿Qué tan fácil se te hace ser 100% tú mismo/a cuando estamos juntos?",
+      "medio",
+      "vulnerabilidad",
+      "¿Sientes que no hay poses?"
+    ],
+    [
+      "¿Qué canción bailaríamos juntos en el living con la luz apagada?",
+      "medio",
+      "quimica",
+      "¿La ponemos ahora?"
+    ],
+    [
+      "¿Qué es algo que has aprendido de ti mismo/a gracias a esta relación?",
+      "profundo",
+      "reflexion",
+      "¿Te gusta esa versión tuya?"
+    ],
+    [
+      "¿Qué conversación difícil o incómoda sientes que aún no nos hemos animado a tener?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Crees que estamos listos?"
+    ],
+    [
+      "¿Qué significa para ti construir confianza a largo plazo?",
+      "profundo",
+      "valores",
+      "¿Cómo podemos cuidarla día a día?"
+    ],
+    [
+      "¿Qué herida de tu pasado sientes que esta relación te está ayudando a sanar?",
+      "profundo",
+      "emociones",
+      "¿Te da miedo mostrar esa vulnerabilidad?"
+    ],
+    [
+      "¿Cuál es tu mayor anhelo sobre cómo seremos de aquí a un año?",
+      "profundo",
+      "futuro",
+      "¿Qué aventuras habremos sumado?"
+    ],
+    [
+      "¿Qué parte de tu espacio personal o independencia es intocable para ti?",
+      "profundo",
+      "reflexion",
+      "¿Cómo puedo respetarla mejor?"
+    ],
+    [
+      "¿Cuándo fue la última vez que me miraste y pensaste 'qué suerte tengo'?",
+      "profundo",
+      "afecto",
+      "¿Qué estaba haciendo yo?"
+    ],
+    [
+      "¿Qué es lo que más te asusta de enamorarte profundamente?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Sientes que estás a salvo conmigo?"
+    ],
+    [
+      "Si pudieras pedir un deseo para nosotros dos hoy, ¿cuál sería?",
+      "profundo",
+      "futuro",
+      "¿Por qué ese deseo?"
+    ],
+    [
+      "¿Qué promesa silenciosa te hiciste a ti mismo/a cuando decidimos estar juntos?",
+      "profundo",
+      "valores",
+      "¿La has mantenido?"
+    ],
+    [
+      "¿Qué es algo que te gustaría que probáramos juntos en la intimidad?",
+      "profundo",
+      "quimica",
+      "¿Te da nervio proponérmelo?"
+    ],
+    [
+      "¿Qué inseguridad física o de carácter te daba miedo que descubriera de ti?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Cómo te sentiste cuando viste que me daba igual o me gustaba?"
+    ],
+    [
+      "¿Qué meta personal tuya quieres que sea tu mayor prioridad este año y cómo te apaño?",
+      "profundo",
+      "futuro",
+      "¿Sabes que creo en ti al 100%?"
+    ],
+    [
+      "Si nos viéramos en un espejo de hace un año, ¿te creerías dónde estamos parados hoy?",
+      "profundo",
+      "reflexion",
+      "¿Qué cambio tan lindo, verdad?"
+    ],
+    [
+      "¿Qué te gustaría que nunca jamás cambiara entre nosotros por más años que pasen?",
+      "profundo",
+      "valores",
+      "¿Hacemos un pacto ahora mismo?"
+    ],
+    [
+      "¿Qué te hace tener certeza de que elegirme cada día es una buena decisión?",
+      "profundo",
+      "afecto",
+      "¿Lo sientes en el pecho?"
+    ],
+    [
+      "¿Cómo te imaginas nuestro hogar si un día decidiéramos vivir juntos?",
+      "profundo",
+      "futuro",
+      "¿Qué no podría faltar en el living?"
+    ],
+    [
+      "¿Cuál fue el momento exacto en que supiste que ya no había vuelta atrás con nosotros?",
+      "profundo",
+      "recuerdos",
+      "¿Te asustó o te dio paz?"
+    ],
+    [
+      "¿Cómo describirías nuestra complicidad frente a los ojos del mundo?",
+      "profundo",
+      "conexion",
+      "¿Sentimos que somos un equipo invencible?"
+    ],
+    [
+      "¿Me das un abrazo apretado ahora mismo?",
+      "profundo",
+      "afecto",
+      "¿Se siente el calor?"
+    ]
+  ],
+  "pareja_estable": [
+    [
+      "Si volviéramos al día en que nos conocimos, ¿qué consejo nos darías para todo lo que venía?",
+      "suave",
+      "recuerdos",
+      "¿Cambiarías algo del camino?"
+    ],
+    [
+      "¿Cuál es la manía doméstica mía que ya asumiste que jamás va a cambiar en esta vida?",
+      "suave",
+      "humor",
+      "¿Cuál es la tuya que yo también tengo que aguantar?"
+    ],
+    [
+      "¿Qué recuerdo de nosotros dos de hace años te sigue haciendo reír a carcajadas?",
+      "suave",
+      "recuerdos",
+      "¿Quién la embarró más ese día?"
+    ],
+    [
+      "¿En qué momento de nuestra historia juntos nos hemos visto en nuestro estado más patético y amoroso?",
+      "suave",
+      "historias",
+      "¿Quién cuidó a quién?"
+    ],
+    [
+      "¿Cuál es el mejor viaje o vacación que hemos tenido y qué lo hizo insuperable?",
+      "suave",
+      "recuerdos",
+      "¿Podemos replicar esa energía pronto?"
+    ],
+    [
+      "¿Qué chiste interno nuestro ya nadie más en el planeta entendería jamás?",
+      "suave",
+      "humor",
+      "¿De qué año data?"
+    ],
+    [
+      "Si nuestra convivencia fuera un reality show, ¿cuál sería el título del capítulo de esta semana?",
+      "suave",
+      "humor",
+      "¿Quién sería el villano y quién la víctima?"
+    ],
+    [
+      "¿Cuál fue la peor compra para la casa que uno de los dos hizo y que todavía nos reprochamos?",
+      "suave",
+      "humor",
+      "¿Dónde está metido ese cacharro ahora?"
+    ],
+    [
+      "¿Cuál es la anécdota familiar o de amigos que siempre contamos a dúo interrumpiéndonos?",
+      "suave",
+      "historias",
+      "¿Quién cuenta la versión real?"
+    ],
+    [
+      "¿Qué plato que cocinamos juntos es el clásico indiscutible de nuestra casa?",
+      "suave",
+      "cotidiano",
+      "¿Quién es el chef y quién lava los platos?"
+    ],
+    [
+      "¿Qué costumbre ridícula tenemos que solo nosotros entendemos y que a otros les daría cringe?",
+      "suave",
+      "humor",
+      "¿Somos unos raros felices?"
+    ],
+    [
+      "¿Qué prenda mía que tiene más de 5 años te resistes a botar porque te recuerda a mí?",
+      "suave",
+      "humor",
+      "¿Esa polera rota de dormir?"
+    ],
+    [
+      "¿Qué tontera nos hace reír siempre en la cama antes de apagar la luz?",
+      "suave",
+      "humor",
+      "¿Ese ataque de risa tonto de medianoche?"
+    ],
+    [
+      "¿Cuál es la mejor tradición navideña, de año nuevo o de cumpleaños que hemos inventado?",
+      "suave",
+      "recuerdos",
+      "¿La vamos a defender para siempre?"
+    ],
+    [
+      "¿Cuál es la playlist o disco que ha musicalizado nuestras mejores etapas?",
+      "suave",
+      "cultura",
+      "¿La ponemos ahora para viajar en el tiempo?"
+    ],
+    [
+      "¿Cuál es tu momento favorito del día cuando estamos en casa?",
+      "suave",
+      "cotidiano",
+      "¿Ese silencio compartido antes de dormir?"
+    ],
+    [
+      "¿Cómo calificarías nuestra complicidad con la mirada en juntas aburridas?",
+      "suave",
+      "humor",
+      "¿Cuál es la señal secreta para decir 'vámonos ya'?"
+    ],
+    [
+      "¿Qué harías si mañana nos despertamos con un día completamente libre solo para nosotros dos?",
+      "suave",
+      "cotidiano",
+      "¿Cama todo el día o escapada improvisada?"
+    ],
+    [
+      "¿Qué apodo de cariño nos decimos que jamás admitiríamos frente a terceros?",
+      "suave",
+      "humor",
+      "¿De dónde nació esa ridiculez?"
+    ],
+    [
+      "¿Cómo describirías el olor de nuestra casa cuando volvemos de un viaje largo?",
+      "suave",
+      "afecto",
+      "¿Te hace suspirar y decir 'al fin'?"
+    ],
+    [
+      "¿Qué pelea del pasado hoy nos da pura risa y nos parece absurda?",
+      "suave",
+      "humor",
+      "¿Por qué nos enojamos tanto esa vez?"
+    ],
+    [
+      "¿Qué es lo primero que piensas cuando me ves llegar a casa al final de la jornada?",
+      "suave",
+      "afecto",
+      "¿Se siente el alivio de vernos?"
+    ],
+    [
+      "¿Cuál es el mejor elogio que me has hecho en todos estos años?",
+      "suave",
+      "afecto",
+      "¿Y el más gracioso?"
+    ],
+    [
+      "¿Quién de los dos es peor perdiendo las llaves o el teléfono en la casa?",
+      "suave",
+      "humor",
+      "¿Cuántas veces al día me pides que te llame?"
+    ],
+    [
+      "¿Cuál es el snack nocturno clandestino que asaltamos en el refrigerador?",
+      "suave",
+      "cotidiano",
+      "¿Lo compartimos o te lo comes solo?"
+    ],
+    [
+      "¿Qué es algo que hacíamos al principio de la relación que extrañas y deberíamos recuperar?",
+      "medio",
+      "quimica",
+      "¿Por qué dejamos de hacerlo?"
+    ],
+    [
+      "¿Qué aventura o locura nos falta vivir antes de hacernos viejitos?",
+      "medio",
+      "futuro",
+      "¿Nos atrevemos a planificarla este mes?"
+    ],
+    [
+      "¿Qué detalle sutil mío te recuerda todos los días por qué me elegiste?",
+      "medio",
+      "afecto",
+      "¿Te lo agradezco lo suficiente?"
+    ],
+    [
+      "¿Qué hemos aprendido sobre pedir perdón después de tantas peleas tontas?",
+      "medio",
+      "sabiduria",
+      "¿Quién suele ceder primero con un abrazo?"
+    ],
+    [
+      "Si pudieras congelar un año específico de nuestra historia para revivirlo, ¿cuál sería?",
+      "medio",
+      "recuerdos",
+      "¿Por qué esa época fue tan dorada?"
+    ],
+    [
+      "¿Qué sueño conjunto teníamos al principio que ya logramos cumplir?",
+      "medio",
+      "recuerdos",
+      "¿Nos felicitamos por eso?"
+    ],
+    [
+      "¿Qué gesto mío te hace sentir que, a pesar de los años y el cansancio, la chispa sigue viva?",
+      "medio",
+      "quimica",
+      "¿Te gusta cuando te sorprendo de la nada?"
+    ],
+    [
+      "¿Cómo ha evolucionado nuestra paciencia mutua a lo largo del tiempo?",
+      "medio",
+      "reflexion",
+      "¿En qué cosas ya ni vale la pena molestarse?"
+    ],
+    [
+      "¿Qué lugar de vacaciones tiene nuestro corazón y tenemos que volver antes de morir?",
+      "medio",
+      "recuerdos",
+      "¿Qué tarde en ese lugar fue mágica?"
+    ],
+    [
+      "¿Qué te gustaría que hiciéramos el próximo fin de semana para romper el piloto automático?",
+      "medio",
+      "cotidiano",
+      "¿Nos atrevemos a apagar las pantallas?"
+    ],
+    [
+      "Si escribiéramos un libro de nuestra historia, ¿cómo se llamaría el primer capítulo y el actual?",
+      "medio",
+      "recuerdos",
+      "¿Qué portada le pondríamos?"
+    ],
+    [
+      "¿Qué es algo que nunca te cansas de que te haga o te diga?",
+      "medio",
+      "afecto",
+      "¿Ese masaje en la cabeza o ese café de la mañana?"
+    ],
+    [
+      "¿Qué opinas de cómo hemos repartido las cargas de la vida diaria: nos sentimos en equilibrio?",
+      "medio",
+      "reflexion",
+      "¿Qué ajuste pequeño nos aliviaría la semana?"
+    ],
+    [
+      "¿Qué fue lo más lindo que te dije esta última semana que te abrigó el corazón?",
+      "medio",
+      "afecto",
+      "¿Te lo repito más seguido?"
+    ],
+    [
+      "¿Cómo manejamos los momentos en que la rutina nos absorbe por completo?",
+      "medio",
+      "reflexion",
+      "¿Cómo volvemos a mirarnos a los ojos?"
+    ],
+    [
+      "¿Qué costumbre nueva hemos incorporado este último año que nos hizo bien?",
+      "medio",
+      "cotidiano",
+      "¿Caminar juntos o cocinar los domingos?"
+    ],
+    [
+      "¿Cuál ha sido la decisión económica o de vida más acertada que tomamos en conjunto?",
+      "medio",
+      "reflexion",
+      "¿Dudamos mucho antes de dar el paso?"
+    ],
+    [
+      "¿Qué anécdota con nuestras familias demuestra que somos un frente unido?",
+      "medio",
+      "lealtad",
+      "¿Nos respaldamos siempre?"
+    ],
+    [
+      "¿Cómo describirías la evolución de nuestras charlas en la sobremesa?",
+      "medio",
+      "conexion",
+      "¿Seguimos arreglando el mundo juntos?"
+    ],
+    [
+      "¿Qué viaje corto de fin de semana nos debemos para reconectar a solas?",
+      "medio",
+      "futuro",
+      "¿Nos escapamos el próximo mes?"
+    ],
+    [
+      "¿Qué parte de tu personalidad floreció gracias a estar a mi lado?",
+      "medio",
+      "conocerse",
+      "¿Te sientes más libre o seguro/a?"
+    ],
+    [
+      "¿Qué hacemos cuando sentimos que el otro está teniendo una semana pésima?",
+      "medio",
+      "emociones",
+      "¿Cómo nos cuidamos las espaldas?"
+    ],
+    [
+      "¿Cuál es el mejor regalo que nos hemos hecho que no costó ni un peso?",
+      "medio",
+      "afecto",
+      "¿Ese día de campo o esa carta escrita a mano?"
+    ],
+    [
+      "¿Qué cambio físico o de edad en el otro te parece especialmente atractivo y tierno?",
+      "medio",
+      "quimica",
+      "¿Esas canas o esas líneas de expresión de tanto reír?"
+    ],
+    [
+      "¿Qué hacemos hoy que hace 5 años decíamos que jamás haríamos?",
+      "medio",
+      "humor",
+      "¿Dormir a las 10 PM un viernes?"
+    ],
+    [
+      "¿Cómo logramos mantener nuestros mundos propios sin descuidar el nuestro?",
+      "medio",
+      "reflexion",
+      "¿Respetamos los tiempos de amigos y proyectos?"
+    ],
+    [
+      "¿Qué película o canción nos define mejor como pareja madura?",
+      "medio",
+      "cultura",
+      "¿La volvemos a ver este fin de semana?"
+    ],
+    [
+      "¿Qué sorpresa reciente te conmovió de verdad?",
+      "medio",
+      "afecto",
+      "¿Lo esperabas o fue un golazo de media cancha?"
+    ],
+    [
+      "¿Qué es lo que más te agradezco en silencio todos los días?",
+      "medio",
+      "gratitud",
+      "¿Te lo digo en voz alta ahora?"
+    ],
+    [
+      "¿Cuál es el ritual de saludo o despedida que no puede faltar nunca al salir de casa?",
+      "medio",
+      "afecto",
+      "¿Ese beso antes de cerrar la puerta?"
+    ],
+    [
+      "¿Cuál ha sido la tormenta más difícil que hemos navegado juntos y cómo salimos parados?",
+      "profundo",
+      "reflexion",
+      "¿Sientes que nos hizo invencibles?"
+    ],
+    [
+      "¿Qué es lo que más admiras de la persona en la que me he convertido con los años?",
+      "profundo",
+      "admiracion",
+      "¿Te enorgullece estar a mi lado?"
+    ],
+    [
+      "¿Qué conversación sobre nuestro futuro estamos pateando por flojera o por rutina?",
+      "profundo",
+      "futuro",
+      "¿La abordamos con un café o vinito?"
+    ],
+    [
+      "¿Cómo ha cambiado nuestra forma de amarnos desde el primer año hasta hoy?",
+      "profundo",
+      "reflexion",
+      "¿Es más tranquilo, más sabio o más profundo?"
+    ],
+    [
+      "¿Qué cambio en ti atribuirías directamente a haber compartido la vida conmigo?",
+      "profundo",
+      "reflexion",
+      "¿Soy una buena influencia en tu vida?"
+    ],
+    [
+      "¿Qué es algo nuevo que te gustaría que descubriéramos o exploráramos juntos en la cama?",
+      "profundo",
+      "quimica",
+      "¿Cómo rompemos la inercia de la rutina?"
+    ],
+    [
+      "¿Qué aspecto de nuestra intimidad emocional valoras más que hace cinco años?",
+      "profundo",
+      "conexion",
+      "¿Sentimos que podemos decirnos todo sin juicio?"
+    ],
+    [
+      "¿Cómo nos cuidamos el uno al otro en los días en que el trabajo y la vida pesan el doble?",
+      "profundo",
+      "afecto",
+      "¿Sientes que somos un refugio?"
+    ],
+    [
+      "¿Qué es lo más valiente que me has visto hacer y que aumentó tu respeto por mí?",
+      "profundo",
+      "admiracion",
+      "¿Te inspiró a ti también?"
+    ],
+    [
+      "Si tuviéramos que renovar nuestros votos o pacto hoy, ¿qué frase pondrías sí o sí?",
+      "profundo",
+      "valores",
+      "¿La grabamos en un anillo o la escribimos en una carta?"
+    ],
+    [
+      "¿Cuál ha sido el momento en que más necesitaste mi abrazo y ahí estuve?",
+      "profundo",
+      "emociones",
+      "¿Qué sentiste en ese instante?"
+    ],
+    [
+      "¿Qué proyecto personal tuyo te da miedo empezar y cómo puedo ser tu mejor barra brava?",
+      "profundo",
+      "futuro",
+      "¿Sabes que creo en ti al 100%?"
+    ],
+    [
+      "¿Qué significa para ti 'envejecer juntos' cuando nos miras las primeras canas o arrugas?",
+      "profundo",
+      "reflexion",
+      "¿Te da paz esa imagen en el porche?"
+    ],
+    [
+      "¿Cuál es la lección más grande sobre el amor duradero que hemos descubierto por nuestra cuenta?",
+      "profundo",
+      "sabiduria",
+      "¿Es muy distinta a lo que dicen las películas?"
+    ],
+    [
+      "¿Qué sacrificio o renuncia que hiciste por nosotros dos aprecias más hoy?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Valió la pena el esfuerzo?"
+    ],
+    [
+      "¿Cómo mantenemos viva la curiosidad por el otro cuando sentimos que ya lo sabemos todo?",
+      "profundo",
+      "conexion",
+      "¿Todavía puedo sorprenderte?"
+    ],
+    [
+      "¿Cuál ha sido la mayor muestra de complicidad y lealtad que hemos tenido frente al mundo?",
+      "profundo",
+      "lealtad",
+      "¿Espalda con espalda contra viento y marea?"
+    ],
+    [
+      "¿Cómo nos imaginas en 20 años más sentados en una terraza mirando el atardecer?",
+      "profundo",
+      "futuro",
+      "¿Nos ves tomados de la mano riéndonos de la vida?"
+    ],
+    [
+      "¿Qué momento de dolor compartido nos enseñó a ser el soporte del otro?",
+      "profundo",
+      "emociones",
+      "¿Supimos acompañarnos sin juzgar?"
+    ],
+    [
+      "¿Qué te hace tener certeza de que elegirme cada día es una buena decisión?",
+      "profundo",
+      "afecto",
+      "¿Lo sientes en el pecho?"
+    ]
+  ],
+  "desconocidos_mesa": [
+    [
+      "¿Cuál es una opinión completamente inútil sobre la que discutirías apasionadamente durante horas?",
+      "suave",
+      "humor",
+      "¿Quién te enseñó esa postura?"
+    ],
+    [
+      "Si pudieras obligar a toda la humanidad a ver una película o documental, ¿cuál elegirías?",
+      "suave",
+      "cultura",
+      "¿Qué lección dejaría en el mundo?"
+    ],
+    [
+      "¿Qué sonido cotidiano te genera una satisfacción inexplicable (o una furia homicida)?",
+      "suave",
+      "cotidiano",
+      "¿El sonido del teclado o el que mastica con la boca abierta?"
+    ],
+    [
+      "¿Cuál ha sido la coincidencia más inverosímil o rara que te ha pasado en la vida?",
+      "suave",
+      "historias",
+      "¿Te encontraste a alguien en la otra punta del mundo?"
+    ],
+    [
+      "¿Qué compra de menos de 20 dólares te ha cambiado la vida de forma ridículamente positiva?",
+      "suave",
+      "cotidiano",
+      "¿Un soporte para el celu o una taza térmica?"
+    ],
+    [
+      "Si mañana pudieras hablar un idioma nuevo con fluidez absoluta instantáneamente, ¿cuál eliges?",
+      "suave",
+      "curiosidad",
+      "¿A dónde viajarías a probarlo primero?"
+    ],
+    [
+      "¿Qué programa de tele o serie mala es tu placer culpable que no puedes dejar de ver si pillas en zapping?",
+      "suave",
+      "cultura",
+      "¿El precio de la historia o Caso Cerrado?"
+    ],
+    [
+      "¿Cuál es tu teoría conspirativa favorita que sabes que es falsa pero te encanta escuchar?",
+      "suave",
+      "humor",
+      "¿La de los aliens en las pirámides o la tierra plana?"
+    ],
+    [
+      "Si tuvieras que vivir dentro de un videojuego o serie animada durante 1 mes, ¿en cuál caerías?",
+      "suave",
+      "curiosidad",
+      "¿Sobrevivirías los primeros 3 días?"
+    ],
+    [
+      "¿Qué comida típica de tu infancia no has vuelto a probar y te mueres de ganas?",
+      "suave",
+      "recuerdos",
+      "¿Quién la preparaba con receta secreta?"
+    ],
+    [
+      "¿Cuál es el mejor consejo para viajar que has aplicado en carne propia?",
+      "suave",
+      "viajes",
+      "¿Empacar ligero o llevar botiquín?"
+    ],
+    [
+      "¿Qué habilidad doméstica básica tardaste una cantidad vergonzosa de años en aprender?",
+      "suave",
+      "humor",
+      "¿Cocer un huevo o doblar una sábana con elástico?"
+    ],
+    [
+      "Si pudieras tener cualquier animal salvaje como mascota pacífica en tu living, ¿cuál tendrías?",
+      "suave",
+      "humor",
+      "¿Un carpincho o una nutria?"
+    ],
+    [
+      "¿Qué tendencia de moda actual no entiendes y esperas que muera pronto?",
+      "suave",
+      "debate",
+      "¿Los pantalones tiro bajo o las zapatillas gigantes?"
+    ],
+    [
+      "¿Cuál es el mejor concierto o show en vivo al que has asistido en tu vida?",
+      "suave",
+      "musica",
+      "¿Qué canción te puso la piel de gallina?"
+    ],
+    [
+      "¿Cuál ha sido el trabajo más raro o insólito que tuviste en tus años de estudiante?",
+      "suave",
+      "historias",
+      "¿Cuánto duraste antes de renunciar?"
+    ],
+    [
+      "¿Qué lugar de tu ciudad natal le recomendarías a un turista para conocer el alma real del barrio?",
+      "suave",
+      "lugares",
+      "¿Una picada de comida o un mirador escondido?"
+    ],
+    [
+      "¿Qué talento te gustaría tener: cantar increíble, dibujar con maestría o ser un crack cocinando?",
+      "suave",
+      "curiosidad",
+      "¿A quién le dedicarías tu talento?"
+    ],
+    [
+      "¿Qué es algo que todo el mundo parece saber hacer de forma intuitiva y a ti te cuesta un mundo?",
+      "suave",
+      "humor",
+      "¿Orientarte con el mapa o bailar?"
+    ],
+    [
+      "¿Cuál es la historia más graciosa que tienes con una mascota o animal callejero?",
+      "suave",
+      "historias",
+      "¿Qué destrozo causó?"
+    ],
+    [
+      "Si fueras el DJ de esta reunión y pudieras poner una sola canción ahora, ¿cuál pones?",
+      "suave",
+      "musica",
+      "¿Para prender el ambiente o para cantar a coro?"
+    ],
+    [
+      "¿Qué opinas del café: necesidad biológica matutina o ritual que disfrutas despacio?",
+      "suave",
+      "cotidiano",
+      "¿Cuántas tazas llevas hoy?"
+    ],
+    [
+      "¿Cuál es tu anécdota de aeropuerto o viaje en bus más surrealista?",
+      "suave",
+      "historias",
+      "¿Perdiste la maleta o el transporte?"
+    ],
+    [
+      "¿Qué sabor de helado define exactamente tu personalidad?",
+      "suave",
+      "humor",
+      "¿Clásico vainilla o maracuyá con albahaca?"
+    ],
+    [
+      "¿Cuál es tu postura ante las personas que aplauden cuando aterriza el avión?",
+      "suave",
+      "humor",
+      "¿Aplaudes con entusiasmo o te tapas la cara?"
+    ],
+    [
+      "¿Qué pequeña amabilidad de un completo desconocido nunca se te ha olvidado?",
+      "medio",
+      "historias",
+      "¿Le pudiste dar las gracias en el momento?"
+    ],
+    [
+      "¿Qué libro o autor te formó el pensamiento cuando eras más joven?",
+      "medio",
+      "cultura",
+      "¿Lo relees de vez en cuando?"
+    ],
+    [
+      "Si pudieras presenciar cualquier evento histórico del pasado como espectador invisible, ¿cuál elegirías?",
+      "medio",
+      "curiosidad",
+      "¿La llegada a la luna o el concierto de Queen en Wembley?"
+    ],
+    [
+      "¿Cuál ha sido el regalo más original y no material que te han hecho?",
+      "medio",
+      "historias",
+      "¿Una carta, un viaje sorpresa o una playlist?"
+    ],
+    [
+      "¿Qué costumbre cultural de otro país que conociste te pareció brillante y la adoptaste?",
+      "medio",
+      "cultura",
+      "¿Quitarse los zapatos al entrar a casa?"
+    ],
+    [
+      "¿Cuál es tu regla de oro para mantener la paz mental en el día a día?",
+      "medio",
+      "sabiduria",
+      "¿Silenciar grupos de WhatsApp?"
+    ],
+    [
+      "¿Qué personaje secundario de una película merecía tener su propio spin-off?",
+      "medio",
+      "cultura",
+      "¿Por qué se robaba todas las escenas?"
+    ],
+    [
+      "¿Qué cosa tecnológica te hace sentir que estamos viviendo en el futuro?",
+      "medio",
+      "curiosidad",
+      "¿O sientes que la tecnología nos arruinó la paciencia?"
+    ],
+    [
+      "¿Cuál es la mentira más tonta que creíste de niño porque tus papás o primos te la dijeron?",
+      "medio",
+      "humor",
+      "¿Que si te tragabas una semilla te crecía un árbol en la guata?"
+    ],
+    [
+      "Si pudieras resolver un gran misterio sin resolver de la historia, ¿cuál elegirías?",
+      "medio",
+      "curiosidad",
+      "¿Jack el destripador o el monstruo del lago Ness?"
+    ],
+    [
+      "¿Qué actividad o pasatiempo te desconecta tanto que se te olvida mirar el celular?",
+      "medio",
+      "conocerse",
+      "¿Cocinar, jardinear, armar puzzles?"
+    ],
+    [
+      "¿Cuál es la mejor picada o restaurante escondido que conoces y que guardas con recelo?",
+      "medio",
+      "lugares",
+      "¿Nos vas a revelar el secreto hoy?"
+    ],
+    [
+      "¿Qué es algo que antes te importaba muchísimo y hoy no te quita ni un segundo de sueño?",
+      "medio",
+      "reflexion",
+      "¿Qué tan liberador fue soltarlo?"
+    ],
+    [
+      "Si tuvieras que dar una charla TED de 10 minutos sin preparación alguna sobre cualquier tema absurdo, ¿cuál sería?",
+      "medio",
+      "humor",
+      "¿Cómo convencerías a la audiencia?"
+    ],
+    [
+      "¿Qué olor te transporta en un milisegundo a las vacaciones de verano de tu infancia?",
+      "medio",
+      "recuerdos",
+      "¿Bloqueador solar, tierra mojada o asado?"
+    ],
+    [
+      "¿Cuál es tu relación con la cocina: creador de platos gourmet o especialista en microondas?",
+      "medio",
+      "cotidiano",
+      "¿Cuál es tu plato estrella?"
+    ],
+    [
+      "¿Qué app de tu celular es la más rara pero que no puedes borrar porque te es vital?",
+      "medio",
+      "curiosidad",
+      "¿Para qué rayos sirve?"
+    ],
+    [
+      "Si te dieran la oportunidad de viajar al espacio por una semana, ¿irías o te da pánico?",
+      "medio",
+      "curiosidad",
+      "¿Qué sería lo primero que mirarías?"
+    ],
+    [
+      "¿Qué costumbre de tu familia pensabas que era universal hasta que fuiste a la casa de otra persona?",
+      "medio",
+      "historias",
+      "¿Cómo te diste cuenta del choque cultural?"
+    ],
+    [
+      "¿Cuál es la palabra en español más bonita o con más onda según tu gusto?",
+      "medio",
+      "cultura",
+      "¿Qué significa para ti?"
+    ],
+    [
+      "¿Qué es lo mejor que te ha pasado en lo que va de esta semana?",
+      "medio",
+      "cotidiano",
+      "¿Una pequeña victoria cotidiana?"
+    ],
+    [
+      "Si tuvieras un superpoder ridículo que no salva al mundo pero te facilita la vida, ¿cuál sería?",
+      "medio",
+      "humor",
+      "¿Encontrar siempre estacionamiento o que la palta nunca esté negra?"
+    ],
+    [
+      "¿Qué museo o parque del mundo te dejó con la boca abierta?",
+      "medio",
+      "lugares",
+      "¿Por qué te impactó tanto?"
+    ],
+    [
+      "¿Cuál es la canción que te sabes de memoria de principio a fin sin fallar una letra?",
+      "medio",
+      "musica",
+      "¿De qué época es?"
+    ],
+    [
+      "Si pudieras reinventar una regla social o de etiqueta para eliminarla para siempre, ¿cuál borrarías?",
+      "medio",
+      "debate",
+      "¿Tener que saludar con beso a 20 personas en una fiesta?"
+    ],
+    [
+      "¿Qué te inspira de la gente que se atreve a emprender o cambiar de rumbo tarde en la vida?",
+      "medio",
+      "valores",
+      "¿Te gustaría dar un salto así?"
+    ],
+    [
+      "¿Cuál es el mejor consejo financiero simple que te han dado?",
+      "medio",
+      "sabiduria",
+      "¿Gastar menos de lo que ganas o invertir temprano?"
+    ],
+    [
+      "¿Qué juego de mesa clásico siempre termina en peleas épicas en tu círculo?",
+      "medio",
+      "humor",
+      "¿Monopoly, Catan o Carioca?"
+    ],
+    [
+      "¿Qué estación del año saca tu mejor versión y por qué?",
+      "medio",
+      "cotidiano",
+      "¿Otoño templado, invierno abrigado o verano soleado?"
+    ],
+    [
+      "¿Qué gesto de amabilidad gratuita puedes hacer hoy por alguien en esta mesa?",
+      "medio",
+      "conexion",
+      "¿Un cumplido genuino o servirle un vaso de agua?"
+    ],
+    [
+      "Si pudieras tener la respuesta exacta a una sola pregunta del universo, ¿qué preguntarías?",
+      "profundo",
+      "curiosidad",
+      "¿Hay vida inteligente afuera o qué hay después de la muerte?"
+    ],
+    [
+      "¿Qué significa para ti tener una vida con propósito hoy en día?",
+      "profundo",
+      "reflexion",
+      "¿Ha cambiado con los años?"
+    ],
+    [
+      "¿Cuál es el valor humano que más escasea en la sociedad actual?",
+      "profundo",
+      "valores",
+      "¿La empatía, la paciencia o la honestidad?"
+    ],
+    [
+      "¿Qué momento de tu vida te obligó a madurar de golpe?",
+      "profundo",
+      "historias",
+      "¿Quién te sostuvo en ese trance?"
+    ],
+    [
+      "¿Qué es algo que la mayoría de la gente persigue y tú crees que es una trampa?",
+      "profundo",
+      "reflexion",
+      "¿El estatus, las apariencias o la aprobación?"
+    ],
+    [
+      "¿Cómo te gustaría ser recordado por las personas que compartieron un momento contigo?",
+      "profundo",
+      "valores",
+      "¿Como alguien cálido, inspirador o generoso?"
+    ],
+    [
+      "¿Qué lección importante te enseñó un error que al principio te dio mucha vergüenza?",
+      "profundo",
+      "sabiduria",
+      "¿Hoy te ríes de eso?"
+    ],
+    [
+      "¿Qué es lo más difícil de ser fiel a uno mismo en un mundo de tantas opiniones?",
+      "profundo",
+      "reflexion",
+      "¿Te ha tocado remar contra la corriente?"
+    ],
+    [
+      "¿Qué acto de generosidad que presenciaste te devolvió la fe en la humanidad?",
+      "profundo",
+      "emociones",
+      "¿Dónde fue y qué pasó?"
+    ],
+    [
+      "¿Qué sueño postergaste por miedo al qué dirán y todavía tienes tiempo de cumplir?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Qué falta para dar el paso?"
+    ],
+    [
+      "¿Cuál es tu mayor fuente de paz cuando el mundo exterior está caótico?",
+      "profundo",
+      "emociones",
+      "¿La naturaleza, la música o el silencio?"
+    ],
+    [
+      "¿Qué es algo que aprendiste a perdonar con el tiempo porque entendiste el contexto?",
+      "profundo",
+      "sabiduria",
+      "¿Te quitó una mochila pesada de encima?"
+    ],
+    [
+      "¿Qué tipo de conversaciones te hacen sentir verdaderamente vivo/a?",
+      "profundo",
+      "conexion",
+      "¿Las de anécdotas o las de reflexiones profundas?"
+    ],
+    [
+      "¿Qué libro o idea filosófica cambió la forma en que ves a las personas?",
+      "profundo",
+      "cultura",
+      "¿Te volvió más comprensivo/a?"
+    ],
+    [
+      "¿Qué te hace sentir que una persona desconocida tiene 'buena madera' a los 5 minutos?",
+      "profundo",
+      "conexion",
+      "¿Cómo trata al mesero o cómo mira a los ojos?"
+    ],
+    [
+      "¿Qué es algo de tu crianza que hoy agradeces profundamente a quienes te cuidaron?",
+      "profundo",
+      "gratitud",
+      "¿Lo reconociste tarde?"
+    ],
+    [
+      "¿Qué herencia intangible (no plata ni cosas) te gustaría dejarle al mundo?",
+      "profundo",
+      "valores",
+      "¿Una forma de amar o de crear?"
+    ],
+    [
+      "¿Cuál ha sido la decisión más valiente que has tomado en tu vida sin que nadie te aplaudiera?",
+      "profundo",
+      "conocerse",
+      "¿Fue dolorosa?"
+    ],
+    [
+      "¿Qué pregunta sobre el sentido de la vida todavía no logras responderte?",
+      "profundo",
+      "reflexion",
+      "¿Te angustia o disfrutas el misterio?"
+    ],
+    [
+      "¿Qué te ha parecido la energía de este grupo hoy al romper el hielo?",
+      "profundo",
+      "conexion",
+      "¿Sentiste que nos conectamos de verdad?"
+    ]
+  ],
+  "amigos_antiguos": [
+    [
+      "¿Quién de nosotros sobreviviría menos tiempo en un apocalipsis zombi y por qué?",
+      "suave",
+      "humor",
+      "¿Quién sería el primero en sacrificarse por comida?"
+    ],
+    [
+      "¿Cuál ha sido el peor 'cagazo' colectivo que nos mandamos de jóvenes que hoy recordamos con lágrimas de risa?",
+      "suave",
+      "historias",
+      "¿Cómo no terminamos presos o castigados?"
+    ],
+    [
+      "Si tuviéramos que elegir a uno de la mesa para que nos defienda en un juicio, ¿a quién elegimos?",
+      "suave",
+      "humor",
+      "¿Nos condena o nos salva la labia?"
+    ],
+    [
+      "¿Qué versión mía del pasado te daba más vergüenza ajena ver: la época emo, deportista o intelectual?",
+      "suave",
+      "humor",
+      "¿Hay fotos que prueben ese desastre?"
+    ],
+    [
+      "¿Cuál ha sido nuestra peor borrachera o carrete épico juntos que pasó a la historia?",
+      "suave",
+      "historias",
+      "¿Quién tuvo que sostenerle el pelo o pedir el taxi a quién?"
+    ],
+    [
+      "¿Quién de este grupo cree que tiene el gusto musical más refinado y quién sabe que tiene el más flaite?",
+      "suave",
+      "humor",
+      "¿Ponemos una playlist para someterlo a votación?"
+    ],
+    [
+      "¿Qué anécdota nuestra no podemos contar jamás delante de nuestras familias?",
+      "suave",
+      "historias",
+      "¿Queda bajo juramento en esta mesa?"
+    ],
+    [
+      "Si fuéramos una banda de rock de los 80, ¿quién sería el vocalista divo, el guitarrista y el manager que nos estafa?",
+      "suave",
+      "humor",
+      "¿Cuál sería nuestro único hit?"
+    ],
+    [
+      "¿Qué debate ridículo hemos tenido que casi rompe la amistad de tanto gritar?",
+      "suave",
+      "humor",
+      "¿Un gol mal cobrado o si el cereal va antes de la leche?"
+    ],
+    [
+      "¿Cuál es la frase típica que dice alguno de nosotros que ya es meme oficial del grupo?",
+      "suave",
+      "humor",
+      "¿Quién la imita mejor?"
+    ],
+    [
+      "Si mañana uno de nosotros se hiciera millonario, ¿qué es lo primero que le exigiríamos que nos compre?",
+      "suave",
+      "humor",
+      "¿La casa de veraneo para el grupo?"
+    ],
+    [
+      "¿Quién de este grupo se casaría primero en Las Vegas vestido de Elvis en un arrebato?",
+      "suave",
+      "humor",
+      "¿Quién sería el padrino cómplice?"
+    ],
+    [
+      "¿Quién de nosotros es el peor guardando secretos y no se le puede contar nada antes de tiempo?",
+      "suave",
+      "humor",
+      "¿Cuánto dura antes de soltar la lengua?"
+    ],
+    [
+      "¿Cuál es la mentira colectiva que le inventamos a los papás de alguno para salvarlo de un castigo bíblico?",
+      "suave",
+      "historias",
+      "¿Nos creyeron o se hicieron los tontos?"
+    ],
+    [
+      "¿Quién de nosotros se convertirá en el viejo/a más mañoso y quejón del asilo?",
+      "suave",
+      "humor",
+      "¿Quién lo va a mandar a callar?"
+    ],
+    [
+      "¿Cuál fue la noche en que peor la pasamos por culpa de una mala decisión y que hoy es leyenda?",
+      "suave",
+      "historias",
+      "¿Quién tuvo la brillante idea?"
+    ],
+    [
+      "¿Quién es el que siempre organiza todo y qué pasaría con este grupo si esa persona desaparece un año?",
+      "suave",
+      "humor",
+      "¿No nos juntaríamos nunca más?"
+    ],
+    [
+      "¿Cuál de nosotros tiene la historia de amor más caótica que parece telenovela?",
+      "suave",
+      "humor",
+      "¿Cuántas temporadas van ya?"
+    ],
+    [
+      "¿Cuál es el mejor apodo que le hemos puesto a un personaje externo o ex de alguno?",
+      "suave",
+      "humor",
+      "¿Todavía le decimos así?"
+    ],
+    [
+      "¿Quién de nosotros baila peor pero sale con más personalidad a la pista de baile?",
+      "suave",
+      "humor",
+      "¿Cuál es su paso prohibido?"
+    ],
+    [
+      "¿Cuál ha sido el asado o comida donde la comida quedó incomible pero la pasamos increíble?",
+      "suave",
+      "historias",
+      "¿Se quemó la carne o faltó sal?"
+    ],
+    [
+      "Si hiciéramos una película sobre nuestras vidas, ¿qué actor famoso interpretaría a cada uno?",
+      "suave",
+      "humor",
+      "¿Quién se queda con el galán y quién con el cómico?"
+    ],
+    [
+      "¿Quién es el más hipocondríaco de la mesa que busca síntomas en Google y ya tiene 3 días de vida?",
+      "suave",
+      "humor",
+      "¿Qué enfermedad ficticia se diagnosticó esta semana?"
+    ],
+    [
+      "¿Quién es el más sentimental que llora después de dos copas de vino?",
+      "suave",
+      "humor",
+      "¿Quién lo abraza primero?"
+    ],
+    [
+      "¿Hacemos un brindis ahora mismo por nosotros y por todos los años que vienen?",
+      "suave",
+      "brindis",
+      "¿Salud por los cabros!"
+    ],
+    [
+      "¿Qué cosa que hacíamos religiosamente hace 5 o 10 años dejamos de hacer y deberíamos revivir ya?",
+      "medio",
+      "recuerdos",
+      "¿Por qué nos pusimos tan viejos y aburridos?"
+    ],
+    [
+      "¿Quién de nosotros ha cambiado más desde el colegio o la universidad hasta hoy?",
+      "medio",
+      "reflexion",
+      "¿Fue un cambio para mejor o maduró a la fuerza?"
+    ],
+    [
+      "¿Cuál es la peor decisión de pareja que viste tomar a alguien de esta mesa y no pudiste frenar?",
+      "medio",
+      "historias",
+      "¿Te guardaste el 'te lo dije'?"
+    ],
+    [
+      "¿Qué viaje juntos fue una odisea de desastres de principio a fin pero el mejor recuerdo de nuestras vidas?",
+      "medio",
+      "historias",
+      "¿Se pinchó la rueda o llovió dentro de la carpa?"
+    ],
+    [
+      "¿Cuál es el defecto de cada uno que todos en esta mesa amamos y aceptamos con ternura?",
+      "medio",
+      "afecto",
+      "¿El que siempre llega 1 hora tarde o el que se pone mañoso con hambre?"
+    ],
+    [
+      "¿Qué promesa de jóvenes todavía tenemos pendiente cumplir como grupo?",
+      "medio",
+      "futuro",
+      "¿Ese viaje a Europa o mochilear al sur?"
+    ],
+    [
+      "¿Quién de este grupo es el más generoso y siempre pone la casa o saca la billetera sin dudar?",
+      "medio",
+      "reconocimiento",
+      "¿Le agradecemos lo suficiente?"
+    ],
+    [
+      "Si tuvieras que confiarle la tenencia de tu perro o la custodia de tus hijos a uno de nosotros, ¿a quién eliges?",
+      "medio",
+      "confianza",
+      "¿Quién queda vetado inmediatamente?"
+    ],
+    [
+      "¿Qué es algo que sabes que solo los de esta mesa van a entender porque vivieron la época de oro contigo?",
+      "medio",
+      "recuerdos",
+      "¿Esos veranos enteros en la plaza o en la playa?"
+    ],
+    [
+      "¿Qué costumbre de nuestras juntas no puede morir jamás aunque tengamos 70 años?",
+      "medio",
+      "valores",
+      "¿El asado sagrado o jugar a las cartas?"
+    ],
+    [
+      "Si tuviéramos que describir a este grupo en una sola palabra o apodo, ¿cuál sería?",
+      "medio",
+      "afecto",
+      "¿Quién fundó el grupo originalmente?"
+    ],
+    [
+      "¿Qué harías si uno de nosotros te llama a las 4 AM diciendo que está varado en la carretera?",
+      "medio",
+      "lealtad",
+      "¿Te vistes y sales sin preguntar o esperas que amanezca?"
+    ],
+    [
+      "¿Qué recuerdo de colegio o juventud te da tanta nostalgia que te dan ganas de volver un día entero?",
+      "medio",
+      "recuerdos",
+      "¿Ese recreo largo o esa tarde sin celular?"
+    ],
+    [
+      "¿Cuál es el pacto sagrado que hicimos hace años y que sigue vigente entre nosotros?",
+      "medio",
+      "valores",
+      "¿Lealtad absoluta frente a terceros?"
+    ],
+    [
+      "Si tuviéramos que armar un podcast de sobremesa hablando de tonteras, ¿la gente nos escucharía o nos cancelarían?",
+      "medio",
+      "humor",
+      "¿Cuál sería el tema del primer episodio?"
+    ],
+    [
+      "¿Cuál ha sido la mejor sorpresa de cumpleaños que le hemos organizado a alguien del grupo?",
+      "medio",
+      "recuerdos",
+      "¿Lloró de la emoción?"
+    ],
+    [
+      "¿Qué apodo de la infancia ya casi nadie usa pero te da risa cada vez que sale?",
+      "medio",
+      "recuerdos",
+      "¿Quién se acuerda del origen?"
+    ],
+    [
+      "¿Cómo manejamos cuando alguno del grupo pasa por una racha económica o anímica difícil?",
+      "medio",
+      "solidaridad",
+      "¿Hacemos vaca entre todos discretamente?"
+    ],
+    [
+      "¿Cuál ha sido la tradición de fin de año más sagrada que hemos tenido?",
+      "medio",
+      "recuerdos",
+      "¿Ese abrazo a las 12 antes de salir a carretear?"
+    ],
+    [
+      "¿Quién de este grupo tiene el radar más infalible para detectar gente chanta?",
+      "medio",
+      "sabiduria",
+      "¿Le hemos hecho caso a tiempo?"
+    ],
+    [
+      "¿Qué rival o enemigo común tuvimos de chicos que hoy nos parece un chiste?",
+      "medio",
+      "historias",
+      "¿El inspector del colegio o los del otro curso?"
+    ],
+    [
+      "¿Qué canción de nuestra adolescencia nos hace cantar a grito pelado abrazados como si tuviéramos 16?",
+      "medio",
+      "musica",
+      "¿La ponemos a todo volumen ahora?"
+    ],
+    [
+      "¿Cuál de nosotros tiene la risa más escandalosa que delata dónde estamos?",
+      "medio",
+      "humor",
+      "¿Nos han echado de algún lugar por culpa de las risas?"
+    ],
+    [
+      "¿Cómo ha cambiado nuestra forma de juntarnos ahora que hay pegas, parejas o hijos?",
+      "medio",
+      "reflexion",
+      "¿Agradecemos el doble estos ratos?"
+    ],
+    [
+      "¿Qué es lo primero que harías si te ganas el Loto: nos juntas a todos en una isla privada?",
+      "medio",
+      "futuro",
+      "¿Qué isla alquilamos?"
+    ],
+    [
+      "¿Quién del grupo es el más sabio para pedirle consejo cuando la vida se pone cuesta arriba?",
+      "medio",
+      "sabiduria",
+      "¿Te ha salvado las papas alguna vez?"
+    ],
+    [
+      "¿Qué anécdota de vacaciones de verano resume el alma libre que teníamos?",
+      "medio",
+      "recuerdos",
+      "¿Vivir con 5 lucas para toda la semana?"
+    ],
+    [
+      "¿Quién de nosotros es el que peor maneja en carretera y nadie quiere ir en su auto?",
+      "medio",
+      "humor",
+      "¿Pone música a todo chancho y no frena en los baches?"
+    ],
+    [
+      "¿Qué es algo que admiramos de cada uno de los que estamos hoy aquí?",
+      "medio",
+      "admiracion",
+      "¿Hacemos una ronda rápida diciendo una cosa bacán de cada uno?"
+    ],
+    [
+      "¿Qué nos falta por hacer juntos antes de que termine este año?",
+      "medio",
+      "futuro",
+      "¿Ponemos fecha ya en el calendario?"
+    ],
+    [
+      "¿Qué momento difícil de tu vida sentiste que pasaste gracias a que este grupo estuvo al pie del cañón?",
+      "profundo",
+      "gratitud",
+      "¿Te acuerdas de ese abrazo o esa llamada a las 3 AM?"
+    ],
+    [
+      "¿Qué es lo que más valoras de que sigamos sentados en la misma mesa después de tantos años?",
+      "profundo",
+      "amistad",
+      "¿A pesar de los cambios de vida y las responsabilidades?"
+    ],
+    [
+      "¿Cuál fue la pelea más fuerte que tuvimos entre nosotros y cómo logramos hacer las paces?",
+      "profundo",
+      "reflexion",
+      "¿Nos abrazamos con lágrimas o con una cerveza?"
+    ],
+    [
+      "¿Qué amigo que se alejó del grupo con los años extrañas y te gustaría llamar hoy?",
+      "profundo",
+      "nostalgia",
+      "¿Por qué dejamos que la vida nos distancie?"
+    ],
+    [
+      "¿Qué es algo que aprendiste de la vida gracias a ver tropezar y levantarse a los que están sentados acá?",
+      "profundo",
+      "sabiduria",
+      "¿Sientes que crecimos juntos?"
+    ],
+    [
+      "¿Qué es algo que nunca le he dicho a este grupo pero que siempre he sentido en el pecho?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Nos ponemos sentimentales un ratito?"
+    ],
+    [
+      "¿Qué es lo más noble y desinteresado que un amigo de esta mesa ha hecho por ti?",
+      "profundo",
+      "gratitud",
+      "¿Se lo reconociste en su momento?"
+    ],
+    [
+      "¿Qué es lo que más te tranquiliza de saber que este grupo siempre va a estar ahí?",
+      "profundo",
+      "afecto",
+      "¿Es el mejor tesoro que tenemos?"
+    ],
+    [
+      "¿Cómo ha madurado nuestra amistad desde la complicidad de niños hasta el soporte de adultos?",
+      "profundo",
+      "reflexion",
+      "¿Sentimos que el lazo es inquebrantable?"
+    ],
+    [
+      "¿Qué dolor o pérdida hemos compartido como grupo que nos marcó para siempre?",
+      "profundo",
+      "emociones",
+      "¿Supimos estar ahí en silencio?"
+    ],
+    [
+      "¿Qué promesa de lealtad sientes que tenemos sin haber firmado ningún papel?",
+      "profundo",
+      "lealtad",
+      "¿La defenderías con la vida?"
+    ],
+    [
+      "¿Qué parte de tu verdadera identidad solo sale a la luz cuando estás con nosotros?",
+      "profundo",
+      "conocerse",
+      "¿Aquí no necesitas caretas?"
+    ],
+    [
+      "Si alguno de nosotros desapareciera mañana, ¿qué te dolería no haberle dicho a tiempo?",
+      "profundo",
+      "emociones",
+      "¿Por qué esperar a que sea tarde?"
+    ],
+    [
+      "¿Qué significa para ti que tus amigos de la infancia sigan siendo tus mejores amigos hoy?",
+      "profundo",
+      "gratitud",
+      "¿Es un privilegio enorme?"
+    ],
+    [
+      "¿En qué momento sentiste que este grupo era una segunda familia?",
+      "profundo",
+      "conexion",
+      "¿Ese fin de semana que te acogieron en su casa?"
+    ],
+    [
+      "¿Qué le dirías al 'yo' de cada uno de nosotros de hace 15 años si lo vieras hoy?",
+      "profundo",
+      "nostalgia",
+      "¿'Aguanta, que todo se va a poner increíble'?"
+    ],
+    [
+      "¿Qué miedo sobre el paso del tiempo y nuestra amistad tienes a veces?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Miedo a no tener tiempo de vernos?"
+    ],
+    [
+      "¿Qué gesto de perdón sincero hemos tenido entre nosotros que salvó esta amistad?",
+      "profundo",
+      "sabiduria",
+      "¿Valió más el amor que el orgullo?"
+    ],
+    [
+      "¿Cómo nos ves a todos en 30 años más: con bastones y la misma demencia en el mismo bar?",
+      "profundo",
+      "futuro",
+      "¿Vamos a seguir siendo los mismos payasos?"
+    ],
+    [
+      "¿Hacemos una promesa de mirarnos a los ojos y decirnos gracias por estar vivos juntos?",
+      "profundo",
+      "gratitud",
+      "¿Un abrazo de gol para todos!"
+    ]
+  ],
+  "amigos_recientes": [
+    [
+      "¿Qué fue lo primero que pensaste de mí cuando nos conocimos versus lo que piensas ahora?",
+      "suave",
+      "conocerse",
+      "¿Te caí bien de entrada o parecía agrandado?"
+    ],
+    [
+      "¿Qué gusto culposo compartimos que casi nadie más de nuestro entorno entiende?",
+      "suave",
+      "quimica",
+      "¿Esa banda vieja o esa comida chatarra?"
+    ],
+    [
+      "¿Cuál es tu tipo de panorama favorito cuando quieres salir a despejarte un viernes?",
+      "suave",
+      "cotidiano",
+      "¿Bar tranquilo, fiesta a morir o junta en casa con picoteo?"
+    ],
+    [
+      "¿Qué serie te viste en maratón en un solo fin de semana sin tocar el pasto?",
+      "suave",
+      "cultura",
+      "¿Cuántos cafés te tomó?"
+    ],
+    [
+      "¿Cuál es tu meme favorito del momento que siempre mandas para romper el hielo en WhatsApp?",
+      "suave",
+      "humor",
+      "¿Tienes el sticker a mano?"
+    ],
+    [
+      "¿Cuál ha sido la fiesta o evento más divertido en el que has estado en el último año?",
+      "suave",
+      "historias",
+      "¿Qué pasó esa noche que valió la pena?"
+    ],
+    [
+      "Si tuviéramos que armar un viaje juntos pronto, ¿a qué destino te gustaría que fuéramos?",
+      "suave",
+      "viajes",
+      "¿Mochileo rústico o hotel con desayuno buffet?"
+    ],
+    [
+      "¿Qué deporte o actividad siempre has querido aprender pero te ha dado flojera empezar?",
+      "suave",
+      "curiosidad",
+      "¿Nos inscribimos juntos para obligarnos?"
+    ],
+    [
+      "¿Cuál es tu historia más ridícula con una compra impulsiva por internet?",
+      "suave",
+      "humor",
+      "¿Te llegó un producto que no se parecía en nada a la foto?"
+    ],
+    [
+      "¿Cuál es tu trago o bebestible de cabecera cuando sales a celebrar algo grande?",
+      "suave",
+      "cotidiano",
+      "¿Y cuál es el que no tomas ni por apuesta?"
+    ],
+    [
+      "¿Qué comida típica no te gusta para nada y te tachan de traidor a la patria por no comerla?",
+      "suave",
+      "humor",
+      "¿El pastel de choclo, las empanadas con pasas o el cilantro?"
+    ],
+    [
+      "¿Cómo te gusta celebrar tu cumpleaños: fiesta masiva o reunión íntima con los precisos?",
+      "suave",
+      "cotidiano",
+      "¿Te gusta ser el centro de atención o te da pudor?"
+    ],
+    [
+      "¿Cuál es tu banda sonora para cuando necesitas subir el ánimo en un día bajoneado?",
+      "suave",
+      "musica",
+      "¿Qué tema te hace bailar solo?"
+    ],
+    [
+      "¿Cuál ha sido tu peor chascarro en público donde tragaste tierra de la vergüenza?",
+      "suave",
+      "historias",
+      "¿Alguien te estaba grabando?"
+    ],
+    [
+      "¿Qué talento absurdo o habilidad oculta tienes que no sirve para nada útil?",
+      "suave",
+      "humor",
+      "¿Puedes mover las orejas o hacer voces?"
+    ],
+    [
+      "Si pudieras ir a cenar con cualquier persona famosa viva hoy, ¿a quién invitarías?",
+      "suave",
+      "curiosidad",
+      "¿De qué hablarían?"
+    ],
+    [
+      "¿Cuál es tu rutina sagrada de domingo por la tarde para prepararte para la semana?",
+      "suave",
+      "cotidiano",
+      "¿Cocinar para la semana o ver películas tapado?"
+    ],
+    [
+      "¿Qué película de culto o clásica te da vergüenza admitir que nunca has visto?",
+      "suave",
+      "cultura",
+      "¿El Padrino, Star Wars o El Señor de los Anillos?"
+    ],
+    [
+      "¿Cuál es la anécdota más bizarra que te ha pasado en el transporte público o un Uber?",
+      "suave",
+      "historias",
+      "¿Qué conversación incómoda te tocó escuchar?"
+    ],
+    [
+      "¿Qué juego o deporte te vuelve absurdamente competitivo y mal perdedor?",
+      "suave",
+      "humor",
+      "¿Has tirado las cartas o el control de la consola?"
+    ],
+    [
+      "¿Qué opinas de la gente que tarda 3 días en responder un WhatsApp: colapsados o desinteresados?",
+      "suave",
+      "debate",
+      "¿Tú eres rápido o te cuelgas?"
+    ],
+    [
+      "¿Cuál es el mejor recital o festival de música al que has ido en tu vida?",
+      "suave",
+      "musica",
+      "¿Con quién fuiste esa vez?"
+    ],
+    [
+      "¿Cuál ha sido la peor comida que has probado en tu vida por dártelas de exótico?",
+      "suave",
+      "humor",
+      "¿Qué bicho o condimento era?"
+    ],
+    [
+      "¿Qué serie de comedia te sabes de memoria y usas sus diálogos en la vida real?",
+      "suave",
+      "cultura",
+      "¿Friends, The Office, Los Simpson?"
+    ],
+    [
+      "¿Qué costumbre rara tienes que haces solo cuando estás completamente solo en casa?",
+      "suave",
+      "humor",
+      "¿Hablar en voz alta con tus mascotas?"
+    ],
+    [
+      "¿Qué es algo que la gente siempre asume de ti y que nada que ver con la realidad?",
+      "medio",
+      "conocerse",
+      "¿Te da risa o te da rabia?"
+    ],
+    [
+      "¿Qué valor consideras indispensable para que alguien sea un verdadero amigo tuyo?",
+      "medio",
+      "valores",
+      "¿La lealtad, el humor o que no juzgue?"
+    ],
+    [
+      "¿Qué es algo en lo que sientes que conectamos muy rápido desde el principio?",
+      "medio",
+      "conexion",
+      "¿El mismo sentido del humor o la misma forma de ver la vida?"
+    ],
+    [
+      "¿Qué es lo que más te saca de quicio cuando estás conociendo a alguien nuevo?",
+      "medio",
+      "debate",
+      "¿La gente que solo habla de sí misma o los que miran el celular?"
+    ],
+    [
+      "¿Cómo reaccionas cuando te enojas: explotas al tiro como volcán o te quedas callado con ley del hielo?",
+      "medio",
+      "conocerse",
+      "¿Se te pasa rápido?"
+    ],
+    [
+      "¿Qué lugar de la ciudad sientes que es tu refugio cuando quieres pensar solo?",
+      "medio",
+      "lugares",
+      "¿Por qué te da tanta calma?"
+    ],
+    [
+      "¿Qué cualidad admiras en mí que te gustaría tener más tú?",
+      "medio",
+      "afecto",
+      "¿Te diste cuenta desde el principio?"
+    ],
+    [
+      "¿Qué tema de conversación te apasiona tanto que si alguien te da cuerda no paras más?",
+      "medio",
+      "curiosidad",
+      "¿Historia, tecnología, series, cocina?"
+    ],
+    [
+      "¿Cómo manejas cuando no estás de humor para salir: inventas una excusa o dices la verdad?",
+      "medio",
+      "conocerse",
+      "¿Cuál es tu excusa favorita?"
+    ],
+    [
+      "¿Cuál es tu placer culpable televisivo o de farándula que sigues en secreto?",
+      "medio",
+      "humor",
+      "¿Sabes todos los cahuines del momento?"
+    ],
+    [
+      "¿Qué es algo que te gustaría lograr en los próximos 6 meses?",
+      "medio",
+      "futuro",
+      "¿Cómo te puedo ayudar a empujarlo?"
+    ],
+    [
+      "¿Cuál ha sido el mejor cumplido inesperado que te han hecho recientemente?",
+      "medio",
+      "afecto",
+      "¿De parte de quién vino?"
+    ],
+    [
+      "¿Qué tipo de planes prefieres evitar a toda costa los fines de semana?",
+      "medio",
+      "cotidiano",
+      "¿Malls llenos o juntas con desconocidos intensos?"
+    ],
+    [
+      "¿Qué te hace sentir que una persona nueva es de confianza a los pocos días de conocerla?",
+      "medio",
+      "valores",
+      "¿Que hable con verdad y sin doble cara?"
+    ],
+    [
+      "¿Cuál es tu relación con tus amigos de la infancia: sigues en contacto o cada uno tomó su camino?",
+      "medio",
+      "historias",
+      "¿Te da nostalgia a veces?"
+    ],
+    [
+      "¿Qué habilidad o hobby empezaste de grande y te sorprendió lo mucho que te gustó?",
+      "medio",
+      "conocerse",
+      "¿Cerámica, running, cocina?"
+    ],
+    [
+      "¿Cómo te gusta que te apoyen cuando estás con un problema: consejos prácticos o solo que te escuchen?",
+      "medio",
+      "afecto",
+      "¿Prefieres desahogarte primero?"
+    ],
+    [
+      "¿Qué opinas de la gente que se toma las redes sociales demasiado en serio?",
+      "medio",
+      "debate",
+      "¿Subes todo lo que haces o eres de bajo perfil?"
+    ],
+    [
+      "¿Cuál ha sido el choque cultural más gracioso que has vivido viajando o conociendo gente de otra región?",
+      "medio",
+      "historias",
+      "¿El acento o las costumbres de comida?"
+    ],
+    [
+      "¿Qué meta o desafío deportivo o intelectual te gustaría proponerte este año?",
+      "medio",
+      "futuro",
+      "¿Una carrera de 10K, leer 12 libros o aprender a programar?"
+    ],
+    [
+      "¿Qué te parece si después de esta junta organizamos un panorama oficial de amigos?",
+      "medio",
+      "conexion",
+      "¿Aceptas la invitación?"
+    ],
+    [
+      "¿Qué tipo de humor es el que te desarma por completo: el absurdo o la ironía fina?",
+      "medio",
+      "humor",
+      "¿Te ríes con facilidad?"
+    ],
+    [
+      "¿Cuál es tu opinión sobre prestarle plata o cosas a amigos?",
+      "medio",
+      "valores",
+      "¿Cuentas claras conservan la amistad?"
+    ],
+    [
+      "¿Qué es algo que valoras mucho en alguien que acabas de sumar a tu vida?",
+      "medio",
+      "valores",
+      "¿Que proponga planes y no sea fantasma?"
+    ],
+    [
+      "¿Qué película o serie sientes que deberíamos ver juntos sí o sí?",
+      "medio",
+      "cultura",
+      "¿Hacemos tarde de maratón y picoteo?"
+    ],
+    [
+      "¿Cómo eres cuando viajas en grupo: el líder con la planilla Excel o el que va donde calienta el sol?",
+      "medio",
+      "conocerse",
+      "¿Nos complementamos bien?"
+    ],
+    [
+      "¿Qué experiencia reciente te hizo sentir fuera de tu zona de confort?",
+      "medio",
+      "historias",
+      "¿Te alegras de haberla vivido?"
+    ],
+    [
+      "¿Qué es lo más interesante que has aprendido en el último mes?",
+      "medio",
+      "curiosidad",
+      "¿De dónde sacaste ese dato curioso?"
+    ],
+    [
+      "¿Cuál es tu cafetería o bar favorito donde te gusta llevar a gente con buena vibra?",
+      "medio",
+      "lugares",
+      "¿Vamos para la próxima junta?"
+    ],
+    [
+      "¿Qué te ha parecido la onda de nuestra amistad hasta el momento?",
+      "medio",
+      "conexion",
+      "¿Sientes que va para largo?"
+    ],
+    [
+      "¿Qué es lo que más te cuesta de hacer amigos nuevos de adulto?",
+      "profundo",
+      "reflexion",
+      "¿Sientes que es difícil romper las máscaras?"
+    ],
+    [
+      "¿Qué te hace sentir que alguien pasó de ser un 'conocido simpático' a ser un amigo real?",
+      "profundo",
+      "valores",
+      "¿Poder estar en silencio sin incomodidad?"
+    ],
+    [
+      "¿Qué desilusión con una amistad del pasado te hizo ser más cauto/a al abrirte?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Lograste volver a confiar?"
+    ],
+    [
+      "¿Cuál es la parte de tu historia que pocos conocen pero que explica cómo piensas hoy?",
+      "profundo",
+      "historias",
+      "¿Te animas a compartir un pedacito?"
+    ],
+    [
+      "¿Qué significa para ti la lealtad en una época de relaciones tan descartables?",
+      "profundo",
+      "valores",
+      "¿Estar en las malas y no solo en las fiestas?"
+    ],
+    [
+      "¿Qué miedo tienes sobre no cumplir las expectativas que la gente pone en ti?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Te autoexiges demasiado?"
+    ],
+    [
+      "¿Cuál ha sido la mayor lección de humildad que te ha dado la vida?",
+      "profundo",
+      "sabiduria",
+      "¿Te cambió la forma de mirar a los demás?"
+    ],
+    [
+      "¿Cómo cuidas tu salud mental cuando sientes que el mundo exterior colapsa?",
+      "profundo",
+      "emociones",
+      "¿Pides ayuda o te encierras?"
+    ],
+    [
+      "¿Qué conversación difícil con un amigo lograste tener y salvó el vínculo?",
+      "profundo",
+      "reflexion",
+      "¿Valió la pena el mal rato inicial?"
+    ],
+    [
+      "¿Qué es algo que necesitas en tu vida ahora mismo: más risas, más calma o más desafíos?",
+      "profundo",
+      "emociones",
+      "¿Cómo podemos sumarte a eso?"
+    ],
+    [
+      "¿Qué te hace admirar profundamente a una persona sin importar su éxito material?",
+      "profundo",
+      "valores",
+      "¿Su bondad silenciosa y coherencia?"
+    ],
+    [
+      "¿Qué sueño tienes que dejaste guardado en un cajón y te gustaría desempolvar?",
+      "profundo",
+      "futuro",
+      "¿Qué te detiene a ir tras él?"
+    ],
+    [
+      "¿Cuál es el momento en que más solo/a te has sentido y qué aprendiste de esa soledad?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Te hizo más fuerte o más compasivo/a?"
+    ],
+    [
+      "¿Qué herida de la infancia sientes que todavía influye en tus relaciones adultas?",
+      "profundo",
+      "reflexion",
+      "¿Estás trabajando en sanarla?"
+    ],
+    [
+      "¿Qué tipo de impacto te gustaría tener en la gente que se cruza por tu vida?",
+      "profundo",
+      "valores",
+      "¿Dejar una sonrisa o una sensación de calma?"
+    ],
+    [
+      "¿Qué es algo que te gustaría poder decirle a alguien que ya no está en tu vida?",
+      "profundo",
+      "emociones",
+      "¿Un 'gracias' o un 'perdón'?"
+    ],
+    [
+      "¿Qué te hace sentir profundamente comprendido/a cuando conversas con alguien?",
+      "profundo",
+      "conexion",
+      "¿Sentir que no te juzgan?"
+    ],
+    [
+      "¿Cuál ha sido el acto de perdón más difícil que has tenido que otorgar (o pedir)?",
+      "profundo",
+      "sabiduria",
+      "¿Fue por ti o por la otra persona?"
+    ],
+    [
+      "¿Qué te da esperanza cuando miras el futuro personal y colectivo?",
+      "profundo",
+      "reflexion",
+      "¿La fuerza de la gente buena que resiste?"
+    ],
+    [
+      "¿Sientes que esta conversación nos acercó más de lo que esperabas?",
+      "profundo",
+      "conexion",
+      "¿Brindamos por una amistad que recién empieza?"
+    ]
+  ],
+  "parejas_amigos": [
+    [
+      "¿Cuál es la diferencia más graciosa entre la vida de soltero y la vida en pareja en este grupo?",
+      "suave",
+      "humor",
+      "¿Quién tiene más libertad y quién duerme más calientito?"
+    ],
+    [
+      "Para las parejas: ¿qué anécdota de sus inicios todavía les da vergüenza ajena contar?",
+      "suave",
+      "historias",
+      "Y los solteros: ¿qué opinan de esa cursilería?"
+    ],
+    [
+      "Para los solteros: ¿cuál es la peor cita de Tinder que han tenido recientemente?",
+      "suave",
+      "historias",
+      "¿Las parejas extrañan esa selva o prefieren la paz del hogar?"
+    ],
+    [
+      "¿Quién de esta mesa es el peor consejero amoroso del mundo y por qué nadie debería hacerle caso?",
+      "suave",
+      "humor",
+      "¿Qué consejo pésimo dio alguna vez?"
+    ],
+    [
+      "¿Qué costumbre cursi de las parejas de este grupo hace que los solteros quieran vomitar en broma?",
+      "suave",
+      "humor",
+      "¿Hablarse con vocecita de guagua?"
+    ],
+    [
+      "Si tuviéramos que emparejar a los solteros de la mesa con algún famoso extravagante, ¿con quién los casamos?",
+      "suave",
+      "humor",
+      "¿Pagaríamos por ver esa boda?"
+    ],
+    [
+      "¿Cuál es la ventaja secreta de ser soltero que las parejas envidian en silencio?",
+      "suave",
+      "humor",
+      "¿No tener que dar explicaciones de nada?"
+    ],
+    [
+      "¿Y cuál es la ventaja de estar en pareja que los solteros a veces miran con ganas?",
+      "suave",
+      "conexion",
+      "¿Tener chofer designado o comida compartida?"
+    ],
+    [
+      "Cuando salimos en grupo, ¿quién es el que siempre termina cuidando al resto o pagando la cuenta?",
+      "suave",
+      "cotidiano",
+      "¿Le dejamos la propina lista?"
+    ],
+    [
+      "¿Quién de los solteros es el más regalón del grupo al que todos quieren mimar?",
+      "suave",
+      "afecto",
+      "¿Le buscamos candidato o lo dejamos ser feliz?"
+    ],
+    [
+      "Para las parejas: ¿cuál de los solteros de la mesa sería el peor roomie si tuvieran que vivir juntos?",
+      "suave",
+      "humor",
+      "¿Dejaría los platos sucios una semana?"
+    ],
+    [
+      "Para los solteros: ¿cuál de las parejas de la mesa pelea por las tonteras más ridículas?",
+      "suave",
+      "humor",
+      "¿Por la temperatura del aire o por qué serie ver?"
+    ],
+    [
+      "¿Cuál es la regla sagrada para que las parejas no se pongan 'intensas' o lateras en salidas grupales?",
+      "suave",
+      "humor",
+      "¿Prohibido darse besos con sonido?"
+    ],
+    [
+      "¿Quién de esta mesa tiene la risa más contagiosa que hace reír a todos aunque el chiste sea malo?",
+      "suave",
+      "humor",
+      "¿Nos echamos a reír un minuto?"
+    ],
+    [
+      "¿Cómo manejamos en este grupo cuando alguien empieza a salir con alguien nuevo: hay 'comité de aprobación'?",
+      "suave",
+      "humor",
+      "¿Quién es el interrogador más pesado?"
+    ],
+    [
+      "¿Cuál ha sido la peor 'tercera rueda' o sujeta-velas que alguno de los solteros le ha tocado ser?",
+      "suave",
+      "historias",
+      "¿Querías que te tragara la tierra?"
+    ],
+    [
+      "¿Quién de la mesa tiene el mejor radar para saber si una pareja ajena va a durar o va a explotar en 2 meses?",
+      "suave",
+      "humor",
+      "¿Cuál es tu predicción para este año?"
+    ],
+    [
+      "¿Quién de los solteros es el que siempre organiza los mejores carretes y panoramas?",
+      "suave",
+      "reconocimiento",
+      "¿Qué harían las parejas sin su chispa?"
+    ],
+    [
+      "¿Cuál es la comida o trago que todos en esta mesa podemos compartir sin pelear?",
+      "suave",
+      "cotidiano",
+      "¿Una pizza familiar o tabla de picoteo?"
+    ],
+    [
+      "¿Quién es el que siempre dice 'yo me tomo una y me voy' y termina cerrando el local?",
+      "suave",
+      "humor",
+      "¿Quién le paga el taxi?"
+    ],
+    [
+      "Si tuviéramos que encerrar a todo este grupo en una casa de campo un fin de semana sin internet, ¿quién enloquece primero?",
+      "suave",
+      "humor",
+      "¿Y quién prende el asado?"
+    ],
+    [
+      "¿Qué apodo grupal o nombre de grupo de WhatsApp define nuestra demencia colectiva?",
+      "suave",
+      "humor",
+      "¿Quién fue el que creó el grupo original?"
+    ],
+    [
+      "¿Quién de los solteros es el más cotizado y quién es el soltero empedernido por elección?",
+      "suave",
+      "humor",
+      "¿Quién no cambia su cama individual por nada?"
+    ],
+    [
+      "¿Qué pareja de la mesa se demora más en ponerse de acuerdo sobre qué pedir de comer?",
+      "suave",
+      "humor",
+      "¿Media hora mirando la carta?"
+    ],
+    [
+      "¿Quién de este grupo baila mejor en pareja y quién prefiere saltar solo en la pista?",
+      "suave",
+      "humor",
+      "¿Sacamos a bailar a alguien ahora?"
+    ],
+    [
+      "¿Qué debate sobre la convivencia o el matrimonio siempre genera bandos en esta mesa?",
+      "medio",
+      "debate",
+      "¿Cuentas separadas o cuenta conjunta?"
+    ],
+    [
+      "¿Qué viaje grupal deberíamos armar donde haya espacio para carrete de solteros y regaloneo de parejas?",
+      "medio",
+      "futuro",
+      "¿Cabaña en la playa o mochileo?"
+    ],
+    [
+      "¿Qué anécdota compartida une a todos los de esta mesa sin importar quién es pareja de quién?",
+      "medio",
+      "recuerdos",
+      "¿Esa noche en que nos quedamos hasta las 6 AM conversando de la vida?"
+    ],
+    [
+      "¿Qué es algo que las parejas han aprendido de los solteros de este grupo sobre no perder la identidad?",
+      "medio",
+      "sabiduria",
+      "¿Es clave mantener tus propios amigos y hobbies?"
+    ],
+    [
+      "¿Y qué han aprendido los solteros de ver el amor sano y cómplice de las parejas?",
+      "medio",
+      "sabiduria",
+      "¿Que vale la pena esperar a la persona correcta?"
+    ],
+    [
+      "¿Cómo logramos que nadie en este grupo se sienta excluido según su situación sentimental?",
+      "medio",
+      "valores",
+      "¿Hablamos de temas universales que nos tocan a todos?"
+    ],
+    [
+      "¿Cuál es el mejor consejo que un soltero le puede dar a una pareja en crisis?",
+      "medio",
+      "sabiduria",
+      "¿Una perspectiva fresca desde fuera?"
+    ],
+    [
+      "¿Y qué consejo le da una pareja con años de circo a un soltero que está perdiendo la paciencia?",
+      "medio",
+      "sabiduria",
+      "¿Que el amor no se busca desesperado?"
+    ],
+    [
+      "¿Qué tradición de nuestras juntas grupales es la más sagrada y querida?",
+      "medio",
+      "recuerdos",
+      "¿El asado dieciochero o el amigo secreto?"
+    ],
+    [
+      "¿Quién de la mesa es el más diplomático cuando hay tensiones entre amigos?",
+      "medio",
+      "paz",
+      "¿El que pone los paños fríos con humor?"
+    ],
+    [
+      "¿Qué es algo que todos en esta mesa admiramos de la forma en que nos cuidamos entre nosotros?",
+      "medio",
+      "afecto",
+      "¿Que nos apoyamos sin importar qué?"
+    ],
+    [
+      "¿Cuál ha sido la fiesta o celebración más memorable donde estuvimos todos juntos?",
+      "medio",
+      "recuerdos",
+      "¿Ese año nuevo frente al mar?"
+    ],
+    [
+      "¿Cómo reacciona este grupo cuando una pareja amiga decide terminar: cómo se apoya a ambos con madurez?",
+      "medio",
+      "reflexion",
+      "¿Sin tomar bandos destructivos?"
+    ],
+    [
+      "¿Quién de la mesa es el más generoso a la hora de prestar la casa para las juntas?",
+      "medio",
+      "reconocimiento",
+      "¿Le lavamos la loza antes de irnos?"
+    ],
+    [
+      "¿Qué canción es el himno oficial de nuestras noches de carrete juntos?",
+      "medio",
+      "musica",
+      "¿La cantamos abrazados a coro?"
+    ],
+    [
+      "¿Qué juego de mesa o de cartas siempre termina en carcajadas grupales?",
+      "medio",
+      "juego",
+      "¿Carioca, Uno o Rompehielo?"
+    ],
+    [
+      "¿Cuál es la anécdota de vacaciones grupales donde todo salió al revés pero fue épico?",
+      "medio",
+      "historias",
+      "¿Se nos quedó la llave adentro o se cortó la luz?"
+    ],
+    [
+      "¿Quién de los presentes es el más propenso a hacer match con alguien en una salida grupal?",
+      "medio",
+      "quimica",
+      "¿Quién hace de celestino oficial?"
+    ],
+    [
+      "¿Qué es lo más lindo de ver crecer a las parejas del grupo y a la vez celebrar los logros de los solteros?",
+      "medio",
+      "valores",
+      "¿Que celebramos la felicidad de cada uno?"
+    ],
+    [
+      "¿Cómo manejamos los celos o inseguridades cuando un amigo/a pasa a estar en pareja?",
+      "medio",
+      "reflexion",
+      "¿Entendemos que los tiempos cambian?"
+    ],
+    [
+      "¿Quién de este grupo tiene las mejores historias de citas pasadas para escribir un libro de comedia?",
+      "medio",
+      "humor",
+      "¿Debería hacer stand-up comedy?"
+    ],
+    [
+      "¿Qué promesa grupal deberíamos hacer para que este grupo siga juntándose con los años?",
+      "medio",
+      "futuro",
+      "¿Un fin de semana al año sagrado para todos?"
+    ],
+    [
+      "¿Quién es el más madrugador del grupo cuando nos quedamos a dormir todos en una cabaña?",
+      "medio",
+      "cotidiano",
+      "¿El que despierta con café listo para todos?"
+    ],
+    [
+      "¿Y quién es el que duerme hasta las 2 de la tarde como oso hibernando?",
+      "medio",
+      "humor",
+      "¿Le tiramos agua fría para que baje a almorzar?"
+    ],
+    [
+      "¿Qué plato o asado es el que mejor nos queda cuando cocinamos entre todos en equipo?",
+      "medio",
+      "cotidiano",
+      "¿Quién hace el pebre y quién cuida el fuego?"
+    ],
+    [
+      "¿Qué es lo más gratificante de tener amigos en distintas etapas de la vida?",
+      "medio",
+      "sabiduria",
+      "¿Que nos enriquecemos con realidades diferentes?"
+    ],
+    [
+      "¿Cuál ha sido el momento en que este grupo entero cerró filas para defender a uno de los nuestros?",
+      "medio",
+      "lealtad",
+      "¿Contra viento y marea?"
+    ],
+    [
+      "¿Quién de la mesa tiene el mejor sentido del humor para desarmar peleas?",
+      "medio",
+      "humor",
+      "¿Ese chiste oportuno que baja la guardia?"
+    ],
+    [
+      "¿Qué panorama diferente al carrete deberíamos hacer pronto: un camping, trekking o picnic?",
+      "medio",
+      "futuro",
+      "¿Quién se anota primero?"
+    ],
+    [
+      "¿Por qué esta mezcla de parejas y solteros funciona tan bien y es tan divertida?",
+      "medio",
+      "afecto",
+      "¿Porque nos queremos sin etiquetas?"
+    ],
+    [
+      "¿Qué historia de este grupo demuestra que la amistad sobrevive a cualquier ruptura o romance?",
+      "profundo",
+      "lealtad",
+      "¿Quién fue el mediador oficial?"
+    ],
+    [
+      "¿Qué es lo más bacán de este grupo: que a nadie se le juzga por su estado civil?",
+      "profundo",
+      "valores",
+      "¿Brindamos por esa libertad?"
+    ],
+    [
+      "¿Qué momento difícil colectivo nos enseñó que somos una red de apoyo real?",
+      "profundo",
+      "emociones",
+      "¿Supimos estar presentes cuando quemaban las papas?"
+    ],
+    [
+      "¿Qué significa para ti saber que tienes un grupo donde puedes ser 100% tú?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Sin caretas ni apariencias?"
+    ],
+    [
+      "¿Cómo ha evolucionado el amor y el respeto en esta mesa a medida que maduramos?",
+      "profundo",
+      "reflexion",
+      "¿Sentimos que el vínculo es más sólido que nunca?"
+    ],
+    [
+      "¿Qué miedo sobre el futuro del grupo tenemos cuando los caminos de vida cambien?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Miedo a no coincidir tanto en tiempos?"
+    ],
+    [
+      "¿Qué le dirías a cada persona sentada en esta mesa si supieras que este es nuestro último encuentro en mucho tiempo?",
+      "profundo",
+      "emociones",
+      "¿Por qué guardarnos las palabras bonitas?"
+    ],
+    [
+      "¿Cuál es el valor más grande que este grupo le aporta a tu salud mental?",
+      "profundo",
+      "gratitud",
+      "¿Un refugio de risas y contención?"
+    ],
+    [
+      "¿Qué lección sobre relaciones humanas has aprendido de ver interactuar a los de esta mesa?",
+      "profundo",
+      "sabiduria",
+      "¿Que la comunicación lo es todo?"
+    ],
+    [
+      "¿Qué agradecimiento sincero le debes a este grupo por haberte acogido en un mal momento?",
+      "profundo",
+      "gratitud",
+      "¿Quién te abrió las puertas de su casa?"
+    ],
+    [
+      "¿Cómo logramos mantener vivo el fuego de la amistad a pesar de las responsabilidades adultas?",
+      "profundo",
+      "valores",
+      "¿Haciéndonos el tiempo intencional de vernos?"
+    ],
+    [
+      "¿Qué sueño colectivo nos gustaría cumplir de aquí a cinco años?",
+      "profundo",
+      "futuro",
+      "¿Ese viaje soñado todos juntos?"
+    ],
+    [
+      "¿Qué es algo que nunca te atreviste a confesarle a este grupo y hoy sientes la confianza de soltar?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Sabes que aquí no hay juicio?"
+    ],
+    [
+      "¿Quién de este grupo ha sido tu mayor cable a tierra en momentos de crisis personal?",
+      "profundo",
+      "conexion",
+      "¿Se lo has agradecido como corresponde?"
+    ],
+    [
+      "¿Qué hace que este grupo sea tan especial comparado con otros círculos sociales?",
+      "profundo",
+      "afecto",
+      "¿La autenticidad y la cero falsedad?"
+    ],
+    [
+      "¿Cómo nos cuidamos para no dejar que los celos, la envidia o los malos entendidos entren a la mesa?",
+      "profundo",
+      "valores",
+      "¿Hablando todo de frente con cariño?"
+    ],
+    [
+      "¿Qué recuerdo con este grupo guardarías en una cápsula del tiempo para volver a ver de viejo?",
+      "profundo",
+      "recuerdos",
+      "¿Esa noche de verano cantando bajo las estrellas?"
+    ],
+    [
+      "¿Qué parte de tu felicidad actual se la debes a tener a estas personas en tu vida?",
+      "profundo",
+      "gratitud",
+      "¿Te llena el corazón verlos reír hoy?"
+    ],
+    [
+      "¿Qué pacto de amor y respeto mutuo sellamos hoy con nuestras copas en alto?",
+      "profundo",
+      "brindis",
+      "¿Cuidar esta amistad pase lo que pase?"
+    ],
+    [
+      "¿Un abrazo grupal apretado para sellar esta noche inolvidable?",
+      "profundo",
+      "afecto",
+      "¿Todos al centro!"
+    ]
+  ],
+  "doble_cita": [
+    [
+      "¿Cómo se conocieron ustedes dos versus cómo nos conocimos nosotros: quién tuvo la historia más de película?",
+      "suave",
+      "historias",
+      "¿Quién remó más al principio?"
+    ],
+    [
+      "¿Quién de cada pareja es el que se demora 40 minutos más en arreglarse antes de salir?",
+      "suave",
+      "humor",
+      "¿Hacen alianza los dos que tienen que esperar en el living?"
+    ],
+    [
+      "¿Qué maña o costumbre doméstica de su pareja pensaban que era única y resulta que la otra pareja también la sufre?",
+      "suave",
+      "humor",
+      "¿Dejar la toalla mojada o no apagar las luces?"
+    ],
+    [
+      "Si tuviéramos que hacer un viaje de 4 personas en auto por una semana, ¿quién maneja y quién es el copiloto del Spotify?",
+      "suave",
+      "viajes",
+      "¿Y quién va durmiendo atrás?"
+    ],
+    [
+      "¿Cuál fue la peor cita que tuvo cada pareja antes de consolidarse?",
+      "suave",
+      "historias",
+      "¿Quién llegó tarde o se intoxicó con comida?"
+    ],
+    [
+      "¿Qué serie están viendo actualmente que recomienden con la vida a la otra pareja?",
+      "suave",
+      "cultura",
+      "¿O ya no se ponen de acuerdo ni para ver una película?"
+    ],
+    [
+      "¿Quién de cada pareja es el más sociable en los carretes y quién es el que tira la manga para irse a dormir temprano?",
+      "suave",
+      "humor",
+      "¿Se cruzan miradas de rescate?"
+    ],
+    [
+      "¿Cuál es la especialidad culinaria que mejor les queda cuando cocinan juntos en casa?",
+      "suave",
+      "cotidiano",
+      "¿Para cuándo queda agendada la cena en su casa?"
+    ],
+    [
+      "¿Qué pelea tonta de convivencia han tenido recientemente que hoy les dé pura risa?",
+      "suave",
+      "humor",
+      "¿Cómo se coloca el rollo de papel higiénico?"
+    ],
+    [
+      "Si tuviéramos que jugar un juego de mesa de parejas contra parejas, ¿quién gana sin piedad?",
+      "suave",
+      "humor",
+      "¿Habría trampas y miradas cómplices?"
+    ],
+    [
+      "¿Quién de los 4 es el más despistado con las fechas importantes (aniversarios, cumpleaños)?",
+      "suave",
+      "humor",
+      "¿Quién tiene alarmas en el Google Calendar?"
+    ],
+    [
+      "¿Qué apodo ridículo se dicen en la intimidad que jamás confesarían delante de nosotros?",
+      "suave",
+      "humor",
+      "¿Nos animamos a decirlo a la cuenta de tres?"
+    ],
+    [
+      "¿Cómo reacciona cada uno cuando su pareja se enferma: enfermero abnegado o pánico total?",
+      "suave",
+      "humor",
+      "¿Quién es más quejón cuando le da un resfriado común?"
+    ],
+    [
+      "¿Quién de cada pareja es el que se despierta con mejor ánimo y quién necesita media hora de silencio y café?",
+      "suave",
+      "cotidiano",
+      "¿Se complementan o chocan las mañanas?"
+    ],
+    [
+      "¿Cuál es la comida rápida o delivery favorito de cada pareja para los domingos flojos?",
+      "suave",
+      "cotidiano",
+      "¿Sushi, pizza o hamburguesas?"
+    ],
+    [
+      "¿Quién de cada pareja es el que siempre pierde las cosas en la casa?",
+      "suave",
+      "humor",
+      "¿La billetera, las llaves o los lentes?"
+    ],
+    [
+      "¿Qué película romántica le encanta a uno y el otro la odia pero la acompaña a verla igual?",
+      "suave",
+      "cultura",
+      "¿Amor verdadero es tragarse esa película?"
+    ],
+    [
+      "¿Cuál fue el primer viaje que hicieron como pareja y qué chascarro les pasó?",
+      "suave",
+      "historias",
+      "¿Se equivocaron de hotel o perdieron el bus?"
+    ],
+    [
+      "¿Quién de los cuatro es el más fiestero y quién el más casero de corazón?",
+      "suave",
+      "conocerse",
+      "¿Se balancean bien las dos parejas?"
+    ],
+    [
+      "¿Qué canción suena siempre en sus viajes en auto que ya es su himno de ruta?",
+      "suave",
+      "musica",
+      "¿La ponemos en el parlante para comparar?"
+    ],
+    [
+      "¿Quién de cada pareja es el que gasta más en compras innecesarias para la casa?",
+      "suave",
+      "humor",
+      "¿Ese gadget de cocina que usaron una sola vez?"
+    ],
+    [
+      "¿Cuál es la anécdota más vergonzosa que vivieron con los suegros en las primeras visitas?",
+      "suave",
+      "historias",
+      "¿Rompieron algo fino en la mesa?"
+    ],
+    [
+      "¿Quién de cada pareja tiene el mejor sentido de orientación cuando viajan a una ciudad desconocida?",
+      "suave",
+      "viajes",
+      "¿Y quién camina en círculos con el Google Maps al revés?"
+    ],
+    [
+      "¿Qué regalo de aniversario o cumpleaños fue el más épico y cuál fue un desastre total?",
+      "suave",
+      "historias",
+      "¿Quién fingió una sonrisa de 'me encanta'?"
+    ],
+    [
+      "¿Hacemos un brindis cruzado los cuatro por las buenas parejas y los buenos amigos?",
+      "suave",
+      "brindis",
+      "¿Salud por los 4!"
+    ],
+    [
+      "¿Cómo maneja cada pareja el tema del dinero y las cuentas: miti-miti estricto, fondo común o el que invita invita?",
+      "medio",
+      "debate",
+      "¿Qué fórmula les ha dado más paz mental?"
+    ],
+    [
+      "¿Qué viaje que hicieron en pareja recomiendan como imperdible para hacer de a cuatro?",
+      "medio",
+      "viajes",
+      "¿Playa tranquila o turismo intenso caminando todo el día?"
+    ],
+    [
+      "¿Cuál es el panorama de fin de semana perfecto que podemos planear los cuatro juntos pronto?",
+      "medio",
+      "futuro",
+      "¿Un trekking con asado o una cata de vinos?"
+    ],
+    [
+      "¿Cómo manejan los momentos en que la rutina laboral los absorbe y casi no se ven durante la semana?",
+      "medio",
+      "reflexion",
+      "¿Qué ritual de reencuentro tienen?"
+    ],
+    [
+      "¿Qué opinan de las vacaciones en pareja versus las vacaciones con amigos: cómo las balancean?",
+      "medio",
+      "debate",
+      "¿Tienen viajes separados también?"
+    ],
+    [
+      "¿Qué costumbre de la otra pareja les gustaría copiar para incorporar en su propia relación?",
+      "medio",
+      "admiracion",
+      "¿Su orden, sus citas sorpresa o su paciencia?"
+    ],
+    [
+      "¿Cómo reacciona cada pareja cuando hay un conflicto familiar con los parientes de alguno?",
+      "medio",
+      "reflexion",
+      "¿Se blindan como equipo?"
+    ],
+    [
+      "¿Quién de cada pareja es el que suele dar el brazo a torcer primero después de una discusión?",
+      "medio",
+      "conocerse",
+      "¿Con un chiste o con un café?"
+    ],
+    [
+      "¿Qué sueño conjunto tienen como pareja para los próximos tres años?",
+      "medio",
+      "futuro",
+      "¿Comprar una casa, viajar por el mundo o tener una mascota?"
+    ],
+    [
+      "¿Cómo mantienen viva la chispa del romance cuando los compromisos de la vida se acumulan?",
+      "medio",
+      "quimica",
+      "¿Citas fijas en la semana sin celulares?"
+    ],
+    [
+      "¿Qué es lo que más disfrutan de salir en formato 'doble cita' comparado con salir solos?",
+      "medio",
+      "conexion",
+      "¿La buena sobremesa y las risas compartidas?"
+    ],
+    [
+      "¿Quién de cada pareja es el más estricto con el orden y la limpieza de la casa?",
+      "medio",
+      "cotidiano",
+      "¿Genera roces o ya encontraron la paz?"
+    ],
+    [
+      "¿Cuál ha sido la decisión más difícil que les ha tocado tomar como pareja y cómo la resolvieron?",
+      "medio",
+      "reflexion",
+      "¿Mudanza de ciudad o cambio de pega?"
+    ],
+    [
+      "¿Qué anécdota con sus mascotas demuestra que son unos papás postizos empedernidos?",
+      "medio",
+      "historias",
+      "¿Duermen en la cama con ellos?"
+    ],
+    [
+      "¿Cómo manejan el equilibrio entre el tiempo en pareja y el tiempo a solas de cada uno?",
+      "medio",
+      "reflexion",
+      "¿Tienen sus propios hobbies sagrados?"
+    ],
+    [
+      "¿Qué tradición de domingo o día libre es innegociable en sus casas?",
+      "medio",
+      "cotidiano",
+      "¿Pasear temprano o desayuno largo en pijama?"
+    ],
+    [
+      "¿Cuál es el mejor consejo que sus propios padres les dieron sobre la vida en pareja?",
+      "medio",
+      "sabiduria",
+      "¿Lo aplican a diario?"
+    ],
+    [
+      "¿Cómo celebran sus aniversarios: cena elegante, viaje sorpresa o picoteo piola en casa?",
+      "medio",
+      "recuerdos",
+      "¿Cuál ha sido el más lindo hasta ahora?"
+    ],
+    [
+      "¿Qué es algo que cada uno admira en silencio de su compañero de vida?",
+      "medio",
+      "admiracion",
+      "¿Se lo dicen frente a nosotros ahora?"
+    ],
+    [
+      "¿Quién de los cuatro es el más madrugador los fines de semana y quién duerme hasta el mediodía?",
+      "medio",
+      "cotidiano",
+      "¿Se respetan los horarios biológicos?"
+    ],
+    [
+      "¿Qué opinan de compartir contraseñas de teléfonos: transparencia o invasión de privacidad?",
+      "medio",
+      "debate",
+      "¿Qué reglas tienen en sus casas?"
+    ],
+    [
+      "¿Cómo organizan las fiestas de Navidad y Año Nuevo con las respectivas familias?",
+      "medio",
+      "cotidiano",
+      "¿Un año con unos y otro con otros?"
+    ],
+    [
+      "¿Qué hobby o deporte han empezado a hacer juntos recientemente?",
+      "medio",
+      "conocerse",
+      "¿Pádel, trekking, cocina o bicicleta?"
+    ],
+    [
+      "¿Qué fue lo más desafiante de los primeros meses de convivencia para cada pareja?",
+      "medio",
+      "reflexion",
+      "¿Aprender a compartir el espacio?"
+    ],
+    [
+      "¿Cuál es el restaurante picada de cabecera de cada pareja donde siempre van a la segura?",
+      "medio",
+      "lugares",
+      "¿Lo compartimos para la próxima salida?"
+    ],
+    [
+      "¿Cómo se apoyan mutuamente cuando uno de los dos está pasando por una crisis laboral o vocacional?",
+      "medio",
+      "emociones",
+      "¿Ser el sostén incondicional?"
+    ],
+    [
+      "¿Qué es lo más lindo de ver a la otra pareja tan feliz y conectada?",
+      "medio",
+      "admiracion",
+      "¿Es inspirador compartir con gente así?"
+    ],
+    [
+      "¿Qué juego o dinámica grupal deberíamos armar para la sobremesa de hoy?",
+      "medio",
+      "juego",
+      "¿Un juego de preguntas o contar anécdotas prohibidas?"
+    ],
+    [
+      "¿Cómo proyectan sus vidas de pareja de aquí a diez años?",
+      "medio",
+      "futuro",
+      "¿Dónde se ven viviendo?"
+    ],
+    [
+      "¿Por qué las salidas de a cuatro son de las mejores terapias para desconectar de la rutina?",
+      "medio",
+      "conexion",
+      "¿Se siente el alivio de compartir la vida?"
+    ],
+    [
+      "¿Cuál es el mejor secreto o consejo que una pareja le puede dar a la otra para mantener el amor prendido con los años?",
+      "profundo",
+      "sabiduria",
+      "¿Cuál es el pilar que no puede fallar?"
+    ],
+    [
+      "¿Qué admiramos nosotros de la relación de ustedes y qué admiran ustedes de la nuestra?",
+      "profundo",
+      "admiracion",
+      "¿Qué lindo reconocerlo con honestidad!"
+    ],
+    [
+      "¿Cuál ha sido la prueba más dura que han superado juntos como pareja y cómo los unió más?",
+      "profundo",
+      "reflexion",
+      "¿Salieron más fuertes de la tormenta?"
+    ],
+    [
+      "¿Qué significa para cada pareja construir un hogar y un proyecto de vida compartido?",
+      "profundo",
+      "valores",
+      "¿Es un refugio frente al mundo exterior?"
+    ],
+    [
+      "¿Cómo cuidan la intimidad y la complicidad emocional cuando el cansancio diario arrecia?",
+      "profundo",
+      "quimica",
+      "¿No olvidar decirse 'te amo' a los ojos?"
+    ],
+    [
+      "¿Qué sacrificio personal hizo cada uno por el bienestar del equipo de pareja?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Lo volverían a hacer con gusto?"
+    ],
+    [
+      "¿Qué lección sobre el perdón y la paciencia han aprendido a porrazos en estos años?",
+      "profundo",
+      "sabiduria",
+      "¿Que tener la razón no vale la pena si destruye la paz?"
+    ],
+    [
+      "¿Cómo mantienen la individualidad de cada uno sin que la pareja absorba sus identidades?",
+      "profundo",
+      "reflexion",
+      "¿Ser dos personas completas que eligen caminar juntas?"
+    ],
+    [
+      "¿Qué valor fundamental es la columna vertebral que sostiene su relación?",
+      "profundo",
+      "valores",
+      "¿La lealtad, la honestidad, el humor o el respeto?"
+    ],
+    [
+      "¿Qué momento de vulnerabilidad extrema compartieron donde supieron que eran el uno para el otro?",
+      "profundo",
+      "emociones",
+      "¿Quién secó las lágrimas de quién?"
+    ],
+    [
+      "¿Qué conversación difícil tuvieron que tener para llegar al nivel de estabilidad que tienen hoy?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Aclarar las expectativas de vida?"
+    ],
+    [
+      "¿Cómo influye tener amigos en relaciones sanas para inspirar y cuidar la propia relación?",
+      "profundo",
+      "sabiduria",
+      "¿Tener espejos positivos en el camino?"
+    ],
+    [
+      "¿Qué miedo sobre el paso de los años en pareja tienen y cómo lo conversan entre ustedes?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Miedo a la rutina o a las pérdidas?"
+    ],
+    [
+      "¿Cuál ha sido el logro compartido que más orgullo les da mirar hacia atrás?",
+      "profundo",
+      "gratitud",
+      "¿Construir su espacio propio paso a paso?"
+    ],
+    [
+      "¿Qué agradecimiento público le hace cada uno a su pareja en esta mesa hoy?",
+      "profundo",
+      "gratitud",
+      "¿Por su paciencia, su amor y su compañerismo?"
+    ],
+    [
+      "¿Cómo nos aseguramos de que el amor de pareja no se vuelva un trámite automático?",
+      "profundo",
+      "reflexion",
+      "¿Sorprenderse en las pequeñas cosas diarias?"
+    ],
+    [
+      "¿Qué aprendió cada pareja de los errores que vieron en las relaciones de sus propios padres?",
+      "profundo",
+      "sabiduria",
+      "¿Qué patrones decidieron cortar conscientemente?"
+    ],
+    [
+      "¿Cómo definen la verdadera complicidad: esa que no necesita palabras para entenderse?",
+      "profundo",
+      "conexion",
+      "¿Una mirada que lo dice absolutamente todo?"
+    ],
+    [
+      "¿Qué sueño de a cuatro nos comprometemos a cumplir juntos antes de hacernos viejos?",
+      "profundo",
+      "futuro",
+      "¿Ese viaje al fin del mundo los cuatro?"
+    ],
+    [
+      "¿Un brindis sentido y cariñoso por las dos parejas y por la hermosa amistad que nos une?",
+      "profundo",
+      "brindis",
+      "¿Salud por el amor y la complicidad!"
+    ]
+  ],
+  "familia_reunion": [
+    [
+      "¿Qué comida o aroma de la cocina familiar te transporta en un segundo a la casa de los abuelos?",
+      "suave",
+      "recuerdos",
+      "¿Quién era el que cocinaba esa maravilla?"
+    ],
+    [
+      "¿Cuál es la historia o anécdota familiar que en cada Navidad o cumpleaños se cuenta de nuevo?",
+      "suave",
+      "historias",
+      "¿Quién siempre le agrega detalles exagerados?"
+    ],
+    [
+      "¿Cuál era tu travesura favorita de niño por la que te ganaste el reto más grande de tu vida?",
+      "suave",
+      "humor",
+      "¿Quién fue tu cómplice ese día?"
+    ],
+    [
+      "¿Qué foto familiar antigua del baúl de los recuerdos da más risa por los peinados o la ropa?",
+      "suave",
+      "humor",
+      "¿Quién tenía el look más ochentero?"
+    ],
+    [
+      "¿Cuál era el paseo familiar favorito de las vacaciones de verano cuando éramos chicos?",
+      "suave",
+      "recuerdos",
+      "¿Ese viaje en auto apretados con las maletas y la sandwichera?"
+    ],
+    [
+      "¿Qué talento oculto o habilidad artística corre por la sangre de esta familia y casi nadie aprovecha?",
+      "suave",
+      "curiosidad",
+      "¿Quién canta lindo o dibuja bien?"
+    ],
+    [
+      "¿Qué receta secreta familiar debería quedar escrita en un libro sagrado para que no se pierda?",
+      "suave",
+      "cotidiano",
+      "¿Quién tiene los ingredientes exactos anotados?"
+    ],
+    [
+      "¿Quién de la familia era el más regalón o consentido de los abuelos y todos lo sabíamos?",
+      "suave",
+      "humor",
+      "¿Todavía le dan la mejor presa en el almuerzo?"
+    ],
+    [
+      "¿Qué juego de cartas o de mesa era el clásico que jugábamos en las tardes de lluvia?",
+      "suave",
+      "recuerdos",
+      "¿Quién hacía trampas descaradas?"
+    ],
+    [
+      "¿Cuál fue la primera pega o changa que tuvo cada uno y qué hizo con su primer sueldo?",
+      "suave",
+      "historias",
+      "¿Se compró algo útil o lo malgastó en golosinas?"
+    ],
+    [
+      "¿Qué anécdota de cómo se conocieron los papás o tíos parece sacada de una película antigua?",
+      "suave",
+      "historias",
+      "¿Hubo que pedir permiso o se arrancaron?"
+    ],
+    [
+      "¿Quién de la familia es el que siempre saca las fotos o graba los videos para el recuerdo?",
+      "suave",
+      "cotidiano",
+      "¿Le agradecemos por guardar nuestra memoria?"
+    ],
+    [
+      "¿Cuál es el chiste o dicho popular que un abuelo o tío siempre repetía en las comidas?",
+      "suave",
+      "humor",
+      "¿Quién lo imita a la perfección?"
+    ],
+    [
+      "¿Quién de la familia es el más impuntual que siempre llega cuando ya están sirviendo el postre?",
+      "suave",
+      "humor",
+      "¿Le decimos la hora una hora antes?"
+    ],
+    [
+      "¿Qué postre familiar es el rey indiscutido de las fiestas patrias o navidades?",
+      "suave",
+      "cotidiano",
+      "¿Leche asada, torta de milhojas o arroz con leche?"
+    ],
+    [
+      "¿Cuál fue el regalo de navidad de la infancia que más lágrimas de felicidad te sacó?",
+      "suave",
+      "recuerdos",
+      "¿Esa bicicleta o esa muñeca tan esperada?"
+    ],
+    [
+      "¿Quién de los presentes es el que mejor asa la carne o prende el fuego en los asados?",
+      "suave",
+      "cotidiano",
+      "¿Se acepta que alguien le meta mano al carbón?"
+    ],
+    [
+      "¿Qué viaje familiar en bus o tren terminó siendo una comedia de errores de principio a fin?",
+      "suave",
+      "historias",
+      "¿Se les quedó la maleta en el andén?"
+    ],
+    [
+      "¿Cuál era el programa de televisión familiar que nos reunía a todos los domingos por la tarde?",
+      "suave",
+      "cultura",
+      "¿Sábado Gigante, Maravillozoo o las teleseries?"
+    ],
+    [
+      "¿Quién de la familia tiene la carcajada más fuerte que hace vibrar las ventanas?",
+      "suave",
+      "humor",
+      "¿Contagia a toda la mesa?"
+    ],
+    [
+      "¿Qué juguete antiguo de tus primos o hermanos todavía sobrevive en la casa de los abuelos?",
+      "suave",
+      "recuerdos",
+      "¿Ese autito de metal o la casa de muñecas?"
+    ],
+    [
+      "¿Cuál es el apodo de cariño que solo se usa dentro de esta casa y nadie de afuera conoce?",
+      "suave",
+      "humor",
+      "¿Quién te bautizó con ese nombre?"
+    ],
+    [
+      "¿Quién es el familiar que siempre manda cadenas de bendiciones o noticias falsas por WhatsApp?",
+      "suave",
+      "humor",
+      "¿Le avisamos o lo dejamos ser feliz?"
+    ],
+    [
+      "¿Qué canción suena y automáticamente te recuerda a un fin de semana en familia?",
+      "suave",
+      "musica",
+      "¿Esos boleros o rancheras de sobremesa?"
+    ],
+    [
+      "¿Hacemos un brindis con todo el cariño del mundo por reunirnos una vez más?",
+      "suave",
+      "brindis",
+      "¿Salud por la familia!"
+    ],
+    [
+      "¿Qué costumbre o tradición de esta familia te gustaría conservar para siempre con las próximas generaciones?",
+      "medio",
+      "valores",
+      "¿Ese almuerzo de domingo sagrado?"
+    ],
+    [
+      "Para los mayores de la mesa: ¿qué es lo que más les llama la atención de cómo viven los jóvenes hoy?",
+      "medio",
+      "sabiduria",
+      "¿Y qué extrañan de sus tiempos mozos?"
+    ],
+    [
+      "¿Qué persona de esta familia tenía el mejor sentido del humor y alegraba cualquier velada?",
+      "medio",
+      "nostalgia",
+      "¿Qué chiste o frase típica decía siempre?"
+    ],
+    [
+      "¿Qué valor fundamental sientes que esta familia te enseñó con el ejemplo y no con palabras?",
+      "medio",
+      "valores",
+      "¿La generosidad, la honradez o la unión?"
+    ],
+    [
+      "¿Cómo ha cambiado nuestra dinámica familiar a lo largo de las décadas?",
+      "medio",
+      "reflexion",
+      "¿Qué cosas se mantienen firmes como rocas?"
+    ],
+    [
+      "¿Cuál ha sido la muestra de solidaridad más hermosa que hemos visto dentro de esta familia cuando alguien estuvo mal?",
+      "medio",
+      "solidaridad",
+      "¿Todos se pusieron con una cuota de amor?"
+    ],
+    [
+      "¿Qué historia de superación de un antepasado o abuelo nos llena de orgullo a todos?",
+      "medio",
+      "historias",
+      "¿Empezaron de abajo con puro esfuerzo?"
+    ],
+    [
+      "¿Cómo manejaban las celebraciones familiares antes cuando no había teléfonos celulares?",
+      "medio",
+      "recuerdos",
+      "¿Nos mirábamos más a los ojos y conversábamos más?"
+    ],
+    [
+      "¿Qué aprendiste de ver envejecer con dignidad y cariño a los mayores de esta casa?",
+      "medio",
+      "sabiduria",
+      "¿El valor de cuidar a quienes nos cuidaron?"
+    ],
+    [
+      "¿Cuál es el consejo matrimonial o de vida en común más sabio que los tíos o abuelos pueden dar hoy?",
+      "medio",
+      "sabiduria",
+      "¿La paciencia y el respeto diario?"
+    ],
+    [
+      "¿Qué tradición de año nuevo (comer uvas, lentejas, la vuelta a la manzana) hacemos siempre en patota?",
+      "medio",
+      "cultura",
+      "¿Quién sale corriendo con las maletas?"
+    ],
+    [
+      "¿Quién de la familia es el más parecido en carácter a qué abuelo o abuela?",
+      "medio",
+      "conocerse",
+      "¿Esa misma mirada firme y corazón noble?"
+    ],
+    [
+      "¿Qué momento histórico o crisis del país nos tocó vivir a todos juntos pegados a la tele o la radio?",
+      "medio",
+      "historias",
+      "¿El terremoto del 2010 o la vuelta a la democracia?"
+    ],
+    [
+      "¿Cómo se transmitían las noticias importantes en la familia antes del WhatsApp?",
+      "medio",
+      "recuerdos",
+      "¿Esa llamada de larga distancia que costaba una fortuna?"
+    ],
+    [
+      "¿Qué plato típico chileno o criollo nadie en el mundo prepara mejor que en esta casa?",
+      "medio",
+      "cotidiano",
+      "¿Las cazuelas, las empanadas de pino o las humitas?"
+    ],
+    [
+      "¿Qué miembro de la familia fue el primero en salir de la ciudad o del país a buscar futuro?",
+      "medio",
+      "historias",
+      "¿Cómo fue esa despedida en el terminal o aeropuerto?"
+    ],
+    [
+      "¿Qué enseñanza sobre el trabajo duro y la honradez se respeta como ley en esta mesa?",
+      "medio",
+      "valores",
+      "¿Caminar con la frente en alto siempre?"
+    ],
+    [
+      "¿Cómo celebramos las buenas noticias de cada uno: los títulos universitarios, los nuevos trabajos o nacimientos?",
+      "medio",
+      "recuerdos",
+      "¿Tiramos la casa por la ventana?"
+    ],
+    [
+      "¿Qué juego tradicional (trompo, emboque, rayuela) jugaban los tíos en las fiestas patrias de antaño?",
+      "medio",
+      "cultura",
+      "¿Quién era el campeón indiscutido?"
+    ],
+    [
+      "¿Cuál es la anécdota de hospital o nacimiento más cómica o emotiva de la familia?",
+      "medio",
+      "historias",
+      "¿Quién casi nace en el auto o en la casa?"
+    ],
+    [
+      "¿Cómo logramos mantener los lazos familiares firmes a pesar de que algunos viven lejos?",
+      "medio",
+      "conexion",
+      "¿Las videollamadas y las visitas sagradas?"
+    ],
+    [
+      "¿Qué libro, dicho o refrán era el favorito de la abuela para educar a los nietos?",
+      "medio",
+      "sabiduria",
+      "¿'Dime con quién andas' o 'Al que madruga Dios le ayuda'?"
+    ],
+    [
+      "¿Cuál ha sido la reunión familiar más multitudinaria que hemos tenido en la historia?",
+      "medio",
+      "recuerdos",
+      "¿Cuántas personas llegaron al campo ese verano?"
+    ],
+    [
+      "¿Quién de los jóvenes de la familia es el que más se interesa por conocer el árbol genealógico?",
+      "medio",
+      "curiosidad",
+      "¿Quién tiene las fotos antiguas escaneadas?"
+    ],
+    [
+      "¿Qué hábito cotidiano de esta casa nos une a todos sin importar la edad?",
+      "medio",
+      "cotidiano",
+      "¿Tomar once todos juntos conversando largo?"
+    ],
+    [
+      "¿Cómo cuidamos a los integrantes más viejitos de la familia para que nunca se sientan solos?",
+      "medio",
+      "afecto",
+      "¿Llamarlos, visitarlos y escuchar sus historias?"
+    ],
+    [
+      "¿Qué consejo de salud natural o hierbita medicinal es el remedio casero de esta familia?",
+      "medio",
+      "sabiduria",
+      "¿Manzanilla para la guata y boldo para todo?"
+    ],
+    [
+      "¿Cuál ha sido el momento en que más nos hemos reído todos juntos en una misma pieza?",
+      "medio",
+      "humor",
+      "¿Ese ataque de risa que nadie podía parar?"
+    ],
+    [
+      "¿Qué promesa familiar deberíamos hacernos hoy para cuidar nuestro legado?",
+      "medio",
+      "valores",
+      "¿Que la mesa siempre estará servida para todos?"
+    ],
+    [
+      "¿Por qué esta familia es nuestro mayor tesoro en la vida?",
+      "medio",
+      "afecto",
+      "¿Porque la sangre tira y el amor es incondicional?"
+    ],
+    [
+      "Para los más jóvenes: ¿qué enseñanza de los mayores de esta mesa guardas como un tesoro sagrado?",
+      "profundo",
+      "gratitud",
+      "¿En qué momento difícil te sirvió de guía?"
+    ],
+    [
+      "¿Cuál ha sido el momento más emocionante y conmovedor que hemos vivido todos juntos como clan?",
+      "profundo",
+      "emociones",
+      "¿Ese matrimonio, graduación o reencuentro inolvidable?"
+    ],
+    [
+      "¿Qué persona que ya partió de este mundo sentimos que hoy nos acompaña desde el cielo en esta mesa?",
+      "profundo",
+      "nostalgia",
+      "¿Qué nos diría si nos viera a todos reunidos hoy?"
+    ],
+    [
+      "¿Qué significa para ti llevar el apellido y la sangre de esta familia?",
+      "profundo",
+      "valores",
+      "¿Un orgullo y una responsabilidad hermosa?"
+    ],
+    [
+      "¿Qué momento de dolor compartido nos enseñó lo que significa la verdadera lealtad familiar?",
+      "profundo",
+      "solidaridad",
+      "¿Nadie soltó la mano de nadie?"
+    ],
+    [
+      "¿Qué sacrificio gigante hicieron nuestros padres o abuelos para que nosotros estuviéramos donde estamos hoy?",
+      "profundo",
+      "gratitud",
+      "¿Les hemos dado las gracias suficientes?"
+    ],
+    [
+      "¿Qué herida o distanciamiento del pasado logramos sanar con el tiempo y el perdón?",
+      "profundo",
+      "sabiduria",
+      "¿Comprendimos que el amor familiar es más fuerte que cualquier orgullo?"
+    ],
+    [
+      "¿Qué mensaje de vida le dejarían los abuelos o padres a los nietos para cuando ellos ya no estén?",
+      "profundo",
+      "sabiduria",
+      "¿Que se quieran, se apoyen y nunca se olviden de sus raíces?"
+    ],
+    [
+      "¿Qué es lo que más te conmueve cuando miras a los mayores de esta mesa sentados a la cabecera?",
+      "profundo",
+      "afecto",
+      "¿El paso del tiempo y la infinita ternura de sus manos?"
+    ],
+    [
+      "¿Cómo podemos honrar en nuestra vida diaria los valores de esfuerzo y dignidad que nos heredaron?",
+      "profundo",
+      "valores",
+      "¿Siendo personas derechas y generosas?"
+    ],
+    [
+      "¿Qué recuerdo de la infancia en esta casa te hace sentir protegido y en paz?",
+      "profundo",
+      "recuerdos",
+      "¿Ese abrazo tibio de buenas noches?"
+    ],
+    [
+      "¿Qué le dirías hoy a ese familiar con el que a veces te cuesta expresar tus sentimientos?",
+      "profundo",
+      "vulnerabilidad",
+      "¿'Te quiero más de lo que demuestro'?"
+    ],
+    [
+      "¿Cómo logramos que el árbol familiar siga floreciendo con amor en las nuevas generaciones?",
+      "profundo",
+      "futuro",
+      "¿Contándoles quiénes fuimos y de dónde venimos?"
+    ],
+    [
+      "¿Qué acto de amor silencioso de tus padres nunca se te va a borrar del corazón?",
+      "profundo",
+      "gratitud",
+      "¿Ese desvelo cuando estuviste enfermo?"
+    ],
+    [
+      "¿Qué lecciones de resiliencia nos dejó ver a nuestra familia salir adelante en tiempos de escasez?",
+      "profundo",
+      "sabiduria",
+      "¿Que teniendo amor en la mesa nunca falta nada?"
+    ],
+    [
+      "¿Qué orgullo sientes de ver a los niños y jóvenes de esta familia creciendo sanos y felices?",
+      "profundo",
+      "afecto",
+      "¿Son la esperanza y la alegría de la casa?"
+    ],
+    [
+      "¿Cómo definimos la riqueza de esta familia: no en cosas materiales sino en unión?",
+      "profundo",
+      "valores",
+      "¿En las sobremesas interminables y las risas sinceras?"
+    ],
+    [
+      "¿Qué palabra resume el sentimiento que reina en esta mesa hoy?",
+      "profundo",
+      "emociones",
+      "¿Amor, gratitud o paz?"
+    ],
+    [
+      "¿Qué promesa de cuidarnos los unos a los otros renovamos en este instante?",
+      "profundo",
+      "valores",
+      "¿Que nadie en esta familia estará solo jamás?"
+    ],
+    [
+      "¿Un aplauso cerrado y de pie para nuestra familia hermosa?",
+      "profundo",
+      "gratitud",
+      "¡Viva la familia!"
+    ]
+  ],
+  "familia_hermanos": [
+    [
+      "¿Cuál es el secreto de infancia más grande que le ocultamos a nuestros papás y que ellos todavía no saben?",
+      "suave",
+      "historias",
+      "¿Quién rompió el adorno de vidrio o rayó la pared?"
+    ],
+    [
+      "¿Quién era objetivamente el regalón de la mamá y quién el del papá?",
+      "suave",
+      "humor",
+      "¿Quién se salvaba de todos los castigos con una sonrisa?"
+    ],
+    [
+      "¿Qué prenda de ropa o juguete nos peleábamos a muerte y terminó roto por la mitad?",
+      "suave",
+      "recuerdos",
+      "¿Quién fue el que no quiso prestarlo?"
+    ],
+    [
+      "¿Cuál era nuestra técnica infalible de chantaje entre hermanos cuando uno pillaba al otro haciendo algo prohibido?",
+      "suave",
+      "humor",
+      "¿'Si no me das la mitad de tu colación le cuento a mi mamá'?"
+    ],
+    [
+      "¿Quién de nosotros era el que siempre acusaba al resto con los viejos y se ganaba el odio fraternal?",
+      "suave",
+      "humor",
+      "¿Ya te perdonamos o todavía guardamos rencor?"
+    ],
+    [
+      "¿Qué apodo humillante nos pusimos entre nosotros de chicos y que hoy nos da risa?",
+      "suave",
+      "humor",
+      "¿Quién lo inventó?"
+    ],
+    [
+      "¿Qué manía o maña de nuestros papás juramos de chicos que jamás íbamos a repetir y hoy hacemos idéntica?",
+      "suave",
+      "humor",
+      "¿Nos convertimos en nuestros padres?"
+    ],
+    [
+      "¿Cuál ha sido la peor pelea física o discusión que tuvimos de adolescentes y cómo terminó?",
+      "suave",
+      "historias",
+      "¿Llorando los dos abrazados o con un cojín por la cabeza?"
+    ],
+    [
+      "¿Quién de nosotros es el más parecido físicamente y quién en carácter a nuestros viejos?",
+      "suave",
+      "conocerse",
+      "¿Quién heredó la porfía y quién el corazón blando?"
+    ],
+    [
+      "¿Qué comida de nuestra infancia que nos preparaban con poco presupuesto hoy añoras como manjar de dioses?",
+      "suave",
+      "cotidiano",
+      "¿Fideos con vienesas o pan con palta a las 11?"
+    ],
+    [
+      "¿Quién de nosotros baila o canta peor pero con más personalidad en las fiestas familiares?",
+      "suave",
+      "humor",
+      "¿Cuál era nuestro baile ridículo de chicos?"
+    ],
+    [
+      "¿Cuál era el escondite secreto donde guardábamos las golosinas o juguetes prohibidos?",
+      "suave",
+      "recuerdos",
+      "¿Alguien se lo comió a escondidas?"
+    ],
+    [
+      "¿Quién de nosotros era el que le tocaba siempre la cama chica o el asiento del medio en el auto?",
+      "suave",
+      "humor",
+      "¿El derecho de piso del hermano menor?"
+    ],
+    [
+      "¿Qué mentira piadosa inventamos juntos para cubrirle la salida a una fiesta a uno de los hermanos?",
+      "suave",
+      "historias",
+      "¿Hicimos un pacto de sangre?"
+    ],
+    [
+      "¿Quién de nosotros se demoraba 3 horas en el baño antes de ir al colegio mientras los demás se hacían pipí?",
+      "suave",
+      "humor",
+      "¿Quién golpeaba la puerta desesperado?"
+    ],
+    [
+      "¿Cuál fue la Navidad en que los juguetes vinieron cruzados y tuvimos que negociar un canje?",
+      "suave",
+      "recuerdos",
+      "¿Quién salió perdiendo en el cambio?"
+    ],
+    [
+      "¿Quién es el hermano que siempre pierde las llaves de la casa o deja la puerta abierta?",
+      "suave",
+      "humor",
+      "¿Cuántas copias de llaves le tuvimos que sacar?"
+    ],
+    [
+      "¿Qué serie o monito animado de la tele teníamos que turnarnos para ver?",
+      "suave",
+      "cultura",
+      "¿Dragon Ball, Sailor Moon o los Caballeros del Zodiaco?"
+    ],
+    [
+      "¿Quién de nosotros lloraba primero para que la mamá viniera a retar al otro?",
+      "suave",
+      "humor",
+      "¿Puro teatro digno de un premio Óscar?"
+    ],
+    [
+      "¿Cuál era el castigo más típico que nos ponían nuestros papás?",
+      "suave",
+      "historias",
+      "¿Sin televisión, sin mesada o a lavar la loza una semana?"
+    ],
+    [
+      "¿Quién de nosotros era el que siempre se comía la última galleta o el último trozo de pizza?",
+      "suave",
+      "humor",
+      "¿Y dejaba la caja vacía guardada en la despensa?"
+    ],
+    [
+      "¿Qué juego inventado por nosotros en el patio o living causó el mayor destrozo de la casa?",
+      "suave",
+      "historias",
+      "¿El fútbol con cojines o la pista de carreras?"
+    ],
+    [
+      "¿Quién era el más miedoso de la casa que pedía que le dejaran la luz del pasillo prendida?",
+      "suave",
+      "humor",
+      "¿Quién lo asustaba haciéndose pasar por fantasma?"
+    ],
+    [
+      "¿Cuál fue la primera mascota que tuvimos juntos y qué travesura hacía?",
+      "suave",
+      "recuerdos",
+      "¿Quién era el encargado de limpiar lo que ensuciaba?"
+    ],
+    [
+      "¿Hacemos un brindis de hermanos cómplices por haber sobrevivido a la misma casa?",
+      "suave",
+      "brindis",
+      "¿Salud por los hermanos!"
+    ],
+    [
+      "¿Qué momento de nuestra infancia te da una nostalgia tremenda cada vez que lo recuerdas?",
+      "medio",
+      "recuerdos",
+      "¿Esas tardes enteras jugando a inventar mundos imaginarios?"
+    ],
+    [
+      "¿Qué rasgo de tu personalidad crees que se formó directamente por ser el hermano mayor, del medio o menor?",
+      "medio",
+      "reflexion",
+      "¿El líder responsable, el invisible rebelde o el mimado?"
+    ],
+    [
+      "¿Cuál es el mejor viaje o arrancada que hemos hecho los hermanos solos sin los viejos?",
+      "medio",
+      "historias",
+      "¿Repetimos esa escapada pronto?"
+    ],
+    [
+      "¿Qué anécdota de Navidad o Reyes Magos recuerdas con más cariño entre nosotros?",
+      "medio",
+      "recuerdos",
+      "¿Esperar despiertos a ver si venía el viejito pascuero?"
+    ],
+    [
+      "¿Cómo cambió nuestra relación cuando el primero de nosotros se fue de la casa a vivir solo?",
+      "medio",
+      "reflexion",
+      "¿Nos empezamos a valorar mucho más?"
+    ],
+    [
+      "¿Qué costumbre de nuestros papás apreciamos hoy que de adolescentes encontrábamos insoportable?",
+      "medio",
+      "sabiduria",
+      "¿Exigirnos respeto y estudiar?"
+    ],
+    [
+      "¿Quién de los hermanos es el que tiene la mejor mano para la cocina hoy?",
+      "medio",
+      "cotidiano",
+      "¿Para cuándo el almuerzo de hermanos en su casa?"
+    ],
+    [
+      "¿Qué consejo amoroso o de pega que te dio un hermano fue el más acertado que recibiste?",
+      "medio",
+      "sabiduria",
+      "¿Te abrió los ojos a tiempo?"
+    ],
+    [
+      "¿Cómo manejamos los desacuerdos entre hermanos ahora que somos adultos con vidas independientes?",
+      "medio",
+      "reflexion",
+      "¿Podemos hablar de frente con cariño?"
+    ],
+    [
+      "¿Quién de nosotros es el más parecido a la abuela en sus dichos y gestos?",
+      "medio",
+      "conocerse",
+      "¿Esa misma mirada pícara?"
+    ],
+    [
+      "¿Qué recuerdo de colegio compartimos donde uno tuvo que salir a defender al otro en el patio?",
+      "medio",
+      "lealtad",
+      "¿Nadie se metía con mi hermano?"
+    ],
+    [
+      "¿Cómo nos repartimos el apoyo a nuestros viejos en las cosas del día a día?",
+      "medio",
+      "responsabilidad",
+      "¿Nos sentimos un equipo balanceado?"
+    ],
+    [
+      "¿Qué cualidad de cada uno de mis hermanos admiro profundamente y me gustaría tener más yo?",
+      "medio",
+      "admiracion",
+      "¿Su temple, su inteligencia o su alegría?"
+    ],
+    [
+      "¿Cuál fue la peor metida de pata de un hermano con su primera pareja y cómo lo consolamos?",
+      "medio",
+      "historias",
+      "¿Helado y risas para pasar la pena?"
+    ],
+    [
+      "¿Qué tradición de nuestra infancia deberíamos revivir ahora con nuestros propios hijos o sobrinos?",
+      "medio",
+      "valores",
+      "¿Armar el árbol de pascua juntos o salir al cerro?"
+    ],
+    [
+      "¿Quién de nosotros es el más desordenado con sus platas y quién es el que ahorra hasta los vueltos?",
+      "medio",
+      "humor",
+      "¿Nos prestamos ropa o plata sin dramas?"
+    ],
+    [
+      "¿Cómo reaccionamos cuando supimos que íbamos a ser tíos por primera vez?",
+      "medio",
+      "recuerdos",
+      "¿Lloramos de la emoción?"
+    ],
+    [
+      "¿Qué viaje de infancia en carpa o cabaña fue el más caótico pero divertido?",
+      "medio",
+      "historias",
+      "¿Se llovió todo o se nos metió un bicho a la carpa?"
+    ],
+    [
+      "¿Quién de los hermanos es el más rápido para organizar una junta de emergencia?",
+      "medio",
+      "cotidiano",
+      "¿Un asado express un martes cualquiera?"
+    ],
+    [
+      "¿Qué canción de nuestra adolescencia escuchábamos en el equipo de música a todo volumen?",
+      "medio",
+      "musica",
+      "¿Nos sabíamos la letra de memoria?"
+    ],
+    [
+      "¿Cómo ha madurado nuestro cariño desde las peleas por el control remoto hasta ser cómplices de vida?",
+      "medio",
+      "reflexion",
+      "¿Es el lazo más largo y leal de la existencia?"
+    ],
+    [
+      "¿Qué momento de quiebre o dolor familiar nos unió más como bloque de hermanos?",
+      "medio",
+      "emociones",
+      "¿Nadie nos pudo quebrar?"
+    ],
+    [
+      "¿Quién de nosotros es el más sentimental que se emociona en los matrimonios o bautizos?",
+      "medio",
+      "afecto",
+      "¿Quién le pasa los pañuelos?"
+    ],
+    [
+      "¿Qué secreto de la adolescencia nos contamos en las noches en las camas antes de dormir?",
+      "medio",
+      "recuerdos",
+      "¿Ese amor imposible o ese miedo al futuro?"
+    ],
+    [
+      "¿Cuál ha sido la sorpresa más linda que le hemos preparado a nuestros papás juntos?",
+      "medio",
+      "historias",
+      "¿Ese aniversario de bodas o viaje sorpresa?"
+    ],
+    [
+      "¿Cómo es nuestra complicidad en los almuerzos familiares cuando cruzamos miradas?",
+      "medio",
+      "conexion",
+      "¿Basta una ceja levantada para entender el chiste?"
+    ],
+    [
+      "¿Qué talento inesperado descubrió alguno de mis hermanos de grande?",
+      "medio",
+      "curiosidad",
+      "¿Quién se convirtió en deportista o cocinero crack?"
+    ],
+    [
+      "¿Qué promesa de cuidarnos la espalda nos hicimos cuando éramos chicos?",
+      "medio",
+      "lealtad",
+      "¿Sigue viva y coleando hoy?"
+    ],
+    [
+      "¿Qué panorama de solo hermanos deberíamos agendar para el próximo mes?",
+      "medio",
+      "futuro",
+      "¿Una escapada a la playa o una comida larga?"
+    ],
+    [
+      "¿Por qué tener hermanos es haber tenido los primeros mejores amigos garantizados por la vida?",
+      "medio",
+      "afecto",
+      "¿Un brindis por esta hermandad indestructible?"
+    ],
+    [
+      "¿En qué momento difícil de tu vida sentiste que podías contar con tus hermanos sin dudar?",
+      "profundo",
+      "lealtad",
+      "¿Quién fue el primero en poner el hombro?"
+    ],
+    [
+      "¿Quién de nosotros cuida mejor a nuestros papás hoy en día y cómo nos repartimos esa tarea con amor?",
+      "profundo",
+      "responsabilidad",
+      "¿Nos sentimos un equipo unido y agradecido?"
+    ],
+    [
+      "¿Qué orgullo sientes de ver en lo que se han convertido tus hermanos como personas y profesionales?",
+      "profundo",
+      "admiracion",
+      "¿Quién lo hubiera dicho cuando nos tirábamos de las mechas?"
+    ],
+    [
+      "¿Qué promesa nos hicimos de niños que deberíamos jurar renovar hoy?",
+      "profundo",
+      "valores",
+      "¿Que pase lo que pase jamás nos vamos a distanciar?"
+    ],
+    [
+      "¿Qué es algo que nunca te he agradecido por haber sido mi hermano/a y que mereces escuchar?",
+      "profundo",
+      "gratitud",
+      "¿Me das un abrazo apretado de hermano?"
+    ],
+    [
+      "¿Por qué no hay nadie en el mundo que nos entienda mejor que nosotros mismos?",
+      "profundo",
+      "conexion",
+      "¿Porque compartimos las mismas raíces y la misma sangre?"
+    ],
+    [
+      "¿Qué herida o dolor de nuestra infancia compartida logramos sanar juntos con los años?",
+      "profundo",
+      "sabiduria",
+      "¿Haber estado el uno para el otro fue la medicina?"
+    ],
+    [
+      "¿Qué miedo sobre el envejecimiento de nuestros padres compartimos y cómo nos damos fuerza?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Saber que estaremos juntos para lo que venga?"
+    ],
+    [
+      "¿Qué le dirías hoy a tu hermano/a si supieras que mañana tiene que partir lejos por años?",
+      "profundo",
+      "emociones",
+      "¿Que mi casa y mi corazón siempre serán su hogar?"
+    ],
+    [
+      "¿Cuál ha sido el acto de generosidad más grande que un hermano ha tenido contigo?",
+      "profundo",
+      "gratitud",
+      "¿Estar ahí sin juzgarte cuando tocaste fondo?"
+    ],
+    [
+      "¿Cómo logramos que las familias políticas o las parejas nunca interfieran en el amor de hermanos?",
+      "profundo",
+      "valores",
+      "¿Poniendo la hermandad en un altar sagrado?"
+    ],
+    [
+      "¿Qué parte de tu historia solo tus hermanos conocen con pelos y señales?",
+      "profundo",
+      "conexion",
+      "¿Los días duros y las noches oscuras?"
+    ],
+    [
+      "¿Qué consejo de vida le darías hoy a tu hermano menor (o mayor) desde lo más profundo del corazón?",
+      "profundo",
+      "sabiduria",
+      "¿Que se cuide y persiga su felicidad sin miedo?"
+    ],
+    [
+      "¿Qué significa para ti saber que pase lo que pase en el mundo, aquí siempre habrá un abrazo seguro?",
+      "profundo",
+      "afecto",
+      "¿Es la mayor tranquilidad de la vida?"
+    ],
+    [
+      "¿Cómo honramos juntos la memoria de los abuelos o familiares queridos que ya partieron?",
+      "profundo",
+      "nostalgia",
+      "¿Manteniéndonos unidos y queriéndonos mucho?"
+    ],
+    [
+      "¿Qué rasgo noble de nuestros padres ves reflejado en el corazón de tus hermanos?",
+      "profundo",
+      "admiracion",
+      "¿Esa misma bondad y entrega infinita?"
+    ],
+    [
+      "¿Qué momento de felicidad absoluta de tus hermanos celebraste como si fuera tuyo propio?",
+      "profundo",
+      "afecto",
+      "¿Su matrimonio, el nacimiento de sus hijos o su logro soñado?"
+    ],
+    [
+      "¿Qué lección sobre la lealtad fraterna le queremos dejar de ejemplo a las próximas generaciones?",
+      "profundo",
+      "valores",
+      "¿Que un hermano es un amigo que te regala Dios?"
+    ],
+    [
+      "¿Podemos tomarnos de las manos ahora y mirarnos a los ojos con amor sincero?",
+      "profundo",
+      "emociones",
+      "¿Sentir el orgullo inmenso de ser hermanos?"
+    ],
+    [
+      "¿Un abrazo de hermanos largo y apretado para sellar este momento?",
+      "profundo",
+      "afecto",
+      "¡Los amo con el alma!"
+    ]
+  ],
+  "familia_primos": [
+    [
+      "¿Por qué la mesa de los primos en los almuerzos familiares siempre fue y será la mejor mesa de la fiesta?",
+      "suave",
+      "humor",
+      "¿Quién era el que siempre contaba los mejores chistes?"
+    ],
+    [
+      "¿Cuál fue el carrete o arrancada de primos más épica donde casi nos pillan los tíos?",
+      "suave",
+      "historias",
+      "¿Quién tuvo que hacer de campana?"
+    ],
+    [
+      "¿Qué cahuín o chisme familiar turbio de los tíos descubrimos de chicos y nos quedamos con la boca abierta?",
+      "suave",
+      "historias",
+      "¿Quién lo escuchó detrás de la puerta?"
+    ],
+    [
+      "¿Quién de los primos era el 'primo modelo' que los tíos ponían de ejemplo para hacernos sentir mal al resto?",
+      "suave",
+      "humor",
+      "¿Y cuál era su lado oscuro que solo nosotros sabíamos?"
+    ],
+    [
+      "¿Cuál fue la peor herida, caída de árbol o porrazo colectivo que tuvimos en vacaciones?",
+      "suave",
+      "historias",
+      "¿Quién lloró primero y quién ocultó la sangre?"
+    ],
+    [
+      "¿Quién de nosotros se manda los mejores memes o audios en el grupo de WhatsApp de los primos?",
+      "suave",
+      "humor",
+      "¿Y quién nunca contesta y vive en silencio?"
+    ],
+    [
+      "¿Qué juego inventado por nosotros jugábamos todas las tardes de verano hasta que oscurecía?",
+      "suave",
+      "recuerdos",
+      "¿El pillarse, la escondida o guerra de agua?"
+    ],
+    [
+      "¿Quién es el primo que siempre llega tarde a los asados pero con la mejor vibra y la mejor botella?",
+      "suave",
+      "humor",
+      "¿Le perdonamos la impuntualidad?"
+    ],
+    [
+      "¿Quién de los primos es el más parecido a qué tío o tía en la forma de hablar y gesticular?",
+      "suave",
+      "humor",
+      "¿Hacemos la imitación ahora?"
+    ],
+    [
+      "¿Cuál era el escondite secreto donde nos juntábamos a conversar tonteras lejos de los adultos?",
+      "suave",
+      "recuerdos",
+      "¿El techo, el patio trasero o una pieza en el fondo?"
+    ],
+    [
+      "¿Quién de los primos fue el primero en aprender a manejar y nos llevaba a dar vueltas clandestinas?",
+      "suave",
+      "historias",
+      "¿Casi chocamos el auto del tío?"
+    ],
+    [
+      "¿Cuál era la comida chatarra que asaltábamos en patota cuando los tíos salían de la casa?",
+      "suave",
+      "cotidiano",
+      "¿Papas fritas con ketchup o pan con queso derretido?"
+    ],
+    [
+      "¿Quién de los primos tiene la risa más escandalosa que delata a toda la mesa en los momentos solemnes?",
+      "suave",
+      "humor",
+      "¿Quién se echa a reír en los funerales o misas?"
+    ],
+    [
+      "¿Cuál fue la broma pesada más épica que le hicimos a uno de los primos mientras dormía?",
+      "suave",
+      "humor",
+      "¿Pintarle la cara o echarle pasta de dientes?"
+    ],
+    [
+      "¿Quién de los primos es el más deportista y quién no corre ni para tomar la micro?",
+      "suave",
+      "humor",
+      "¿Quién se cansa subiendo la escalera?"
+    ],
+    [
+      "¿Qué apodo familiar ridículo le teníamos a un tío o tía que jamás podríamos decir en voz alta?",
+      "suave",
+      "humor",
+      "¿Quién lo inventó?"
+    ],
+    [
+      "¿Cuál era la competencia más absurda que inventábamos en la piscina o la playa?",
+      "suave",
+      "recuerdos",
+      "¿Quién aguantaba más bajo el agua o quién hacía el mejor piquero?"
+    ],
+    [
+      "¿Quién de los primos es el mejor bailarín y se adueña de la pista en los matrimonios familiares?",
+      "suave",
+      "humor",
+      "¿Cuál es su tema de reggaetón o cumbia infalible?"
+    ],
+    [
+      "¿Cuál fue la primera fiesta o discoteca a la que fuimos los primos juntos?",
+      "suave",
+      "historias",
+      "¿Quién tuvo que cuidar a quién?"
+    ],
+    [
+      "¿Quién de los primos tiene las historias amorosas más caóticas y telenovelescas?",
+      "suave",
+      "humor",
+      "¿Cuándo va a sentar cabeza?"
+    ],
+    [
+      "¿Qué película de terror vimos todos amontonados en una cama tapados hasta la nariz?",
+      "suave",
+      "cultura",
+      "¿Quién no pudo dormir en toda la noche?"
+    ],
+    [
+      "¿Quién de los primos era el más llorón cuando perdía en los juegos de mesa o consolas?",
+      "suave",
+      "humor",
+      "¿Apagaba la tele para que nadie ganara?"
+    ],
+    [
+      "¿Cuál es el trago oficial con el que la mesa de los primos prende la fiesta familiar?",
+      "suave",
+      "cotidiano",
+      "¿Piscola, cerveza bien fría o terremoto?"
+    ],
+    [
+      "¿Quién de los primos es el más parecido físicamente a los abuelos?",
+      "suave",
+      "conocerse",
+      "¿Esa misma sonrisa y mirada?"
+    ],
+    [
+      "¿Hacemos un brindis de primos de oro por no perder nunca esta chispa?",
+      "suave",
+      "brindis",
+      "¿Salud por los primos!"
+    ],
+    [
+      "¿Qué tradición familiar de año nuevo o fiesta patria entre primos es sagrada para nosotros?",
+      "medio",
+      "valores",
+      "¿La fogata en la playa o el remate de la fiesta?"
+    ],
+    [
+      "¿Cómo ha cambiado nuestra relación ahora que somos adultos, trabajamos y algunos tienen hijos?",
+      "medio",
+      "reflexion",
+      "¿Sentimos que el cariño sigue intacto como cuando teníamos 8 años?"
+    ],
+    [
+      "¿Qué consejo de vida le darías a los primos más chicos que están entrando al colegio o la universidad?",
+      "medio",
+      "sabiduria",
+      "¿Qué errores de los nuestros deberían evitar?"
+    ],
+    [
+      "¿Qué haríamos si organizáramos un viaje de solo primos a la playa o al sur este año?",
+      "medio",
+      "futuro",
+      "¿Ponemos fecha antes de que termine esta noche?"
+    ],
+    [
+      "¿Cómo manejaban nuestros papás cuando los primos nos confabulábamos para pedir un permiso colectivo?",
+      "medio",
+      "historias",
+      "¿La presión social familiar funcionaba?"
+    ],
+    [
+      "¿Quién de los primos fue el primero en casarse o tener hijos y cómo cambió la dinámica?",
+      "medio",
+      "recuerdos",
+      "¿Nos volvimos tíos postizos todos de una?"
+    ],
+    [
+      "¿Qué recuerdo de las vacaciones de verano en la casa de los abuelos es el más mágico de todos?",
+      "medio",
+      "recuerdos",
+      "¿Esos colchones tirados en el suelo donde dormíamos diez?"
+    ],
+    [
+      "¿Cómo nos apoyamos entre primos cuando alguno está pasando por una mala racha económica o anímica?",
+      "medio",
+      "solidaridad",
+      "¿El grupo de primos se activa de inmediato?"
+    ],
+    [
+      "¿Quién de los primos es el más talentoso en su profesión y nos llena de orgullo a todos?",
+      "medio",
+      "admiracion",
+      "¿Le tiramos flores en público ahora?"
+    ],
+    [
+      "¿Qué anécdota de campamento o fogata de primos terminó con conversaciones profundas bajo las estrellas?",
+      "medio",
+      "historias",
+      "¿Arreglamos el mundo hasta el amanecer?"
+    ],
+    [
+      "¿Quién de los primos es el que siempre organiza los asados y junta la plata?",
+      "medio",
+      "reconocimiento",
+      "¿Qué haríamos sin su energía?"
+    ],
+    [
+      "¿Cómo reaccionan los tíos cuando ven a toda la manada de primos reunida y riéndose a carcajadas?",
+      "medio",
+      "afecto",
+      "¿Se les infla el pecho de orgullo?"
+    ],
+    [
+      "¿Qué lección de vida aprendiste de ver los aciertos y tropezones de tus primos mayores?",
+      "medio",
+      "sabiduria",
+      "¿Fueron tus primeros mentores en la vida?"
+    ],
+    [
+      "¿Cuál es la mejor receta o picada de comida que un primo le enseñó al resto?",
+      "medio",
+      "cotidiano",
+      "¿Esa salsa secreta para el asado?"
+    ],
+    [
+      "¿Qué canción de nuestra adolescencia nos hace saltar y abrazarnos en los carretes familiares?",
+      "medio",
+      "musica",
+      "¿La ponemos ahora para prender la noche?"
+    ],
+    [
+      "¿Cómo logramos que los primos que viven fuera de la ciudad o del país no se sientan desconectados?",
+      "medio",
+      "conexion",
+      "¿Las videollamadas con tragos los viernes?"
+    ],
+    [
+      "¿Quién de los primos tiene la casa más acogedora para hacer las previas de año nuevo?",
+      "medio",
+      "cotidiano",
+      "¿Para cuándo la próxima junta oficial?"
+    ],
+    [
+      "¿Qué travesura colectiva que le hicimos a un tío nunca fue descubierta por los adultos?",
+      "medio",
+      "historias",
+      "¿Nos llevamos el secreto a la tumba?"
+    ],
+    [
+      "¿Cómo recibimos a las parejas nuevas que llegan a la mesa de los primos?",
+      "medio",
+      "conexion",
+      "¿Hay 'prueba de iniciación' o puro cariño de entrada?"
+    ],
+    [
+      "¿Quién de los primos es el más rápido para responder con un meme perfecto en el chat?",
+      "medio",
+      "humor",
+      "¿El sticker que resume el momento?"
+    ],
+    [
+      "¿Qué proyecto o negocio soñamos con armar entre primos alguna vez?",
+      "medio",
+      "futuro",
+      "¿Esa cervecería artesanal o ese hostal en el sur?"
+    ],
+    [
+      "¿Cuál ha sido la fiesta de año nuevo donde los primos cerramos la pista de baile a las 8 de la mañana?",
+      "medio",
+      "recuerdos",
+      "¿Desayunando sandía en la playa?"
+    ],
+    [
+      "¿Quién de los primos es el mejor para dar consejos sin juzgar ni acusarte con nadie?",
+      "medio",
+      "confianza",
+      "¿La tumba secreta de la familia?"
+    ],
+    [
+      "¿Cómo describirías la vibra que se genera cuando nos juntamos después de meses sin vernos?",
+      "medio",
+      "conexion",
+      "¿Es como si no hubiera pasado ni un solo día?"
+    ],
+    [
+      "¿Qué tradición de los abuelos hemos rescatado y mantenido viva nosotros los primos?",
+      "medio",
+      "valores",
+      "¿Ese brindis sagrado por las raíces?"
+    ],
+    [
+      "¿Quién de los primos es el que tiene la anécdota de viaje más surrealista?",
+      "medio",
+      "historias",
+      "¿Perdido en un tren en Europa o en una selva?"
+    ],
+    [
+      "¿Cómo logramos que las nuevas generaciones de primos chicos se integren y nos quieran tanto como nos queremos nosotros?",
+      "medio",
+      "afecto",
+      "¿Jugando con ellos y haciéndolos parte?"
+    ],
+    [
+      "¿Qué es algo que solo un primo puede entender de tu forma de ser y de tu familia?",
+      "medio",
+      "conexion",
+      "¿Conocen el mismo ADN y las mismas locuras?"
+    ],
+    [
+      "¿Cuál ha sido el reencuentro de primos más emocionante que recuerdes?",
+      "medio",
+      "emociones",
+      "¿Después de años de no coincidir?"
+    ],
+    [
+      "¿Por qué los primos son los mejores amigos que te regala la vida?",
+      "medio",
+      "afecto",
+      "¿Porque la amistad es opcional pero el amor es de sangre?"
+    ],
+    [
+      "¿Cuál es el mejor recuerdo que tenemos con nuestros abuelos compartiendo todos los nietos juntos?",
+      "profundo",
+      "nostalgia",
+      "¿Esa casa llena de colchones en el suelo y olor a pan amasado?"
+    ],
+    [
+      "¿Qué persona de la familia que ya no está en este plano sentimos que estaría feliz de vernos a todos juntos?",
+      "profundo",
+      "nostalgia",
+      "¿Qué orgullo sentirían nuestros abuelos de ver este clan?"
+    ],
+    [
+      "¿Qué momento difícil en tu vida sentiste que fue más liviano gracias a un mensaje o abrazo de un primo?",
+      "profundo",
+      "gratitud",
+      "¿Quién estuvo ahí sin hacer preguntas?"
+    ],
+    [
+      "¿Qué significa para ti saber que pase lo que pase, tienes una tribu de primos que te respalda?",
+      "profundo",
+      "seguridad",
+      "¿Una red de amor indestructible?"
+    ],
+    [
+      "¿Qué lección de unión familiar nos dejaron los momentos duros que nos tocó atravesar juntos?",
+      "profundo",
+      "sabiduria",
+      "¿Que los primos son el puente que mantiene viva a la familia?"
+    ],
+    [
+      "¿Qué agradecimiento sincero tienes hacia los primos que siempre han estado al pie del cañón?",
+      "profundo",
+      "gratitud",
+      "¿Por su tiempo, su risa y su lealtad?"
+    ],
+    [
+      "¿Cómo cuidamos que los lazos de esta mesa de primos sigan firmes cuando tengamos canas?",
+      "profundo",
+      "valores",
+      "¿Haciendo el compromiso de no distanciarnos jamás?"
+    ],
+    [
+      "¿Qué parte de tu felicidad de infancia estuvo marcada por haber crecido al lado de tus primos?",
+      "profundo",
+      "recuerdos",
+      "¿Fueron los mejores veranos de nuestras vidas?"
+    ],
+    [
+      "¿Qué miedo sobre el paso del tiempo y las responsabilidades adultas tienes respecto a este grupo?",
+      "profundo",
+      "vulnerabilidad",
+      "¿Miedo a que el ritmo de la vida nos quite estos momentos?"
+    ],
+    [
+      "¿Qué orgullo sientes de ver a tus primos convertirse en personas admirables, trabajadoras y nobles?",
+      "profundo",
+      "admiracion",
+      "¿Quién lo hubiera dicho cuando jugábamos con tierra?"
+    ],
+    [
+      "¿Cómo logramos que el legado de amor y complicidad de los abuelos no muera nunca?",
+      "profundo",
+      "valores",
+      "¿Manteniendo la mesa de los primos encendida siempre?"
+    ],
+    [
+      "¿Qué le dirías a cada uno de los primos sentados aquí si hoy tuvieras que despedirte por mucho tiempo?",
+      "profundo",
+      "emociones",
+      "¿Que son mi infancia, mi presente y mi historia?"
+    ],
+    [
+      "¿Qué herida o distanciamiento entre tíos nosotros los primos supimos superar para no heredar rencores ajenos?",
+      "profundo",
+      "sabiduria",
+      "¿Demostramos que nuestra generación elige la unión?"
+    ],
+    [
+      "¿Cuál ha sido la mayor muestra de cariño silencioso que has recibido de un primo?",
+      "profundo",
+      "afecto",
+      "¿Esa llamada justo el día en que estabas triste?"
+    ],
+    [
+      "¿Qué promesa de amor y respaldo mutuo sellamos hoy los primos entre nosotros?",
+      "profundo",
+      "lealtad",
+      "¿Que para lo que sea, a la hora que sea, aquí estamos?"
+    ],
+    [
+      "¿Qué lección de vida aprendiste de ver la fortaleza de tus primos ante la adversidad?",
+      "profundo",
+      "sabiduria",
+      "¿Que llevamos sangre brava y de guerreros?"
+    ],
+    [
+      "¿Cómo definimos la magia de ser primos: amigos por elección y hermanos por destino?",
+      "profundo",
+      "conexion",
+      "¿La combinación perfecta de complicidad?"
+    ],
+    [
+      "¿Qué sueño conjunto de los primos deberíamos jurar cumplir antes de viejos?",
+      "profundo",
+      "futuro",
+      "¿Esa casa de playa o campo para reunir a todos los hijos?"
+    ],
+    [
+      "¿Podemos hacer una ronda de abrazos apretados ahora mismo entre todos los primos?",
+      "profundo",
+      "afecto",
+      "¿Sentir el calor de nuestra tribu hermosa?"
+    ],
+    [
+      "¿Un brindis sentido y a viva voz por la mesa más bacán del universo?",
+      "profundo",
+      "brindis",
+      "¡Salud por los primos de la vida!"
+    ]
+  ],
+  "carrete_fiesta": [
+    [
+      "¿Cuál ha sido la mentira más descarada que le dijiste a un guardia a la entrada de una fiesta para pasar?",
+      "suave",
+      "historias",
+      "¿Te funcionó o te quedaste afuera con frío?"
+    ],
+    [
+      "¿Qué canción es tu gatillo infalible: suena en la fiesta y te transformas y lo das todo en la pista?",
+      "suave",
+      "musica",
+      "¿La ponemos ahora a todo volumen?"
+    ],
+    [
+      "¿Cuál es el trago más venenoso y barato que tomaste de estudiante y que hoy no tocarías ni con un palo?",
+      "suave",
+      "humor",
+      "¿El famoso combinado en botella plástica cortada?"
+    ],
+    [
+      "¿Quién de esta mesa es el más propenso a desaparecer en mitad del carrete sin avisarle a nadie?",
+      "suave",
+      "humor",
+      "¿La mítica bomba de humo ninja?"
+    ],
+    [
+      "¿Qué mensaje de WhatsApp mandaste con copas de más del que te arrepentiste al despertar con resaca moral?",
+      "suave",
+      "historias",
+      "¿A tu ex, a tu jefe o al grupo de la familia?"
+    ],
+    [
+      "¿Cuál es tu mejor comida de bajón a las 4 de la mañana después de una fiesta épica?",
+      "suave",
+      "cotidiano",
+      "¿El completo de servicentro o la pizza fría?"
+    ],
+    [
+      "¿Quién de esta mesa baila con más estilo y quién parece que está esquivando abejas con sus pasos prohibidos?",
+      "suave",
+      "humor",
+      "¿Duelo de baile ahora mismo?"
+    ],
+    [
+      "Si tuviéramos que elegir al presidente y al tesorero de la fiesta de hoy, ¿quiénes serían?",
+      "suave",
+      "humor",
+      "¿Quién asegura el hielo y los bebestibles?"
+    ],
+    [
+      "¿Cuál ha sido el peor lugar donde te has quedado dormido por culpa del cansancio y los tragos?",
+      "suave",
+      "historias",
+      "¿En el baño, en el pasto o en el metro?"
+    ],
+    [
+      "¿Qué juego de previa clásico te activa al tiro: Yo Nunca, Beer Pong o Cultura Chupística?",
+      "suave",
+      "juego",
+      "¿Quién parte la primera ronda?"
+    ],
+    [
+      "¿A quién de esta mesa le confiarías tu teléfono desbloqueado durante 5 minutos en medio de una fiesta?",
+      "suave",
+      "humor",
+      "¿Qué foto o chat te da pánico que vea?"
+    ],
+    [
+      "¿Cuál es tu técnica infalible para sacarte de encima a alguien pesado que te está dando la lata en una barra?",
+      "suave",
+      "humor",
+      "¿Fingir que vas al baño y no volver más?"
+    ],
+    [
+      "¿Cuál ha sido el carrete más largo de tu vida: cuántas horas seguidas estuviste despierto celebrando?",
+      "suave",
+      "historias",
+      "¿Cómo sobreviviste al día después?"
+    ],
+    [
+      "¿Qué persona famosa te gustaría que apareciera de sorpresa por esa puerta ahora mismo con un six-pack?",
+      "suave",
+      "curiosidad",
+      "¿Qué le diríamos primero?"
+    ],
+    [
+      "¿Quién de nosotros es el que se pone más sentimental y empieza a abrazar a todo el mundo diciendo 'hermano, te amo'?",
+      "suave",
+      "humor",
+      "¿A las cuántas copas aparece ese personaje?"
+    ],
+    [
+      "¿Cuál es el remedio casero infalible que juras de guata que te quita la resaca al día siguiente?",
+      "suave",
+      "sabiduria",
+      "¿Una sopa bien caliente, mariscos o mucha agua?"
+    ],
+    [
+      "¿Qué tontera compraste de fiesta a un vendedor ambulante a las 3 AM que no necesitabas?",
+      "suave",
+      "humor",
+      "¿Esos lentes luminosos o una rosa de plástico?"
+    ],
+    [
+      "Si la policía cayera en este momento a clausurar la fiesta, ¿quién es el primero en intentar negociar con labia?",
+      "suave",
+      "humor",
+      "¿Y quién se esconde en el clóset?"
+    ],
+    [
+      "¿Quién de esta mesa tiene la anécdota de fiesta más vergonzosa donde perdió un zapato o el celular?",
+      "suave",
+      "historias",
+      "¿Cómo llegó a su casa esa noche?"
+    ],
+    [
+      "¿Cuál es el reggaetón viejo que te sabes de principio a fin y cantas a grito pelado?",
+      "suave",
+      "musica",
+      "¿Gasolina, Rastrillando o Mayor que yo?"
+    ],
+    [
+      "¿Quién es el que siempre dice 'esta es la última y nos vamos' y pide otra ronda?",
+      "suave",
+      "humor",
+      "¿El mayor incitador al desorden?"
+    ],
+    [
+      "¿Cuál ha sido la peor mezcla de copas que hiciste en tu vida que te dejó jurando no volver a tomar nunca más?",
+      "suave",
+      "humor",
+      "¿Cuánto tiempo te duró la promesa de abstinencia?"
+    ],
+    [
+      "¿Qué foto o video prohibido de fiesta tienes guardado que si sale a la luz destruye una carrera?",
+      "suave",
+      "humor",
+      "¿Quién es el protagonista?"
+    ],
+    [
+      "¿Quién de los presentes tiene la peor resistencia al alcohol y con dos sorbos ya está cantando rancheras?",
+      "suave",
+      "humor",
+      "¿Le damos agüita mineral ya?"
+    ],
+    [
+      "¿Qué brindis épico nos vamos a mandar ahora mismo antes de seguir jugando?",
+      "suave",
+      "brindis",
+      "¿¡Arriba, abajo, al centro y adentro!?"
+    ],
+    [
+      "¿Qué anécdota de carrete tuya es tan insólita que nadie te cree a menos que haya un testigo en la mesa?",
+      "medio",
+      "historias",
+      "¿Cómo terminó esa noche épica?"
+    ],
+    [
+      "¿Cuál ha sido la fiesta donde mejor química sentiste con un desconocido en la pista de baile?",
+      "medio",
+      "quimica",
+      "¿Se volvieron a ver o fue amor de una noche?"
+    ],
+    [
+      "¿Qué es lo más ridículo que has hecho por cumplir un reto en un juego con amigos?",
+      "medio",
+      "humor",
+      "¿Tirarte a una piscina vestido o comer algo picante?"
+    ],
+    [
+      "¿Quién de esta mesa tiene el mejor radar para encontrar el mejor 'after' cuando se apagan las luces?",
+      "medio",
+      "historias",
+      "¿A qué casa clandestina nos va a llevar hoy?"
+    ],
+    [
+      "¿Qué opinas de la gente que se besa con desconocidos en las discotecas: deporte extremo o pérdida de tiempo?",
+      "medio",
+      "debate",
+      "¿Cuál ha sido tu récord en una noche loca?"
+    ],
+    [
+      "¿Cuál ha sido el carrete en una playa o lago que terminó con todos bañándose de madrugada?",
+      "medio",
+      "recuerdos",
+      "¿Estaba el agua congelada?"
+    ],
+    [
+      "¿Quién de nosotros es el mejor chofer designado que cuida al rebaño con paciencia de santo?",
+      "medio",
+      "reconocimiento",
+      "¿Le pagamos la comida y las bebidas hoy?"
+    ],
+    [
+      "¿Qué canción de desamor cantas con más pasión cuando estás con copas encima?",
+      "medio",
+      "musica",
+      "¿A quién te imaginas en ese momento?"
+    ],
+    [
+      "¿Cuál ha sido la excusa más creativa que le inventaste a tu pareja o a tus viejos para llegar al mediodía siguiente?",
+      "medio",
+      "historias",
+      "¿Se pinchó la rueda o te quedaste sin batería?"
+    ],
+    [
+      "¿Quién de la mesa es el más peligroso con el micrófono en un karaoke?",
+      "medio",
+      "humor",
+      "¿No lo suelta en toda la noche aunque desafine?"
+    ],
+    [
+      "¿Qué es algo que solo te atreves a confesar cuando tienes dos tragos encima?",
+      "medio",
+      "vulnerabilidad",
+      "¿Nos aprovechamos de este momento para que lo sueltes?"
+    ],
+    [
+      "¿Cuál ha sido el carrete de año nuevo más descontrolado o inolvidable que has tenido?",
+      "medio",
+      "recuerdos",
+      "¿Dónde estabas a las 7 de la mañana del 1 de enero?"
+    ],
+    [
+      "¿Quién de nosotros es el que mejor tira la talla rápida en medio de una conversación prendida?",
+      "medio",
+      "humor",
+      "¿El rey del remate cómico?"
+    ],
+    [
+      "¿Qué fiesta que prometía ser el evento del año terminó siendo un fiasco absoluto?",
+      "medio",
+      "historias",
+      "¿Faltó música o sobró gente fome?"
+    ],
+    [
+      "¿Cuál es tu trago de autor o invento de cocina que preparas cuando se acaba lo que había?",
+      "medio",
+      "cotidiano",
+      "¿Qué ingredientes raros le metes?"
+    ],
+    [
+      "¿Quién de la mesa es el más propenso a empezar a cantar abrazado a los amigos a las 3 AM?",
+      "medio",
+      "afecto",
+      "¿Esa emoción que aflora con las copas?"
+    ],
+    [
+      "¿Qué anécdota de fiesta de disfraces tuya causó sensación o fue un papelón total?",
+      "medio",
+      "historias",
+      "¿De qué fuiste vestido que nadie entendió?"
+    ],
+    [
+      "¿Cuál ha sido la peor resaca de tu vida y qué juraste en el suelo del baño para sobrevivir?",
+      "medio",
+      "humor",
+      "¿'Diosito, si me salvas de esta no tomo nunca más'?"
+    ],
+    [
+      "¿Quién de nosotros es el que siempre pierde la chaqueta o los documentos en los locales?",
+      "medio",
+      "humor",
+      "¿Cuántas veces has tenido que ir a buscar las cosas al día siguiente?"
+    ],
+    [
+      "¿Qué estilo de música pone a bailar a todos en esta mesa sin excepciones?",
+      "medio",
+      "musica",
+      "¿Cumbia villera, pop 2000 o reggaetón clásico?"
+    ],
+    [
+      "¿Cuál ha sido el carrete improvisado en un living que terminó siendo mil veces mejor que salir a una disco cara?",
+      "medio",
+      "recuerdos",
+      "¿Por qué la compañía lo es todo?"
+    ],
+    [
+      "¿Quién de los presentes tiene la historia de amor o romance que nació en un carrete loco?",
+      "medio",
+      "quimica",
+      "¿Siguen juntos o duró lo que dura un hielo?"
+    ],
+    [
+      "¿Qué juego de cartas de fiesta te parece el más entretenido para subir la temperatura del ambiente?",
+      "medio",
+      "juego",
+      "¿Rompehielo edición fiesta?"
+    ],
+    [
+      "¿Quién de esta mesa es el más simpático con los desconocidos y hace 10 amigos nuevos en la fila del baño?",
+      "medio",
+      "conocerse",
+      "¿Se sabe la vida de medio bar en media hora?"
+    ],
+    [
+      "¿Cuál ha sido el concierto o festival donde dejaste la voz y los pies de tanto bailar?",
+      "medio",
+      "recuerdos",
+      "¿Qué artista te hizo vibrar?"
+    ],
+    [
+      "¿Cómo describirías la energía de esta noche en una sola frase prendida?",
+      "medio",
+      "conexion",
+      "¿La noche recién está empezando?"
+    ],
+    [
+      "¿Quién de nosotros es el que siempre propone los retos más desquiciados en las previas?",
+      "medio",
+      "humor",
+      "¿Aceptas un reto ahora mismo?"
+    ],
+    [
+      "¿Qué anécdota de fiesta con tus amigos de siempre te hace suspirar de la risa cada vez que la recuerdas?",
+      "medio",
+      "recuerdos",
+      "¿La contamos a coro?"
+    ],
+    [
+      "¿Qué es lo mejor de un buen carrete: la previa, la fiesta o la sobremesa del bajón?",
+      "medio",
+      "debate",
+      "¿El bajón con amigos arreglando la noche?"
+    ],
+    [
+      "¿Quién es el que va a poner la casa para el after hoy?",
+      "medio",
+      "futuro",
+      "¿Ya tenemos voluntario o hacemos sorteo?"
+    ],
+    [
+      "¿Qué conversación profunda y hermosa has tenido en la cocina de una fiesta a las 4 de la mañana?",
+      "profundo",
+      "conexion",
+      "¿Ese momento mágico donde dos almas se sinceran?"
+    ],
+    [
+      "¿Qué vacío o estrés sientes que a veces intentamos tapar saliendo de fiesta y celebrando?",
+      "profundo",
+      "reflexion",
+      "¿La necesidad humana de soltar las cargas y celebrar que estamos vivos?"
+    ],
+    [
+      "¿Con quién de esta mesa sientes una complicidad tan grande que con solo mirarlo sabes qué está pensando?",
+      "profundo",
+      "conexion",
+      "¿Nos cuidamos las espaldas en medio del desorden?"
+    ],
+    [
+      "¿Qué significa para ti tener amigos con los que puedes desordenarte y a la vez contar en las malas?",
+      "profundo",
+      "amistad",
+      "¿Ese equilibrio perfecto de carrete y lealtad?"
+    ],
+    [
+      "¿Cuál ha sido el momento en que un amigo de fiesta te cuidó y te demostró lo que vale de verdad?",
+      "profundo",
+      "gratitud",
+      "¿Te llevó a tu casa sano y salvo y te dejó un vaso de agua?"
+    ],
+    [
+      "¿Qué es lo que más valoras de estas noches: la música, las copas o la compañía real?",
+      "profundo",
+      "valores",
+      "¿Las personas con las que compartes la risa?"
+    ],
+    [
+      "¿Qué dolor del año sientes que esta noche y este grupo te están ayudando a sanar?",
+      "profundo",
+      "emociones",
+      "¿Sentir el cariño y la vibra positiva de la mesa?"
+    ],
+    [
+      "¿Qué agradecimiento sincero le haces a la persona que organizó esta junta hoy?",
+      "profundo",
+      "gratitud",
+      "¿Por darnos la excusa perfecta para encontrarnos?"
+    ],
+    [
+      "¿Cómo logramos no perder nunca este espíritu joven y festivo por más años que tengamos?",
+      "profundo",
+      "sabiduria",
+      "¿Celebrando la vida cada vez que se pueda?"
+    ],
+    [
+      "¿Qué le dirías a tu 'yo' del futuro sobre cómo disfrutabas la vida hoy con tus amigos?",
+      "profundo",
+      "nostalgia",
+      "¿Que no me guardé nada y lo bailé todo?"
+    ],
+    [
+      "¿Qué verdad que no te atreves a decir sobrio te gustaría soltar con cariño ahora?",
+      "profundo",
+      "vulnerabilidad",
+      "¿'Los quiero con el alma y me hacen muy feliz'?"
+    ],
+    [
+      "¿Qué hace que una noche pase de ser 'un carrete más' a convertirse en una noche legendaria?",
+      "profundo",
+      "conexion",
+      "¿La entrega total y la cero pose de los que están sentados acá?"
+    ],
+    [
+      "¿Quién de esta mesa ha sido tu cómplice en las mejores locuras de tu vida?",
+      "profundo",
+      "lealtad",
+      "¿Harías otra locura con esa persona hoy?"
+    ],
+    [
+      "¿Qué sueño loco de vida te gustaría celebrar con este mismo grupo cuando lo cumplas?",
+      "profundo",
+      "futuro",
+      "¿Tirar la casa por la ventana juntos?"
+    ],
+    [
+      "¿Cómo te gustaría que termine esta noche para que sea perfecta?",
+      "profundo",
+      "conexion",
+      "¿Risas interminables, buena música y corazones llenos?"
+    ],
+    [
+      "¿Qué es lo más lindo de mirarnos a los ojos y ver que aquí no hay caretas ni juicios?",
+      "profundo",
+      "valores",
+      "¿Pura buena onda y ganas de pasarlo la raja?"
+    ],
+    [
+      "¿Qué huella quieres dejar en el corazón de los que están compartiendo esta mesa contigo hoy?",
+      "profundo",
+      "emociones",
+      "¿Una energía alegre que te abrace el alma?"
+    ],
+    [
+      "¿Qué promesa de amistad y celebración eterna sellamos entre todos ahora?",
+      "profundo",
+      "lealtad",
+      "¿Que mientras haya vida, habrá fiesta y amistad?"
+    ],
+    [
+      "¿Podemos mirarnos todos a la cara, chocar las copas y gritar un brindis que se escuche en toda la cuadra?",
+      "profundo",
+      "brindis",
+      "¿Salud por la vida, por los amigos y por esta noche hermosa!"
+    ],
+    [
+      "¡Arriba los vasos, que esta noche no se olvida más!",
+      "profundo",
+      "brindis",
+      "¡Salud!"
+    ]
+  ]
+}

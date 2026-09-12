@@ -1,103 +1,90 @@
-# ROMPEHIELO
+# 🧊 ROMPEHIELO
 
-Juego web de conversación para citas, parejas, amigos, grupos, familia, gente nueva y fiestas.
+> **El motor de conversación contextual para citas, parejas, amigos, grupos, familia y fiestas.**  
+> Basado en la ingeniería inversa de los mejores productos del género (*The AND*, *We're Not Really Strangers*, *Peelr*).  
+> **100% web, PWA offline, sin dependencias, con más de 1.050 preguntas únicas en español.**
 
-## Qué contiene
+---
 
-- UX de cartas y selección de contexto.
-- Progresión de profundidad por ronda.
-- Selección por intención: reírse, conversar, conocerse, historias o libre.
-- "Tira del hilo" para preguntas de seguimiento.
-- Rondas especiales cada 5 preguntas.
-- PWA instalable y cache local.
-- Banco de preguntas separado en `data/questions.json`.
-- Cero backend y cero dependencias para esta versión.
-- Preparado para crecer hacia mazos importables, favoritos, historial, Hot Seat, Timed, multimedia e IA.
+## ✨ Características Principales
 
-## Ejecutar
+1. **Segmentación Hiper-Contextual (14 Sub-Contextos)**:
+   - **Salidas de a Dos**:
+     - *Cita Tinder / Primera Cita* (química, humor, sin interrogatorio laboral)
+     - *Cita sin saber si es romántica o no* (el dilema "¿hay onda o somos amigos?")
+     - *Salida no romántica de 2 compas/colegas* (curiosidad, proyectos, vida)
+     - *Pareja que lleva poco (< 1 año)* (descubrimiento, ternura, primeras manías)
+     - *Pareja de muchos años / convivencia* (salir de la rutina, revivir complicidad, humor doméstico)
+   - **Grupos y Amistad**:
+     - *Gente que por primera vez se ve* (desconocidos en cenas, cowork, opiniones inútiles universales)
+     - *Amigos de toda la vida* (nostalgia, peores anécdotas, debates acalorados sanos)
+     - *Amigos recientes* (pasar de conocidos a amistad real)
+     - *Parejas + Amigos solteros* (equilibrio perfecto sin exclusión ni incomodidades)
+     - *Doble Cita (Parejas con parejas)* (complicidad de a 4, alianzas y comparaciones divertidas)
+   - **Familia y Raíces**:
+     - *Reunión familiar general* (padres, tíos, abuelos, tradiciones, recuerdos de infancia)
+     - *Juntada de Hermanos* (secretos ocultados a los papás, lealtades, quién era el regalón)
+     - *La Mesa de los Primos* (la mejor mesa de la fiesta, anécdotas prohibidas)
+   - **Fiesta y Carrete**:
+     - *Carrete / Fiesta / Previa con copas* (alta energía, confesiones, bajones épicos)
 
-La app es estática. Para que el Service Worker funcione debes servirla por HTTP(S), no abrir `index.html` directamente.
+2. **Progresión Psicológica de Profundidad (3 Niveles)**:
+   - **Nivel 1: Suave 🧊** (Icebreaker, percepción, humor, cero riesgo).
+   - **Nivel 2: Medio 💬** (Conexión, anécdotas, historias y opiniones).
+   - **Nivel 3: Profundo 🔥** (Vulnerabilidad sana, valores, reflexión y emoción).
 
-Con Python:
+3. **Mecánica "🔥 Tira del Hilo" & Rondas Especiales**:
+   - Cada carta cuenta con repreguntas diseñadas para profundizar en la historia.
+   - Cada 5 rondas se activa una dinámica sorpresa: *Silla Caliente (Hot Seat)*, *Votación Simultánea* o *Ronda Relámpago*.
 
-    python3 -m http.server 8080
+4. **Módulo Print & Play (Tarjetas Imprimibles Físicas)**:
+   - Generador integrado de planchas en formato A4 / Carta con líneas de corte.
+   - Listas para imprimir en papel opalina o cartulina couche en tu casa o imprenta.
+   - Diseñado para jugar offline en cabañas, campings, fogatas o la mesa del velador.
 
-Luego abre:
+5. **Estrategia de Monetización Integrada**:
+   - Acceso web gratuito sin registro para máxima viralidad en redes (TikTok / Reels).
+   - Banner de reserva para el mazo físico de naipe coleccionista (350g con barniz mate y caja rígida).
+   - Listo para integrar pasarelas de pago (MercadoPago, Flow, Stripe, Gumroad).
 
-    http://localhost:8080
+---
 
-También puedes publicarla directamente con GitHub Pages.
+## 🚀 Despliegue en GitHub Pages
 
-## Publicar en GitHub Pages
+El proyecto incluye el workflow automatizado de GitHub Actions en `.github/workflows/pages.yml`.
 
-1. Crea un repositorio, por ejemplo `rompehielo`.
-2. Sube todo el contenido de esta carpeta a la raíz.
-3. En GitHub: Settings → Pages.
-4. Source: GitHub Actions o Deploy from branch.
-5. Si usas branch, selecciona `main` + `/root`.
+Para desplegarlo en tu repositorio [`kulhunter/Rompehielo`](https://github.com/kulhunter/Rompehielo):
 
-## Fuentes y decisiones de producto
+1. Clona o añade el remoto:
+   ```bash
+   git remote add origin https://github.com/kulhunter/Rompehielo.git
+   ```
+2. Sube los cambios a la rama principal:
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
+3. En tu repositorio de GitHub, ve a **Settings** → **Pages** → en *Build and deployment* selecciona **GitHub Actions**.
+4. ¡Listo! Tu app estará en línea inmediatamente en `https://kulhunter.github.io/Rompehielo/`.
 
-Esta implementación NO copia literalmente contenido de terceros. Consolida patrones y características observadas en proyectos open-source y productos del género.
+---
 
-Referencias revisadas:
+## 💻 Ejecución Local
 
-- remarkablegames/icebreaker — https://github.com/remarkablegames/icebreaker
-- ParabolInc/icebreakers — https://github.com/ParabolInc/icebreakers
-- michaelsboost/CoupleCards — https://github.com/michaelsboost/CoupleCards
-- LuisReinoso/family-talk — https://github.com/LuisReinoso/family-talk
-- qiaeru/couplecards — https://github.com/qiaeru/couplecards
-- sweetmeats83/questions — https://github.com/sweetmeats83/questions
-- michaelsboost/the-deck — https://github.com/michaelsboost/the-deck
+Dado que es una aplicación web pura (HTML5, CSS3, JS ES6 Vanilla y Service Workers):
 
-### Patrones incorporados
+```bash
+# Con Python 3:
+python3 -m http.server 8080
 
-- Icebreaker generator / selección rápida.
-- Diseño de cartas y flip.
-- PWA / offline.
-- Progresión de profundidad.
-- Selección de jugadores/contexto.
-- Banco de preguntas estructurado.
-- Arquitectura orientada a mazos.
-- Posibilidad futura de audio, respuestas y multimedia.
+# O con Node:
+npx serve .
+```
 
-## Licencias
+Abre en tu navegador `http://localhost:8080`.
 
-Esta implementación propia no incorpora código de esos repositorios.
+---
 
-Los repositorios de referencia deben conservar sus respectivos avisos/licencias si en una futura versión se reutiliza código literalmente. Antes de redistribuir fragmentos, revisar el LICENSE del commit exacto y conservar copyright/notice cuando corresponda.
+## 📄 Licencia
 
-No se incluyen aquí preguntas copiadas de productos comerciales como THE AND o We're Not Really Strangers.
-
-## Roadmap recomendado
-
-### V1
-- [x] Contextos
-- [x] Intenciones
-- [x] Profundidad
-- [x] Progresión
-- [x] Seguimientos
-- [x] PWA
-
-### V2
-- [ ] 500–1.000 preguntas originales
-- [ ] 15–20 mazos
-- [ ] Hot Seat
-- [ ] Timed mode
-- [ ] modo 1 jugador
-- [ ] favoritos
-- [ ] historial
-- [ ] nombres/jugadores
-- [ ] import/export de mazos
-- [ ] editor de preguntas
-- [ ] filtros por edad/situación
-
-### V3
-- [ ] motor adaptativo basado en respuestas
-- [ ] IA para "tira del hilo"
-- [ ] audio/TTS
-- [ ] respuestas de voz
-- [ ] fotos
-- [ ] compartir sesión
-- [ ] multiplayer
-- [ ] mazos imprimibles generados desde la misma fuente JSON
+Código bajo licencia MIT. Las preguntas y estructura contextual son una creación original para Rompehielo.

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>ROMPEHIELO · El Juego de Conversación Contextual</title>
+  <meta name="description" content="+1.000 preguntas diseñadas para romper el hielo y conectar de verdad según con quién estás: citas, parejas, amigos, desconocidos, familia o fiesta.">
+  <meta name="theme-color" content="#121214">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Barra superior -->
+  <header class="top-nav" id="topNav">
+    <div class="nav-left">
+      <button class="nav-btn" id="btnHome" aria-label="Inicio" title="Inicio">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        <span class="brand-text">ROMPEHIELO</span>
+      </button>
+    </div>
+    <div class="nav-center" id="navCenterTitle">
+      <span class="badge-ctx" id="navCtxBadge" style="display:none;"></span>
+    </div>
+    <div class="nav-right">
+      <button class="nav-btn" id="btnFavs" title="Mis Favoritas" aria-label="Favoritas">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        <span class="fav-count" id="favCount">0</span>
+      </button>
+      <button class="nav-btn" id="btnPrintModalBtn" title="Imprimir Cartas / PDF" aria-label="Imprimir">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+      </button>
+      <button class="nav-btn" id="btnSettings" title="Configuración y Tienda" aria-label="Ajustes">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Contenedor Principal Dinámico -->
+  <main class="app-container" id="screen">
+    <!-- Se inyecta dinámicamente vía app.js -->
+  </main>
+
+  <!-- Modales -->
+  <!-- Modal Favoritas -->
+  <div class="modal-backdrop" id="modalFavs" style="display:none;">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>Cartas Favoritas</h3>
+        <button class="modal-close" id="btnCloseFavs">✕</button>
+      </div>
+      <div class="modal-body" id="favsList">
+        <!-- Lista de favoritas -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Imprimir / Print & Play -->
+  <div class="modal-backdrop" id="modalPrint" style="display:none;">
+    <div class="modal-card modal-lg">
+      <div class="modal-head">
+        <div>
+          <h3>Tarjetas Físicas (Print & Play)</h3>
+          <p class="text-sm muted">Genera e imprime tu baraja para jugar en tu casa o llevarla de viaje.</p>
+        </div>
+        <button class="modal-close" id="btnClosePrint">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="print-controls">
+          <label><b>Selecciona el Mazo a Imprimir:</b></label>
+          <select id="printDeckSelect" class="styled-select">
+            <!-- Rellenado dinámicamente -->
+          </select>
+          <div class="print-actions">
+            <button class="btn-primary" id="btnPreviewPrint">Generar Planchas de Cartas</button>
+            <button class="btn-outline" id="btnPrintNow">🖨️ Mandar a Imprimir / Guardar PDF</button>
+          </div>
+        </div>
+        <div id="printSheetContainer" class="print-sheet-preview">
+          <!-- Plancha interactiva con cartas cortables -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ajustes & Tienda / Monetización -->
+  <div class="modal-backdrop" id="modalSettings" style="display:none;">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>Ajustes & Mazo Físico</h3>
+        <button class="modal-close" id="btnCloseSettings">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="setting-item">
+          <div>
+            <b>Modo Sonido / Háptico</b>
+            <div class="text-sm muted">Vibración y micro-clicks al cambiar de carta</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="chkHaptic" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="monetize-banner">
+          <div class="banner-tag">EDICIÓN FÍSICA COLECCIONISTA</div>
+          <h4>¿Quieres el mazo impreso en tu velador o mochila?</h4>
+          <p class="text-sm">Naipe premium 350g con barniz mate sedoso, esquinas redondeadas, caja rígida y 150 cartas maestras con códigos QR que disparan preguntas ilimitadas de la app.</p>
+          <div class="price-box">
+            <span class="price">$19.990 CLP</span>
+            <span class="old-price">$24.990 CLP</span>
+          </div>
+          <button class="btn-gold" id="btnBuyPhysical">
+            🛍️ Reservar Mazo Físico
+          </button>
+          <div class="text-xs text-center muted" style="margin-top:6px;">O usa la opción "Imprimir" arriba para armar tus propias cartas gratis.</div>
+        </div>
+
+        <div class="setting-item" style="margin-top:16px;">
+          <div>
+            <b>Banco de Preguntas</b>
+            <div class="text-sm muted">1.050 preguntas únicas verificadas</div>
+          </div>
+          <button class="btn-sm btn-outline" id="btnResetHistory">Reiniciar Historial</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
