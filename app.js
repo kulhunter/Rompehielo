@@ -1,29 +1,85 @@
 /**
- * ROMPEHIELO - Game Card Engine
- * UX Directo: Entras y ya estás jugando.
- * Sin menús eternos, sin jerga de backend, 100% cartas y conversación.
+ * ROMPEHIELO - ENGINE DE CONVERSACIÓN ORACULAR & LÚDICO
+ * Inteligencia contextual libre: lugar, vibra, dinámica real.
+ * Zero encuestas, zero preguntas técnicas.
  */
 
-const CONTEXTS = {
-  tinder_primera_cita: { title: "Cita Tinder", icon: "🔥", desc: "Química, humor y cero entrevista laboral" },
-  cita_ambigua: { title: "¿Cita o amigos?", icon: "👀", desc: "¿Hay onda o somos amigos? Doble lectura" },
-  cita_no_romantica: { title: "Salida de 2 compas", icon: "☕", desc: "Proyectos, anécdotas de vida y curiosidad mutua" },
-  pareja_reciente: { title: "Pareja nueva (< 1 año)", icon: "❤️", desc: "Descubrir manías, primeras impresiones y ternura" },
-  pareja_estable: { title: "Pareja de años", icon: "💑", desc: "Salir de la rutina, complicidad y humor de convivencia" },
-  desconocidos_mesa: { title: "Gente nueva", icon: "🧊", desc: "Opiniones inútiles y anécdotas para romper el hielo" },
-  amigos_antiguos: { title: "Amigos de siempre", icon: "🍻", desc: "Nostalgia, peores anécdotas y debates ridículos" },
-  amigos_recientes: { title: "Nuevos amigos", icon: "🤝", desc: "Pasar de conocidos de carrete a amigos reales" },
-  parejas_amigos: { title: "Parejas + Solteros", icon: "👥", desc: "Balance perfecto: citas vs convivencia sin exclusión" },
-  doble_cita: { title: "Doble Cita", icon: "🍷", desc: "Complicidad de a cuatro, viajes y mañas de pareja" },
-  familia_reunion: { title: "Familia general", icon: "🏠", desc: "Padres, tíos, abuelos y recuerdos de infancia" },
-  familia_hermanos: { title: "Hermanos", icon: "🍕", desc: "Secretos no contados a los papás y lealtades" },
-  familia_primos: { title: "Mesa de los Primos", icon: "⚡", desc: "La mejor mesa: anécdotas prohibidas y complicidad" },
-  carrete_fiesta: { title: "Fiesta / Previa", icon: "🎉", desc: "Alta energía, confesiones y bajones épicos" }
+// 1. CHIPS DE VIBE INMEDIATA PARA EL HEADER
+const VIBE_CHIPS = [
+  { id: "quimica", label: "👀 ¿Hay onda o no?", icon: "✨" },
+  { id: "casa_depto", label: "🏠 En casa / depto", icon: "🍷" },
+  { id: "cita_tinder", label: "🔥 Primera cita", icon: "🍸" },
+  { id: "parque_paseo", label: "🌳 Caminando / Parque", icon: "☕" },
+  { id: "pareja_anos", label: "💑 Pareja de años", icon: "🛋️" },
+  { id: "amigos_locos", label: "🍻 Amigos de siempre", icon: "🍕" },
+  { id: "gente_nueva", label: "🧊 Gente desconocida", icon: "👥" },
+  { id: "silencio_incomodo", label: "😶 Matar el silencio", icon: "⚡" },
+  { id: "carrete_copas", label: "🎉 Fiesta / Carrete", icon: "🥃" },
+  { id: "primos_reunion", label: "⚡ Mesa de primos", icon: "🍔" }
+];
+
+// 2. MATRIZ DE COMPAÑÍA LÚDICA EN EL MODAL
+const SITUATIONS = [
+  { key: "tinder_primera_cita", title: "Primera Cita", icon: "🔥", desc: "Química, miradas y cero entrevista de trabajo" },
+  { key: "cita_ambigua", title: "¿Cita o solo amigos?", icon: "👀", desc: "¿Hay onda o somos amigos? Para descifrar intenciones con picardía" },
+  { key: "cita_no_romantica", title: "Salida de 2 compas", icon: "☕", desc: "Proyectos, anécdotas de vida y curiosidad genuina" },
+  { key: "pareja_reciente", title: "Pareja nueva (< 1 año)", icon: "❤️", desc: "Primeras manías, secretos tiernos y planes a futuro" },
+  { key: "pareja_estable", title: "Pareja de años / convivencia", icon: "💑", desc: "Salir del piloto automático, recuerdos y humor de convivencia" },
+  { key: "desconocidos_mesa", title: "Gente que recién se ve", icon: "🧊", desc: "Opiniones inútiles universales y anécdotas para reír" },
+  { key: "amigos_antiguos", title: "Amigos de toda la vida", icon: "🍻", desc: "Nostalgia, peores anécdotas y debates acalorados" },
+  { key: "amigos_recientes", title: "Nuevos amigos", icon: "🤝", desc: "Pasar de la charla superficial a confianza real" },
+  { key: "parejas_amigos", title: "Parejas + Amigos solteros", icon: "👥", desc: "Balance perfecto: anécdotas de citas vs convivencia" },
+  { key: "doble_cita", title: "Doble Cita (Parejas x 2)", icon: "🍷", desc: "Complicidad de a cuatro, viajes y mañas domésticas" },
+  { key: "familia_reunion", title: "Familia general", icon: "🏠", desc: "Padres, tíos, abuelos, tradiciones y recuerdos de infancia" },
+  { key: "familia_hermanos", title: "Juntada de hermanos", icon: "🍕", desc: "Secretos no contados a los viejos y lealtades" },
+  { key: "familia_primos", title: "La mesa de los primos", icon: "⚡", desc: "La mejor mesa de la fiesta: historias prohibidas" },
+  { key: "carrete_fiesta", title: "Fiesta / Previa con copas", icon: "🎉", desc: "Alta energía, confesiones y bajones épicos" }
+];
+
+// 3. GENERADOR LOCAL DE PREGUNTAS HIPER-ADAPTADAS (ORÁCULO IA LUDICO)
+// Si el usuario escribe una situación libre (ej: "en el sillón de su casa con vino"),
+// este motor genera dinámicamente preguntas que encajan exactamente en ese momento.
+const AI_ORACLE_TEMPLATES = {
+  casa_depto: [
+    "Si pudieras robarte un solo objeto de este espacio para llevártelo a tu casa sin consecuencias, ¿cuál te llevas?",
+    "¿Qué es lo primero en lo que te fijas discretamente cuando entras por primera vez a la casa de alguien?",
+    "¿Qué música pondrías tú en este living ahora mismo si tuvieras el control total de los parlantes?",
+    "¿Qué hábito tuyo estando solo en tu casa te daría vergüenza si alguien te viera por una ventana?",
+    "Si tuviéramos que cocinar algo improvisado con lo que hay ahora en la cocina, ¿qué inventaríamos?",
+    "¿Eres más de quedarte en el sillón regaloneando o te da inquietud no salir a la calle?",
+    "¿Cuál es el mejor secreto o rincón escondido que tiene tu propia casa?",
+    "Si esta conversación se quedara en silencio total durante 1 minuto ahora mismo, ¿qué harías?"
+  ],
+  parque_paseo: [
+    "De toda la gente que ha pasado cerca de nosotros en los últimos 5 minutos, ¿cuál tiene la vida más misteriosa?",
+    "¿Prefieres perderte caminando sin rumbo o eres de los que necesita saber exactamente hacia dónde va?",
+    "¿Cuál es el mejor recuerdo que tienes de una caminata donde no tenías que volver a ninguna hora?",
+    "Si pudieras comprar cualquier casa de las que vemos alrededor, ¿cuál elegirías y por qué?",
+    "¿Qué canción escuchas cuando caminas solo/a por la calle sintiéndote el protagonista de tu película?",
+    "¿Cuál ha sido la conversación más importante que has tenido caminando con alguien?"
+  ],
+  silencio_incomodo: [
+    "¿Qué es lo más ridículo que pasó por tu cabeza en los últimos 30 segundos mientras había silencio?",
+    "Dime la primera palabra que se te venga a la mente en 3, 2, 1... ¡ya!",
+    "¿El silencio entre nosotros te pone nervioso/a o te da tranquilidad?",
+    "¿Qué pregunta te gustaría hacerme ahora mismo pero te estás frenando por pudor?",
+    "Si tuviéramos que romper el hielo haciendo algo absurdo juntos en este segundo, ¿qué haríamos?"
+  ],
+  tension_sexual: [
+    "¿Qué detalle sutil mío te ha puesto más nervioso/a desde que nos vimos hoy?",
+    "¿Prefieres que las cosas pasen de forma inesperada o que la tensión se cocine a fuego lento?",
+    "Si pudieras leer mi mente exactamente en este segundo, ¿te atreverías a mirar?",
+    "¿Cuál es tu debilidad absoluta cuando alguien te atrae mucho físicamente?",
+    "¿Qué harías si me acerco un poco más a ti en este momento?"
+  ]
 };
 
+// ESTADO GLOBAL
 let BANK = {};
 let STATE = {
-  ctxKey: localStorage.getItem("rh_ctx") || "tinder_primera_cita",
+  currentVibeId: "quimica",
+  customSituation: "",
+  activeLocationLabel: "📍 Situación libre",
   round: 0,
   currentCard: null,
   history: [],
@@ -36,119 +92,161 @@ async function init() {
     const res = await fetch("data/questions.json");
     BANK = await res.json();
   } catch (e) {
-    console.error("Error loading questions:", e);
+    console.error("Error al cargar questions.json:", e);
   }
 
+  renderVibeChips();
+  renderSituationsGrid();
   setupEventListeners();
-  buildContextGrid();
-  updateUIContextBadge();
-  nextCard();
+  updateFavBadgeCount();
+
+  // Empezar de inmediato con una carta entretenida
+  drawNextCard();
 
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 }
 
-// OBTENER SIGUIENTE CARTA SEGÚN NIVEL PROGRESIVO
-function pickCard() {
-  const pool = BANK[STATE.ctxKey] || [];
-  if (!pool.length) {
-    return ["¿Qué es lo mejor que te ha pasado hoy y por qué?", "suave", "ROMPEHIELO", "¿Por qué?"];
+// 4. RENDER DE CHIPS EN EL HEADER
+function renderVibeChips() {
+  const container = document.getElementById("vibeChipsContainer");
+  container.innerHTML = VIBE_CHIPS.map(chip => `
+    <button class="vibe-chip ${chip.id === STATE.currentVibeId ? "active" : ""}" data-vibe="${chip.id}">
+      ${chip.icon} ${chip.label}
+    </button>
+  `).join("");
+
+  container.querySelectorAll("[data-vibe]").forEach(btn => {
+    btn.onclick = () => {
+      container.querySelectorAll(".vibe-chip").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      applyVibe(btn.dataset.vibe);
+    };
+  });
+}
+
+function applyVibe(vibeId) {
+  STATE.currentVibeId = vibeId;
+  STATE.customSituation = "";
+  STATE.round = 0;
+  STATE.history = [];
+
+  // Mapear vibe a contexto base o modo libre
+  const chip = VIBE_CHIPS.find(c => c.id === vibeId);
+  if (chip) {
+    document.getElementById("statusLocationBadge").textContent = `${chip.icon} ${chip.label}`;
   }
 
-  // Progresión psicológica limpia:
-  // Rondas 1-4: Nivel 1 (suave)
-  // Rondas 5-8: Nivel 2 (medio)
-  // Rondas 9+: Nivel 3 (profundo)
+  triggerHaptic();
+  drawNextCard();
+}
+
+// 5. MOTOR DE SELECCIÓN DE PREGUNTAS (ORÁCULO ADAPTATIVO)
+function getQuestionPool() {
+  // 1. Si hay una situación personalizada por el usuario o vibe específica de lugar
+  if (STATE.customSituation) {
+    const text = STATE.customSituation.toLowerCase();
+    if (text.includes("casa") || text.includes("depto") || text.includes("sillón") || text.includes("living") || text.includes("vino")) {
+      return AI_ORACLE_TEMPLATES.casa_depto.map(q => [q, "medio", "LUGAR & INTIMIDAD", "¿Qué harías después?"]);
+    }
+    if (text.includes("parque") || text.includes("camin") || text.includes("plaza") || text.includes("calle")) {
+      return AI_ORACLE_TEMPLATES.parque_paseo.map(q => [q, "suave", "EN CAMINO", "¿Por qué ese lugar?"]);
+    }
+    if (text.includes("silencio") || text.includes("nervios") || text.includes("murió")) {
+      return AI_ORACLE_TEMPLATES.silencio_incomodo.map(q => [q, "suave", "ROMPER SILENCIO", "Dilo sin filtro"]);
+    }
+    if (text.includes("tensión") || text.includes("onda") || text.includes("gusto") || text.includes("sex")) {
+      return AI_ORACLE_TEMPLATES.tension_sexual.map(q => [q, "profundo", "TENSIÓN Y QUÍMICA", "¿Te atreves?"]);
+    }
+  }
+
+  // 2. Mapeo inteligente según el vibe seleccionado
+  let dbKey = "cita_ambigua";
+  if (STATE.currentVibeId === "cita_tinder") dbKey = "tinder_primera_cita";
+  else if (STATE.currentVibeId === "casa_depto") {
+    return AI_ORACLE_TEMPLATES.casa_depto.map(q => [q, "medio", "EN CASA", "¿Por qué?"]);
+  }
+  else if (STATE.currentVibeId === "parque_paseo") {
+    return AI_ORACLE_TEMPLATES.parque_paseo.map(q => [q, "suave", "PASEO", "¿Qué sientes?"]);
+  }
+  else if (STATE.currentVibeId === "silencio_incomodo") {
+    return AI_ORACLE_TEMPLATES.silencio_incomodo.map(q => [q, "suave", "CERO FILTRO", "Respóndeme ya"]);
+  }
+  else if (STATE.currentVibeId === "pareja_anos") dbKey = "pareja_estable";
+  else if (STATE.currentVibeId === "amigos_locos") dbKey = "amigos_antiguos";
+  else if (STATE.currentVibeId === "gente_nueva") dbKey = "desconocidos_mesa";
+  else if (STATE.currentVibeId === "carrete_copas") dbKey = "carrete_fiesta";
+  else if (STATE.currentVibeId === "primos_reunion") dbKey = "familia_primos";
+
+  return BANK[dbKey] || BANK["cita_ambigua"] || [];
+}
+
+function drawNextCard() {
+  triggerHaptic();
+  STATE.round++;
+
+  const pool = getQuestionPool();
+  if (!pool || !pool.length) return;
+
+  // Progresión de nivel limpia
   let targetDepth = "suave";
   if (STATE.round > 8) targetDepth = "profundo";
   else if (STATE.round > 4) targetDepth = "medio";
 
   const unused = pool.filter(q => !STATE.history.includes(q[0]));
-  const candidatePool = unused.length ? unused : pool;
+  const candidates = unused.length ? unused : pool;
 
-  let filtered = candidatePool.filter(q => q[1] === targetDepth);
-  if (!filtered.length) filtered = candidatePool;
+  let chosen = candidates.filter(q => q[1] === targetDepth);
+  if (!chosen.length) chosen = candidates;
 
-  return filtered[Math.floor(Math.random() * filtered.length)];
-}
-
-function nextCard() {
-  triggerHaptic();
-  STATE.round++;
-
-  const card = pickCard();
+  const card = chosen[Math.floor(Math.random() * chosen.length)];
   STATE.currentCard = card;
   STATE.history.push(card[0]);
 
-  // Animación visual suave de carta
-  const cardEl = document.getElementById("cardElement");
-  cardEl.classList.add("swiping");
+  // Animación háptica y visual de la carta
+  const cardEl = document.getElementById("playingCard");
+  cardEl.classList.add("card-flip-anim");
 
   setTimeout(() => {
-    // Ocultar tira del hilo anterior
-    document.getElementById("threadDrawer").style.display = "none";
+    document.getElementById("threadBox").style.display = "none";
+    document.getElementById("cardBadge").textContent = (card[2] || "ROMPEHIELO").toUpperCase();
+    document.getElementById("questionText").textContent = card[0];
+    document.getElementById("cardTag").textContent = (card[1] || "SUAVE").toUpperCase();
 
-    // Textos de la carta
-    document.getElementById("cardCategory").textContent = (card[2] || "ROMPEHIELO").toUpperCase();
-    document.getElementById("cardQuestion").textContent = card[0];
+    // Actualizar badge de profundidad
+    const depthBadge = document.getElementById("statusDepthBadge");
+    if (card[1] === "suave") depthBadge.textContent = "🧊 Nivel 1: Rompehielo";
+    else if (card[1] === "medio") depthBadge.textContent = "💬 Nivel 2: Conexión";
+    else depthBadge.textContent = "🔥 Nivel 3: Profundo";
 
-    // Actualizar indicador de Nivel
-    updateLevelUI(card[1]);
-
-    // Estado de favorito
-    updateFavHeartUI();
-
-    cardEl.classList.remove("swiping");
+    updateFavHeartIcon();
+    cardEl.classList.remove("card-flip-anim");
   }, 160);
 }
 
-function updateLevelUI(depth) {
-  const d1 = document.getElementById("dot1");
-  const d2 = document.getElementById("dot2");
-  const d3 = document.getElementById("dot3");
-  const label = document.getElementById("levelLabel");
-
-  d1.classList.remove("active");
-  d2.classList.remove("active");
-  d3.classList.remove("active");
-
-  if (depth === "suave") {
-    d1.classList.add("active");
-    label.textContent = "Nivel 1: Rompehielo 🧊";
-  } else if (depth === "medio") {
-    d1.classList.add("active");
-    d2.classList.add("active");
-    label.textContent = "Nivel 2: Conexión 💬";
-  } else {
-    d1.classList.add("active");
-    d2.classList.add("active");
-    d3.classList.add("active");
-    label.textContent = "Nivel 3: Profundo 🔥";
-  }
-}
-
+// 6. TIRA DEL HILO (REPUNTA ADAPTATIVA)
 function toggleThread() {
   triggerHaptic();
-  const drawer = document.getElementById("threadDrawer");
-  if (drawer.style.display === "none") {
-    const customFollow = STATE.currentCard ? STATE.currentCard[3] : null;
+  const box = document.getElementById("threadBox");
+  if (box.style.display === "none") {
+    const custom = STATE.currentCard ? STATE.currentCard[3] : null;
     const generic = [
-      "¿Por qué crees que pensaste eso en ese momento?",
-      "¿Qué pasó exactamente después?",
+      "¿Por qué pensaste exactamente eso?",
+      "¿Qué pasó después de eso?",
       "¿Tienes una anécdota que lo demuestre?",
       "¿Cómo ha cambiado esa opinión con los años?",
       "¿Quién más estuvo ahí cuando ocurrió?"
     ];
-    document.getElementById("threadText").textContent = customFollow || generic[Math.floor(Math.random() * generic.length)];
-    drawer.style.display = "block";
+    document.getElementById("threadQuestionText").textContent = custom || generic[Math.floor(Math.random() * generic.length)];
+    box.style.display = "block";
   } else {
-    drawer.style.display = "none";
+    box.style.display = "none";
   }
 }
 
-// FAVORITAS
-function toggleFav() {
+// 7. FAVORITAS
+function toggleFavorite() {
   if (!STATE.currentCard) return;
   triggerHaptic();
   const q = STATE.currentCard[0];
@@ -159,60 +257,77 @@ function toggleFav() {
     STATE.favorites.push(q);
   }
   localStorage.setItem("rh_favs", JSON.stringify(STATE.favorites));
-  updateFavHeartUI();
+  updateFavHeartIcon();
+  updateFavBadgeCount();
 }
 
-function updateFavHeartUI() {
-  const icon = document.getElementById("favHeartIcon");
-  if (!icon || !STATE.currentCard) return;
+function updateFavHeartIcon() {
+  const svg = document.getElementById("favSvg");
+  if (!svg || !STATE.currentCard) return;
   const isFav = STATE.favorites.includes(STATE.currentCard[0]);
   if (isFav) {
-    icon.setAttribute("fill", "#ff4757");
-    icon.setAttribute("stroke", "#ff4757");
+    svg.setAttribute("fill", "#ff3b30");
+    svg.setAttribute("stroke", "#ff3b30");
   } else {
-    icon.setAttribute("fill", "none");
-    icon.setAttribute("stroke", "currentColor");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
   }
-  document.getElementById("menuFavCount").textContent = STATE.favorites.length;
 }
 
-// CONTEXTOS
-function updateUIContextBadge() {
-  const ctx = CONTEXTS[STATE.ctxKey] || CONTEXTS["tinder_primera_cita"];
-  document.getElementById("headerContextBadge").textContent = `${ctx.icon} ${ctx.title}`;
+function updateFavBadgeCount() {
+  const badge = document.getElementById("favsBadgeCount");
+  if (badge) badge.textContent = STATE.favorites.length;
 }
 
-function buildContextGrid() {
-  const container = document.getElementById("contextGridContainer");
-  container.innerHTML = Object.entries(CONTEXTS).map(([key, item]) => `
-    <button class="context-row-btn ${key === STATE.ctxKey ? "selected" : ""}" data-key="${key}">
-      <span class="context-row-icon">${item.icon}</span>
+// 8. RENDER DE SITUACIONES HUMANAS EN EL MODAL
+function renderSituationsGrid() {
+  const grid = document.getElementById("vibeGrid");
+  grid.innerHTML = SITUATIONS.map(s => `
+    <button class="vibe-row-card" data-situation="${s.key}">
+      <span class="vibe-icon">${s.icon}</span>
       <div>
-        <div class="context-row-title">${item.title}</div>
-        <div class="context-row-desc">${item.desc}</div>
+        <div class="vibe-title">${s.title}</div>
+        <div class="vibe-desc">${s.desc}</div>
       </div>
     </button>
   `).join("");
 
-  container.querySelectorAll("[data-key]").forEach(btn => {
+  grid.querySelectorAll("[data-situation]").forEach(btn => {
     btn.onclick = () => {
-      STATE.ctxKey = btn.dataset.key;
-      localStorage.setItem("rh_ctx", STATE.ctxKey);
+      const key = btn.dataset.situation;
+      const sit = SITUATIONS.find(s => s.key === key);
+      STATE.customSituation = "";
+      STATE.currentVibeId = key;
       STATE.round = 0;
       STATE.history = [];
-      updateUIContextBadge();
-      buildContextGrid();
-      closeModal("modalContext");
-      nextCard();
+      document.getElementById("statusLocationBadge").textContent = `${sit.icon} ${sit.title}`;
+      closeModal("modalVibePicker");
+      triggerHaptic();
+      drawNextCard();
     };
   });
 }
 
-// PRINT & PLAY (GENERADOR DE MAZO FÍSICO A4)
-function setupPrintMazo() {
-  const select = document.getElementById("printSelectMazo");
-  select.innerHTML = Object.entries(CONTEXTS).map(([k, v]) => `
-    <option value="${k}">${v.icon} ${v.title}</option>
+// 9. MOTOR ORÁCULO IA LIBRE (INPUT CUSTOM)
+function handleCustomSituationTrigger() {
+  const input = document.getElementById("inputCustomSituation");
+  const val = (input.value || "").trim();
+  if (!val) return;
+
+  STATE.customSituation = val;
+  STATE.round = 0;
+  STATE.history = [];
+  document.getElementById("statusLocationBadge").textContent = `✨ "${val.slice(0, 22)}${val.length > 22 ? "..." : ""}"`;
+  closeModal("modalVibePicker");
+  triggerHaptic();
+  drawNextCard();
+}
+
+// 10. MÓDULO PRINT & PLAY (CARTAS RECORTABLES)
+function setupPrintModule() {
+  const select = document.getElementById("selectPrintMazo");
+  select.innerHTML = SITUATIONS.map(s => `
+    <option value="${s.key}">${s.icon} ${s.title}</option>
   `).join("");
 
   select.onchange = renderPrintCards;
@@ -220,15 +335,15 @@ function setupPrintMazo() {
 }
 
 function renderPrintCards() {
-  const deckKey = document.getElementById("printSelectMazo").value || "tinder_primera_cita";
-  const questions = (BANK[deckKey] || []).slice(0, 18); // 2 planchas A4 listas para recortar
-  const grid = document.getElementById("printCardsGrid");
+  const key = document.getElementById("selectPrintMazo").value || "cita_ambigua";
+  const questions = (BANK[key] || []).slice(0, 18);
+  const container = document.getElementById("printRenderGrid");
 
-  grid.innerHTML = questions.map((q, idx) => `
-    <div class="printable-card-item">
-      <div class="pcard-tag-print">ROMPEHIELO · ${q[1].toUpperCase()}</div>
-      <div class="pcard-text-print">${q[0]}</div>
-      <div class="pcard-footer-print">
+  container.innerHTML = questions.map((q, idx) => `
+    <div class="print-card-box">
+      <div class="print-card-header">ROMPEHIELO · ${q[1].toUpperCase()}</div>
+      <div class="print-card-body">${q[0]}</div>
+      <div class="print-card-footer">
         <span>#${idx + 1}</span>
         <span>rompehielo.cl</span>
       </div>
@@ -236,80 +351,108 @@ function renderPrintCards() {
   `).join("");
 }
 
-// EVENT LISTENERS
+// 11. EVENT LISTENERS
 function setupEventListeners() {
-  // Juego central
-  document.getElementById("btnNextAction").onclick = nextCard;
-  document.getElementById("cardWrapper").onclick = nextCard;
-  document.getElementById("btnThreadAction").onclick = toggleThread;
-  document.getElementById("btnFavToggle").onclick = toggleFav;
+  // Gameplay
+  document.getElementById("btnNext").onclick = drawNextCard;
+  document.getElementById("cardScene").onclick = drawNextCard;
+  document.getElementById("btnThread").onclick = toggleThread;
+  document.getElementById("btnFav").onclick = (e) => {
+    e.stopPropagation();
+    toggleFavorite();
+  };
 
   // Modales
-  document.getElementById("btnOpenSelector").onclick = () => openModal("modalContext");
-  document.getElementById("btnCloseContext").onclick = () => closeModal("modalContext");
+  document.getElementById("btnCustomSituation").onclick = () => openModal("modalVibePicker");
+  document.getElementById("btnCloseVibe").onclick = () => closeModal("modalVibePicker");
+  document.getElementById("backdropVibe").onclick = () => closeModal("modalVibePicker");
 
-  document.getElementById("btnMenuToggle").onclick = () => openModal("modalMenu");
+  document.getElementById("btnTriggerAI").onclick = handleCustomSituationTrigger;
+  document.getElementById("inputCustomSituation").onkeydown = (e) => {
+    if (e.key === "Enter") handleCustomSituationTrigger();
+  };
+
+  // Quick pills del oráculo
+  document.querySelectorAll(".quick-pill").forEach(pill => {
+    pill.onclick = () => {
+      document.getElementById("inputCustomSituation").value = pill.dataset.vibe;
+      handleCustomSituationTrigger();
+    };
+  });
+
+  // Menú
+  document.getElementById("btnMenu").onclick = () => openModal("modalMenu");
   document.getElementById("btnCloseMenu").onclick = () => closeModal("modalMenu");
+  document.getElementById("backdropMenu").onclick = () => closeModal("modalMenu");
 
-  document.getElementById("btnOpenFavorites").onclick = () => {
+  // Favoritas
+  document.getElementById("btnShowFavs").onclick = () => {
     closeModal("modalMenu");
-    openFavoritesModal();
+    openFavoritesList();
   };
   document.getElementById("btnCloseFavs").onclick = () => closeModal("modalFavs");
+  document.getElementById("backdropFavs").onclick = () => closeModal("modalFavs");
 
-  document.getElementById("btnOpenPrint").onclick = () => {
+  // Print
+  document.getElementById("btnShowPrint").onclick = () => {
     closeModal("modalMenu");
-    setupPrintMazo();
+    setupPrintModule();
     openModal("modalPrint");
   };
   document.getElementById("btnClosePrint").onclick = () => closeModal("modalPrint");
-  document.getElementById("btnDoPrint").onclick = () => window.print();
+  document.getElementById("backdropPrint").onclick = () => closeModal("modalPrint");
+  document.getElementById("btnExecPrint").onclick = () => window.print();
 
-  document.getElementById("btnResetCards").onclick = () => {
+  // Reset
+  document.getElementById("btnResetSeen").onclick = () => {
     STATE.history = [];
     STATE.round = 0;
     closeModal("modalMenu");
-    nextCard();
+    drawNextCard();
   };
 
-  document.getElementById("btnReservePhysical").onclick = () => {
-    alert("¡Excelente! Te avisaremos apenas despachemos la primera tirada del mazo físico de Rompehielo.");
+  // Monetización Mazo Físico
+  document.getElementById("btnReserveDeck").onclick = () => {
+    alert("¡Excelente! Te avisaremos de inmediato cuando salga la preventa con despacho del mazo físico de Rompehielo.");
   };
 }
 
-function openFavoritesModal() {
-  const container = document.getElementById("favsListContainer");
+function openFavoritesList() {
+  const container = document.getElementById("favsScrollArea");
   if (!STATE.favorites.length) {
-    container.innerHTML = `<p class="empty-text">No has guardado cartas todavía. Toca el corazón en cualquier carta mientras juegas.</p>`;
+    container.innerHTML = `<p class="empty-msg">No has guardado cartas todavía. Toca el corazón en cualquier carta mientras juegas.</p>`;
   } else {
-    container.innerHTML = STATE.favorites.map((q, i) => `
-      <div style="background:#202024; padding:14px; border-radius:14px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+    container.innerHTML = STATE.favorites.map((q, idx) => `
+      <div style="background:#1f1f24; padding:14px 16px; border-radius:14px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; gap:10px;">
         <span style="font-size:0.92rem; line-height:1.4;">${q}</span>
-        <button class="icon-btn" onclick="removeFav(${i})" style="color:#ef4444; border:none; padding:4px 8px;">✕</button>
+        <button class="circle-btn" onclick="removeFavoriteItem(${idx})" style="color:#ef4444; border:none; flex-shrink:0;">✕</button>
       </div>
     `).join("");
   }
   openModal("modalFavs");
 }
 
-window.removeFav = function(index) {
-  STATE.favorites.splice(index, 1);
+window.removeFavoriteItem = function(idx) {
+  STATE.favorites.splice(idx, 1);
   localStorage.setItem("rh_favs", JSON.stringify(STATE.favorites));
-  updateFavHeartUI();
-  openFavoritesModal();
+  updateFavHeartIcon();
+  updateFavBadgeCount();
+  openFavoritesList();
 };
 
 function openModal(id) {
-  document.getElementById(id).style.display = "flex";
+  const el = document.getElementById(id);
+  if (el) el.style.display = "flex";
 }
 
 function closeModal(id) {
-  document.getElementById(id).style.display = "none";
+  const el = document.getElementById(id);
+  if (el) el.style.display = "none";
 }
 
 function triggerHaptic() {
   if ("vibrate" in navigator) {
-    try { navigator.vibrate(15); } catch (e) {}
+    try { navigator.vibrate(14); } catch (e) {}
   }
 }
 
