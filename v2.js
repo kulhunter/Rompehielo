@@ -157,18 +157,103 @@ function handleV2InputSubmit() {
   if (!val) return;
 
   addUserBubble(val);
-  const step = CHAT_STEPS[V2_STATE.stepIndex];
-
-  // Guardar datos
-  if (step.key === "locationAndVibe") V2_STATE.contextData.locationAndVibe = val;
-  else if (step.key === "playerNames") parsePlayerNames(val);
-  else if (step.key === "playerAges") parsePlayerAges(val);
-  else if (step.key === "extraDetails") V2_STATE.contextData.extraDetails = val;
+  
+  // Intelligent extraction across the entire user text
+  analyzeUserMessage(val);
 
   V2_STATE.stepIndex++;
   setTimeout(() => {
-    renderCurrentChatStep();
+    renderSmartNextStep(val);
   }, 400);
+}
+
+function analyzeUserMessage(text) {
+  const lower = text.toLowerCase();
+
+  // 1. Extract names if present (e.g. "estoy con jacqueline, yo soy daniel", "somos camila y felipe")
+  const detectedNames = [];
+  
+  // Match patterns like "con X", "soy X", "me llamo X"
+  const nameMatches = text.match(/(?:con|soy|llamo|somos)\s+([A-ZÁÉÍÓÚa-záéíóú]+)/gi);
+  if (nameMatches) {
+    nameMatches.forEach(m => {
+      const name = m.replace(/(?:con|soy|llamo|somos)\s+/i, "").trim();
+      if (name.length > 2 && !["un", "una", "dos", "tres", "cuatro", "amigos", "pareja"].includes(name.toLowerCase())) {
+        if (!detectedNames.includes(name)) detectedNames.push(name.charAt(0).toUpperCase() + name.slice(1).toLowerCase());
+      }
+    });
+  }
+
+  // Also split by commas/and if user directly listed names
+  if (detectedNames.length < 2) {
+    const cleanList = text.replace(/estoy con|yo soy|prepara|bebemos|almorzando|pasta|con|y/gi, ",");
+    const parts = cleanList.split(",").map(s => s.trim()).filter(s => s.length > 2 && /^[A-ZÁÉÍÓÚa-záéíóú]+$/i.test(s));
+    parts.forEach(p => {
+      const formatted = p.charAt(0).toUpperCase() + p.slice(1).toLowerCase();
+      if (!detectedNames.includes(formatted)) detectedNames.push(formatted);
+    });
+  }
+
+  if (detectedNames.length >= 2) {
+    V2_STATE.contextData.players = detectedNames.map(name => ({ name, age: "" }));
+  } else if (detectedNames.length === 1 && V2_STATE.contextData.players.length < 2) {
+    V2_STATE.contextData.players = [{ name: detectedNames[0], age: "" }, { name: "Acompañante", age: "" }];
+  }
+
+  // 2. Extract vibe / location / food / drink details
+  V2_STATE.contextData.locationAndVibe += " " + text;
+}
+
+function renderSmartNextStep(lastUserText) {
+  const players = V2_STATE.contextData.players;
+  const pillsBox = document.getElementById("v2QuickPills");
+  pillsBox.innerHTML = "";
+
+  // If we already know the names (e.g. Jacqueline and Daniel)
+  if (players.length >= 2 && V2_STATE.stepIndex === 1) {
+    const pNames = players.map(p => p.name).join(" y ");
+    document.getElementById("chatStepProgress").textContent = "PASO 2 DE 3";
+    
+    addBotBubble(`¡Entendido perfecto! 🍝 Estás con **${pNames}**, almorzando pasta y tomando mango sour. ¡Qué rica combinación!`);
+    
+    setTimeout(() => {
+      addBotBubble(`Para personalizar aún más el mazo de **${pNames}**: ¿qué tipo de conversación buscan hoy?`);
+      
+      const options = [
+        "🍷 Divertida y relajada",
+        "🔥 Conexión profunda",
+        "🍝 Sobre comida, viajes y vida",
+        "🎲 Un poco de todo"
+      ];
+      
+      options.forEach(text => {
+        const btn = document.createElement("button");
+        btn.className = "v2-pill-btn";
+        btn.textContent = text;
+        btn.onclick = () => {
+          document.getElementById("v2ChatInput").value = text;
+          handleV2InputSubmit();
+        };
+        pillsBox.appendChild(btn);
+      });
+      
+      document.getElementById("v2ChatInput").placeholder = "Ej: Queremos reírnos y pasar un buen rato...";
+    }, 500);
+
+    return;
+  }
+
+  // If we reach completion
+  if (V2_STATE.stepIndex >= 2 || (players.length >= 2 && V2_STATE.stepIndex >= 2)) {
+    document.getElementById("chatStepProgress").textContent = "¡COMPLETO!";
+    finishChatFlow();
+    return;
+  }
+
+  // Fallback step if names weren't detected yet
+  document.getElementById("chatStepProgress").textContent = "PASO 2 DE 3";
+  addBotBubble("¡Excelente! 🎯 Cuéntame: **¿cómo se llaman los que van a jugar?** (Ej: Camila y Daniel)");
+  document.getElementById("v2ChatInput").placeholder = "Ej: Jacqueline y Daniel";
 }
 
 function parsePlayerNames(text) {
