@@ -151,17 +151,50 @@ function addUserBubble(text) {
   box.scrollTop = box.scrollHeight;
 }
 
-function handleV2InputSubmit() {
+async function fetchPollinationsAI(prompt, fallbackText) {
+  try {
+    const encoded = encodeURIComponent(prompt);
+    const res = await fetch(`https://text.pollinations.ai/${encoded}?model=openai`);
+    if (!res.ok) return fallbackText;
+    const text = await res.text();
+    return text.trim() || fallbackText;
+  } catch (e) {
+    console.warn("Pollinations AI fetch failed, using fallback:", e);
+    return fallbackText;
+  }
+}
+
+async function handleV2InputSubmit() {
   const input = document.getElementById("v2ChatInput");
   const val = input.value.trim();
   if (!val) return;
 
   addUserBubble(val);
-  
-  // Intelligent extraction across the entire user text
   analyzeUserMessage(val);
 
   V2_STATE.stepIndex++;
+
+  // Show typing indicator
+  const box = document.getElementById("v2ChatMessages");
+  const typingDiv = document.createElement("div");
+  typingDiv.className = "v2-bubble bot";
+  typingDiv.innerHTML = `<span class="bot-tag">HOST IA</span><div style="font-style:italic; opacity:0.8;">Pensando respuesta única... ✦</div>`;
+  box.appendChild(typingDiv);
+  box.scrollTop = box.scrollHeight;
+
+  const players = V2_STATE.contextData.players;
+  const pNames = players.length >= 2 ? players.map(p => p.name).join(" y ") : "ustedes";
+
+  // Prompt for Pollinations AI
+  const promptHost = `Eres un anfitrión de juegos de mesa cálido, entretenido y perspicaz. El usuario te dijo: "${val}". Responde en máximo 2 frases cortas y amables en español chileno/latino natural, validando su contexto (ej. comida, bebida, nombres como ${pNames}).`;
+  
+  const fallback = `¡Entendido perfecto! 🍝 Me encanta ese ambiente. He preparado un mazo especial para ${pNames}.`;
+  const aiHostReply = await fetchPollinationsAI(promptHost, fallback);
+
+  // Remove typing indicator & render AI response
+  typingDiv.remove();
+  addBotBubble(aiHostReply);
+
   setTimeout(() => {
     renderSmartNextStep(val);
   }, 400);
