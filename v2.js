@@ -57,7 +57,10 @@ function setupV2Listeners() {
   document.getElementById("v2Card3D").onclick = toggleV2Flip;
   document.getElementById("v2FlipBtn").onclick = toggleV2Flip;
   document.getElementById("v2NextBtn").onclick = nextV2Card;
-  document.getElementById("v2RestartBtn").onclick = () => location.reload();
+  document.getElementById("v2RestartBtn").onclick = () => {
+    localStorage.removeItem("rh_v2_session");
+    location.reload();
+  };
 }
 
 function switchScreen(fromId, toId) {
@@ -99,8 +102,10 @@ function advanceIntroSlide() {
   }
 }
 
-// CHAT EN CARD INTERACTIVA CON IA REAL & CONVERSACIÓN MULTI-TURNO
 function startChatFlow() {
+  const box = document.getElementById("v2ChatMessages");
+  if (box) box.innerHTML = ""; // Ensure clean state
+
   const saved = localStorage.getItem("rh_v2_session");
   if (saved) {
     try {
