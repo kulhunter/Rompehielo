@@ -173,8 +173,10 @@ function analyzeUserMessage(text) {
 
   if (detectedNames.length >= 2) {
     V2_STATE.contextData.players = detectedNames.map(name => ({ name, age: "" }));
+  } else if (detectedNames.length === 1) {
+    V2_STATE.contextData.players = [{ name: detectedNames[0], age: "" }, { name: "Invitado", age: "" }];
   } else {
-    V2_STATE.contextData.players = [{ name: "Jacqueline", age: "" }, { name: "Daniel", age: "" }];
+    V2_STATE.contextData.players = [{ name: "Jugador 1", age: "" }, { name: "Jugador 2", age: "" }];
   }
 
   V2_STATE.contextData.locationAndVibe += " " + text;
