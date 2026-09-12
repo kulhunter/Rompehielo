@@ -172,10 +172,21 @@ function handleV2InputSubmit() {
 }
 
 function parsePlayerNames(text) {
-  const clean = text.replace(/Somos \d+:/i, "").replace(/\by\b/gi, ",").replace(/\bcon\b/gi, ",");
-  const parts = clean.split(/[,\n]+/).map(s => s.trim()).filter(Boolean);
+  // Remove prefixes like "Somos 2:", "Somos 2", "Somos 3 personas:" etc.
+  let clean = text.replace(/^somos\s*\d+[:\s]*/i, "")
+                  .replace(/^somos\s+/i, "")
+                  .replace(/\by\b/gi, ",")
+                  .replace(/\bcon\b/gi, ",");
+  
+  let parts = clean.split(/[,\n]+/)
+                   .map(s => s.trim().replace(/^\d+[\s\.\)]*/, "").trim()) // Remove any leading digit like "1." or "2"
+                   .filter(s => s.length > 0 && !/^\d+$/.test(s)); // Filter out purely numeric strings
+  
   if (parts.length > 0) {
-    V2_STATE.contextData.players = parts.map(name => ({ name, age: "" }));
+    V2_STATE.contextData.players = parts.map(name => ({ 
+      name: name.charAt(0).toUpperCase() + name.slice(1), 
+      age: "" 
+    }));
   } else {
     V2_STATE.contextData.players = [{ name: "Jugador 1", age: "" }, { name: "Jugador 2", age: "" }];
   }
@@ -202,29 +213,28 @@ function launchGameV2() {
 }
 
 function generateV2Deck() {
-  // Selección del deck según inferencia
   const vibe = V2_STATE.contextData.locationAndVibe.toLowerCase();
   const extra = V2_STATE.contextData.extraDetails.toLowerCase();
 
   let deckKey = "cita_ambigua";
-  if (vibe.includes("tinder") || extra.includes("tinder") || extra.includes("1era cita")) deckKey = "tinder_primera_cita";
-  else if (vibe.includes("bar") || vibe.includes("amigos") || extra.includes("amigos")) deckKey = "amigos_antiguos";
-  else if (vibe.includes("pareja") || extra.includes("pareja")) deckKey = "pareja_estable";
+  if (vibe.includes("tinder") || extra.includes("tinder") || extra.includes("1era cita") || extra.includes("primera cita")) {
+    deckKey = "tinder_primera_cita";
+  } else if (vibe.includes("bar") || vibe.includes("amigos") || extra.includes("amigos")) {
+    deckKey = "amigos_antiguos";
+  } else if (vibe.includes("pareja") || extra.includes("pareja")) {
+    deckKey = "pareja_estable";
+  }
 
-  const rawList = BANK[deckKey] || BANK["cita_ambigua"] || [];
+  let rawList = BANK[deckKey] || BANK["cita_ambigua"] || [];
   
+  // Prioritize "suave" and "medio" to ensure questions generate connection and fun without being abrasive
+  let smoothQuestions = rawList.filter(q => q[1] === "suave" || q[1] === "medio");
+  if (smoothQuestions.length < 15) smoothQuestions = rawList;
+
   // Personalización con nombres
-  V2_STATE.deck = rawList.map(q => {
+  V2_STATE.deck = smoothQuestions.map(q => {
     let text = q[0];
     let followUp = q[3] || "¿Por qué sientes que pensaste eso en ese momento?";
-
-    // Inyectar nombre si aplica
-    const players = V2_STATE.contextData.players;
-    if (players.length >= 2) {
-      const p1 = players[0].name;
-      const p2 = players[1].name;
-      text = text.replace(/tu pareja|tu amigo|la otra persona/gi, p2);
-    }
 
     return {
       question: text,
