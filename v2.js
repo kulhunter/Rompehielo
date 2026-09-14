@@ -22,6 +22,18 @@ async function initV2() {
   const splash = document.getElementById("splashOverlay");
   setTimeout(() => {
     splash.classList.remove("active");
+    const saved = localStorage.getItem("rh_v2_session");
+    if (saved) {
+      try {
+        const data = JSON.parse(saved);
+        if (data.contextData && data.deck && data.deck.length > 0) {
+          V2_STATE = data;
+          switchScreen("", "screenGameV2");
+          renderV2Card();
+          return;
+        }
+      } catch (e) {}
+    }
     switchScreen("", "screenWelcome");
   }, 1800);
 
@@ -105,19 +117,6 @@ function advanceIntroSlide() {
 function startChatFlow() {
   const box = document.getElementById("v2ChatMessages");
   if (box) box.innerHTML = ""; // Ensure clean state
-
-  const saved = localStorage.getItem("rh_v2_session");
-  if (saved) {
-    try {
-      const data = JSON.parse(saved);
-      if (data.contextData && data.deck && data.deck.length > 0) {
-        V2_STATE = data;
-        switchScreen("screenWelcome", "screenGameV2");
-        renderV2Card();
-        return;
-      }
-    } catch (e) {}
-  }
 
   V2_STATE.turnCount = 0;
   addBotBubble("¡Hola! ✦ Soy tu anfitrión de Rompehielo. Cuéntame: ¿con quién estás hoy y cuál es el ambiente del lugar?");
